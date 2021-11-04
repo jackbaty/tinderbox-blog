@@ -6,12 +6,19 @@
 <link>https://notes.baty.net</link>
 <description>Jack Baty takes notes</description>
 	<item>
+<title>Cloudflare web analytics</title>
+<link>https://notes.baty.net/posts/2021/11/Cloudflarewebanalytics.html</link>
+<description><![CDATA[
+<p>One thing that attracted me to Cloudflare Pages for static site hosting is they offer built-in traffic analytics. I just enabled Web Analytics for this domain, and their message says "Changes will take effect on the next deployment." So, I'm writing this note as an excuse to deploy 😁</p>
+    ]]></description>
+<guid>https://notes.baty.net/posts/2021/11/Cloudflarewebanalytics.html</guid>
+</item><item>
 <title>Welcome back, I guess</title>
-<link>https://notes.baty.net/posts/2018/2021/11/WelcomebackIguess.html</link>
+<link>https://notes.baty.net/posts/2021/11/WelcomebackIguess.html</link>
 <description><![CDATA[
 <p>If I'm being honest, I'll admit that this is just an excuse to play with some <a href="https://eastgate.com/Tinderbox">old toys</a> and experiment with <a href="https://pages.cloudflare.com">new ones</a>.</p>
     ]]></description>
-<guid>https://notes.baty.net/posts/2018/2021/11/WelcomebackIguess.html</guid>
+<guid>https://notes.baty.net/posts/2021/11/WelcomebackIguess.html</guid>
 </item>
 </channel>
 
