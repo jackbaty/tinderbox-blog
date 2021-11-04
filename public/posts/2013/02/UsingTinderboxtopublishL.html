@@ -1,0 +1,87 @@
+<!DOCTYPE html><html><head> <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="description" content="Jack Baty's other blog"> <meta name="author" content="Jack Baty"> 
+<link rel="alternate" type="application/rss+xml" title="Jack Baty Notes RSS"
+      href="../../../rss.xml">
+<title>Using Tinderbox to publish LaTeX documents - Jack Baty</title>
+<link rel="stylesheet" type="text/css" href="../../../css/main.css">
+</head><body>
+<div class="navbar navbar-fixed-top">
+      <div class="container">
+				<a class="brand" href="../../../index.html"><img src="../../../img/logo.png" height="57" width="57"></a>
+				<a class="navbar-brand" href="../../../index.html">Home</a> | </blockquote>
+				<a href="../../../about.html">About</a> | </blockquote>
+				<a href="../../../archives.html">Archives</a> | </blockquote>
+				<a href="<a href="https://www.baty.net">https://www.baty.net</a>"><a href="http://baty.net">baty.net</a></a>
+      </div>
+    </div>
+    <div class="container">
+
+
+
+
+
+	<article>
+<header>
+	<h2><a href="#">Using Tinderbox to publish LaTeX documents</a></h2>
+	 <div class="post-date">Saturday, 23 February 2013</div>
+</header>
+<section>
+
+	<p>Every now and then I find myself fascinated with <a href="http://en.wikipedia.org/wiki/LaTeX">LaTeX</a> even though I have no real need for it. I don't write academic papers. I don't need to represent complex mathematical equations. I don't write long documents requiring references, figures, or any of the other things LaTeX is so good at. What I like most about LaTeX is the way it formats text. I also like the idea of leaving layout or design out of the document and focusing on content. No need to waste time "finger painting" my documents, and yet the output is beautiful.</p>
+<p>The down side of LaTeX is complexity. Getting the broad strokes to work is easy, but when it comes time to make detailed changes things I quickly become lost. So I cheat by using <a href="http://daringfireball.net/projects/markdown/">Markdown</a> in BBEdit, then converting the document to PDF using <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a>. This works a treat if I'm always creating the same type of document, but I have a number of variations that I like to use, and what I ended up with is a mess of shell scripts and BBEdit macros all over the place. While it got me through, I thought I'd try some thing else.</p>
+<p>My recent return to <a href="BloggingwithTinderbox.html">Blogging with Tinderbox</a> had me digging into Tinderbox's export templates more deeply than I've done before. It occurred to me that <a href="http://www.eastgate.com/Tinderbox/">Tinderbox</a> might also be suitable for creating LaTeX documents.</p>
+<p>What I've done so far is create several Notes in Tinderbox to use as Templates while exporting content. These are comprised of LaTeX markup interspersed with content from the current Tinderbox Note. At its most basic, one of my templates looks like this:</p>
+
+<pre class="code">
+\documentclass{article}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2ex}
+\usepackage[top=2in, bottom=1.5in, left=1in, right=1in]{geometry}
+\usepackage{graphicx}
+^if($Draft)^
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{2}
+\SetWatermarkColor[gray]{.9}
+^endif^
+\title{^title^} 
+\author{^value($Author)^} 
+\begin{document}
+\maketitle 
+^text^
+\end{document}
+</pre>
+
+<p>Setting the above as the export Template for a Tinderbox Note will generate a complete LaTeX document by replacing the output markers (e.g. ^title^) with content from my current note. I can then typeset the output using whatever LaTeX tool is handy.</p>
+<p>That in itself may not be enough to justify the effort, but when I add other attributes to a Note I can get fancy by using the export tools in Tinderbox to tweak things without having to have the LaTeX manual open all the time.</p>
+<p>For example, you see that "^if($Draft)^" section? I use that so I don't accidentally send a document I haven't finished. "Draft" is a boolean attribute I added to Tinderbox. If Draft is checked (true) then the document is rendered with a "DRAFT" watermark over it, like so.</p>
+
+<img src="../../../img/draft-watermark.png" alt="Watermark">
+
+<p>I've added other default attributes such as "Author" and "To" and "PublishDate" so that I can easily set them as part of a Tinderbox Note and have them included where appropriate in the LaTeX file and thus the final document.</p>
+
+<img src="../../../img/note-attributes.png" alt="Note Attributes">
+
+<p>I have templates for Letter, Article, Memo, and Estimate so far. To determine which is used for a particular Note, I set the Export Template while exporting from Tinderbox.</p>
+
+<img src="../../../img/export-dialog.png" alt="Export Dialog">
+
+<p>I'm already thinking of other document types and attributes that could be useful. Using Tinderbox as a publishing tool has provided an easy way to generate nicely-typeset versions of my most frequently used document types by simply writing as I normally would. </p>
+
+
+	
+</section>
+<footer>
+    	   
+</footer>
+</article>  
+
+
+
+<div class="footer">
+        <p>&copy; Jack Baty 2018</p>
+      </div>
+    </div><!-- /.container -->
+
+  </body>
+</html>
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html><html><head> <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="description" content="Jack Baty's other blog"> <meta name="author" content="Jack Baty"> 
+<link rel="alternate" type="application/rss+xml" title="Jack Baty Notes RSS"
+      href="../../../rss.xml">
+<title>Blogging with Tinderbox - Jack Baty</title>
+<link rel="stylesheet" type="text/css" href="../../../css/main.css">
+</head><body>
+<div class="navbar navbar-fixed-top">
+      <div class="container">
+				<a class="brand" href="../../../index.html"><img src="../../../img/logo.png" height="57" width="57"></a>
+				<a class="navbar-brand" href="../../../index.html">Home</a> | </blockquote>
+				<a href="../../../about.html">About</a> | </blockquote>
+				<a href="../../../archives.html">Archives</a> | </blockquote>
+				<a href="<a href="https://www.baty.net">https://www.baty.net</a>"><a href="http://baty.net">baty.net</a></a>
+      </div>
+    </div>
+    <div class="container">
+
+
+
+
+
+	<article>
+<header>
+	<h2><a href="#">Blogging with Tinderbox</a></h2>
+	 <div class="post-date">Saturday, 9 February 2013</div>
+</header>
+<section>
+
+	<p>My interest in blogging varies with my mood. I go from digging deep and wanting complete control to just looking to type a few sentences and hit the Publish button. One thing that always returns is the desire to have a basic, static blog running on as simple a server as possible.</p>
+<p>Years ago I published a blog using <a href="http://www.eastgate.com/Tinderbox/">Tinderbox</a>.  It was a powerful and flexible tool, but ultimately I fell for the easy, instant gratification of other systems such as <a href="http://wordpress.com/">Wordpress</a> and <a href="http://jackbaty.tumblr.com/">Tumblr</a>. </p>
+<p>I still use Tinderbox for nearly every other form of note-taking that I do, so I thought I'd revisit the idea of using it to publish a blog. I spent a couple hours last night reacquainting myself with the extensive export system used by Tinderbox. What I still wish for is a built-in easy export mechanism. Something that would give me a basic set of templates that look finished but not necessarily <i>designed</i>. The built-in export in <a href="http://www.flyingmeat.com/voodoopad/">VoodooPad</a> is a good example. Alas, there's nothing quite that easy in Tinderbox, so I dug in and set out to make my own.</p>
+<p>Eastgate offers a tool called "Flint" which will, after a number of initial steps, create a Tinderbox document that can be used to publish a basic blog. This works, but the output it generates is becoming a bit dated and it does more than I need, leaving me with something not quite suitable. Instead, I borrowed a few concepts from Flint and started from scratch otherwise.</p>
+<p>I wanted a very basic but responsive design. I know a few people who are brilliant with CSS/HTML. I'm not one of them,  so I started with <a href="http://html5boilerplate.com">HTML5 Boilerplate</a>. The resulting HTML template is included as the "HTML page" note, to which I added some Tinderbox export codes, like so...</p>
+
+<pre>
+^if($ChildCount)^
+<article>^text^</article>
+^children(/Templates/post)
+^else^
+^include(this,/Templates/HTML item)^
+^endif^
+</pre>
+
+<p>Basically this outputs the current note's text or a list of child notes if they exist. The child notes are from the Posts container and are formatted using the template "post". It's not as complicated as it sounds, really. The outline of the Tinderbox source document looks like this:</p>
+
+<img src="../../../img/tinderbox-blog.png" alt="Tinderbox Blog Outline">
+
+<p>That's as far as I've gotten. All it takes is a press of Command-Shift-H ("Export as HTML...") and the site is rendered, or "baked" as it's sometimes called. I just FTP the entire exported site to my Linode VPS and here we are. I still need RSS feeds, a way to render archives, and some sort of fancy footer. Eventually there may be simple navigation or other widgets, but for now it's good enough to publish, and I get to keep my notes in Tinderbox, where they belong.</p>
+
+
+	
+</section>
+<footer>
+    	   
+</footer>
+</article>  
+
+
+
+<div class="footer">
+        <p>&copy; Jack Baty 2018</p>
+      </div>
+    </div><!-- /.container -->
+
+  </body>
+</html>
+
