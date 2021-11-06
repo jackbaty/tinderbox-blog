@@ -13,3 +13,4 @@ header h2 a:link, header h2 a:visited {color: #444;text-decoration:none;}
 header h2 a:hover {color: #444;text-decoration:underline;}
 .footer {font-size: 0.9em;}
 blockquote {font-style: oblique;  margin-left: 1em; padding-left: 10px;border-left: 2px solid #CCC;}
+.postimage {max-width: 600px;}

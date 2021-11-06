@@ -6,6 +6,22 @@
 <link>https://notes.baty.net</link>
 <description>Jack takes notes</description>
 	<item>
+<title>Links test</title>
+<link>https://notes.baty.net/posts/2021/11/Linkstest.html</link>
+<description><![CDATA[
+<p>I did an <a href="posts/2021/11/ImageTest.html">Image Test</a> recently</p>
+
+<p>Using <a href="posts/2021/11/Cloudflarewebanalytics.html">Cloudflare</a></p>
+    ]]></description>
+<guid>https://notes.baty.net/posts/2021/11/Linkstest.html</guid>
+</item><item>
+<title>Image Test</title>
+<link>https://notes.baty.net/posts/2021/11/ImageTest.html</link>
+<description><![CDATA[
+<p>What about a Link test</p>
+    ]]></description>
+<guid>https://notes.baty.net/posts/2021/11/ImageTest.html</guid>
+</item><item>
 <title>notes.baty.net</title>
 <link>https://notes.baty.net/posts/2021/11/notesbatynet.html</link>
 <description><![CDATA[
