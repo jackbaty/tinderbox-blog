@@ -6,19 +6,10 @@
 <link>https://notes.baty.net</link>
 <description>Jack takes notes</description>
 	<item>
-<title>Links test</title>
-<link>https://notes.baty.net/posts/2021/11/Linkstest.html</link>
-<description><![CDATA[
-<p>I did an <a href="posts/2021/11/ImageTest.html">Image Test</a> recently</p>
-
-<p>Using <a href="posts/2021/11/Cloudflarewebanalytics.html">Cloudflare</a></p>
-    ]]></description>
-<guid>https://notes.baty.net/posts/2021/11/Linkstest.html</guid>
-</item><item>
 <title>Image Test</title>
 <link>https://notes.baty.net/posts/2021/11/ImageTest.html</link>
 <description><![CDATA[
-<p>What about a Link test</p>
+<p>If I want a "Featured Image" on a post here, I just paste the URL in the "Image" attribute of the post and the template puts it where it belongs. I'd almost forgotten I did that. Can you imagine how great things would be if I focused my time and attention on just one or two things for months or years rather than just dipping my toes in?</p>
     ]]></description>
 <guid>https://notes.baty.net/posts/2021/11/ImageTest.html</guid>
 </item><item>
