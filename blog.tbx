@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<tinderbox version="2" revision="13" savedBy="version 9.0.1 b534" uuid="B932F898-885D-48AF-8142-AB179BE52944" >
+<tinderbox version="2" revision="13" savedBy="version 9.0.1 b535" uuid="B932F898-885D-48AF-8142-AB179BE52944" >
 <attrib Name="anything" editable="0" visibleInEditor="1" default="" >
 <attrib Name="System" parent="anything" editable="0" visibleInEditor="1" default="" >
 <attrib Name="AI" parent="System" editable="0" visibleInEditor="1" default="" >
@@ -174,6 +174,8 @@
 <attrib Name="ID" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
 </attrib>
 <attrib Name="InboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="IsAction" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
 <attrib Name="IsAdornment" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
 </attrib>
@@ -919,7 +921,7 @@
 <linkType name="response" visible="1" showLabel="1" required="0" colorString="black" style="0" arrowType="0" onLink=""  />
 <linkType name="update" visible="1" showLabel="1" required="0" colorString="black" style="0" arrowType="0" onLink=""  />
 </linkTypes>
-<item ID="1636118464" Creator="system" >
+<item ID="1637144699" Creator="system" >
 <attribute name="Associates" ></attribute>
 <attribute name="Created" >2013-02-08T19:02:00-05:00</attribute>
 <attribute name="IsComposite" >false</attribute>
@@ -957,11 +959,13 @@
 <attribute name="OnAdd" >$Prototype=protoMonthlyArchive</attribute>
 <attribute name="ReadCount" >1</attribute>
 <attribute name="SelectionCount" >37</attribute>
-<attribute name="Sentiments" >0</attribute>
+<attribute name="Sentiment" >-0.6000000238</attribute>
+<attribute name="Sentiments" >-0.6</attribute>
 <attribute name="Xpos" >17</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="3461423638" Creator="system" proto="protoMonthlyArchive" >
 <attribute name="Created" >2013-09-07T19:29:00-04:00</attribute>
+<attribute name="DominantLanguage" ></attribute>
 <attribute name="HTMLDontExport" >true</attribute>
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2013-09-07T19:29:00-04:00</attribute>
@@ -969,6 +973,7 @@
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >1</attribute>
 <attribute name="SelectionCount" >103</attribute>
+<attribute name="Sentiments" ></attribute>
 <attribute name="Sort" >Date</attribute>
 <attribute name="SortBackward" >true</attribute>
 <attribute name="Xpos" >12.5</attribute>
@@ -1826,12 +1831,14 @@ If you decide to try it, use the link below and I get a small commission.\par
 </item>
 <item ID="3450366317" Creator="system" proto="protoMonthlyArchive" >
 <attribute name="Created" >2013-05-02T20:04:00-04:00</attribute>
+<attribute name="DominantLanguage" ></attribute>
 <attribute name="HTMLDontExport" >true</attribute>
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2013-05-02T20:04:00-04:00</attribute>
 <attribute name="Name" >05</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="SelectionCount" >78</attribute>
+<attribute name="Sentiments" ></attribute>
 <attribute name="Sort" >Date</attribute>
 <attribute name="SortBackward" >true</attribute>
 <attribute name="Xpos" >8</attribute>
@@ -2286,6 +2293,7 @@ I love hearing wonderful things for the first time. Howard&apos;s guitar work is
 <attribute name="PostType" >book</attribute>
 <attribute name="ReadCount" >14</attribute>
 <attribute name="SelectionCount" >36</attribute>
+<attribute name="Sentiment" >-0.6000000238</attribute>
 <attribute name="Sentiments" >-0.6;-0.6</attribute>
 <attribute name="Topic" >Book</attribute>
 <attribute name="Xpos" >42</attribute>
@@ -2908,8 +2916,8 @@ That&apos;s as far as I&apos;ve gotten. All it takes is a press of Command-Shift
 <attribute name="OnAdd" >$Prototype=protoMonthlyArchive</attribute>
 <attribute name="ReadCount" >1</attribute>
 <attribute name="SelectionCount" >44</attribute>
-<attribute name="Sentiment" >-0.6000000238</attribute>
-<attribute name="Sentiments" >-0.6</attribute>
+<attribute name="Sentiment" >0</attribute>
+<attribute name="Sentiments" >0</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1509643486" Creator="system" proto="protoMonthlyArchive" >
@@ -3064,11 +3072,13 @@ I think we are well advised to keep on nodding terms with the people we used to 
 <item ID="1514721014" Creator="system" proto="protoMonthlyArchive" >
 <attribute name="Associates" ></attribute>
 <attribute name="Created" >2017-12-31T06:17:37-05:00</attribute>
+<attribute name="DominantLanguage" ></attribute>
 <attribute name="HTMLDontExport" >true</attribute>
 <attribute name="IsComposite" >false</attribute>
 <attribute name="Modified" >2017-12-31T06:17:37-05:00</attribute>
 <attribute name="Name" >12</attribute>
 <attribute name="SelectionCount" >51</attribute>
+<attribute name="Sentiments" ></attribute>
 <attribute name="Sort" >Date</attribute>
 <attribute name="SortBackward" >true</attribute>
 <attribute name="Xpos" >7</attribute>
@@ -3103,8 +3113,8 @@ I think we are well advised to keep on nodding terms with the people we used to 
 <attribute name="OnAdd" >$Prototype=protoMonthlyArchive</attribute>
 <attribute name="ReadCount" >1</attribute>
 <attribute name="SelectionCount" >51</attribute>
-<attribute name="Sentiment" >-0.200000003</attribute>
-<attribute name="Sentiments" >-0.2</attribute>
+<attribute name="Sentiment" >0.6000000238</attribute>
+<attribute name="Sentiments" >0.6</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1523630996" Creator="system" proto="protoMonthlyArchive" >
@@ -3255,12 +3265,15 @@ See also: Sometimes I change my mind</text>
 <item ID="1636192551" Creator="system" proto="protoPost" >
 <attribute name="Created" >2021-11-06T05:55:50-04:00</attribute>
 <attribute name="Date" >2021-11-06T05:55:50-04:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
 <attribute name="HTMLEntities" >false</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Image" >2021/toes.jpg</attribute>
 <attribute name="Modified" >2021-11-06T07:17:10-04:00</attribute>
 <attribute name="Name" >Image Test</attribute>
-<attribute name="SelectionCount" >28</attribute>
+<attribute name="SelectionCount" >30</attribute>
+<attribute name="Sentiment" >-0.3000000045</attribute>
+<attribute name="Sentiments" >0.2;-0.8</attribute>
 <attribute name="TextWindowHeight" >651</attribute>
 <attribute name="TextWindowWidth" >575</attribute>
 <attribute name="Width" >3</attribute>
@@ -3268,6 +3281,43 @@ See also: Sometimes I change my mind</text>
 <attribute name="Ypos" >0</attribute>
 <text >If I want a &quot;Featured Image&quot; on a post here, I just paste the URL in the &quot;Image&quot; attribute of the post and the template puts it where it belongs. I&apos;d almost forgotten I did that. Can you imagine how great things would be if I focused my time and attention on just one or two things for months or years rather than just dipping my toes in?</text>
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC58AgAAKwAAAAEAAAB0AgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNjM2Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDt9ClxwYXJkXHR4MzYwXHJpNDAwXHNiODBcc2E4MFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzNiBcY2YyIElmIEkgd2FudCBhICJGZWF0dXJlZCBJbWFnZSIgb24gYSBwb3N0IGhlcmUsIEkganVzdCBwYXN0ZSB0aGUgVVJMIGluIHRoZSAiSW1hZ2UiIGF0dHJpYnV0ZSBvZiB0aGUgcG9zdCBhbmQgdGhlIHRlbXBsYXRlIHB1dHMgaXQgd2hlcmUgaXQgYmVsb25ncy4gSSdkIGFsbW9zdCBmb3Jnb3R0ZW4gSSBkaWQgdGhhdC4gQ2FuIHlvdSBpbWFnaW5lIGhvdyBncmVhdCB0aGluZ3Mgd291bGQgYmUgaWYgSSBmb2N1c2VkIG15IHRpbWUgYW5kIGF0dGVudGlvbiBvbiBqdXN0IG9uZSBvciB0d28gdGhpbmdzIGZvciBtb250aHMgb3IgeWVhcnMgcmF0aGVyIHRoYW4ganVzdCBkaXBwaW5nIG15IHRvZXMgaW4/fQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAADZkhmG2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1636290392" Creator="system" proto="protoPost" >
+<attribute name="Created" >2021-11-07T07:43:57-05:00</attribute>
+<attribute name="Date" >2021-11-07T07:43:57-05:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-11-07T07:50:03-05:00</attribute>
+<attribute name="Name" >It&apos;s about where I like to type</attribute>
+<attribute name="SelectionCount" >4</attribute>
+<attribute name="Sentiment" >-0.7333333492</attribute>
+<attribute name="Sentiments" >-0.6;-0.8;-0.8</attribute>
+<attribute name="Topic" >Blogging</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >14</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >For years, I&apos;d tell you that typing in a native Mac app is by far the best way to write anything. That was when web apps were still pretty basic and terrible. Today, though, browsers are pretty good at, well, everything. I still mostly prefer native apps, but the gap has closed considerably.
+It also depends on where the text is to end up. If it&apos;s for, say, a blog post, why not just write in a browser, since one could argue that for web publishing, editing in a browser is using a native app.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5gAwAAKwAAAAEAAABYAwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNjM2Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlLUl0YWxpYzt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQwXGdyZWVuMFxibHVlMDt9CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3NwdGhyZWVcYzBcYzBcYzA7fQpccGFyZFx0eDM2MFxyaTQwMFxzYjgwXHNhODBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzYgXGNmMiBGb3IgeWVhcnMsIEknZCB0ZWxsIHlvdSB0aGF0IHR5cGluZyBpbiBhIG5hdGl2ZSBNYWMgYXBwIGlzIGJ5IGZhciB0aGUgYmVzdCB3YXkgdG8gd3JpdGUgClxmMVxpIGFueXRoaW5nClxmMFxpMCAuIFRoYXQgd2FzIHdoZW4gd2ViIGFwcHMgd2VyZSBzdGlsbCBwcmV0dHkgYmFzaWMgYW5kIHRlcnJpYmxlLiBUb2RheSwgdGhvdWdoLCBicm93c2VycyBhcmUgcHJldHR5IGdvb2QgYXQsIHdlbGwsIGV2ZXJ5dGhpbmcuIEkgc3RpbGwgbW9zdGx5IHByZWZlciBuYXRpdmUgYXBwcywgYnV0IHRoZSBnYXAgaGFzIGNsb3NlZCBjb25zaWRlcmFibHkuXApJdCBhbHNvIGRlcGVuZHMgb24gd2hlcmUgdGhlIHRleHQgaXMgdG8gZW5kIHVwLiBJZiBpdCdzIGZvciwgc2F5LCBhIGJsb2cgcG9zdCwgd2h5IG5vdCBqdXN0IHdyaXRlIGluIGEgYnJvd3Nlciwgc2luY2Ugb25lIGNvdWxkIGFyZ3VlIHRoYXQgZm9yIHdlYiBwdWJsaXNoaW5nLCBlZGl0aW5nIGluIGEgYnJvd3NlciAKXGYxXGkgaXMKXGYwXGkwICB1c2luZyBhIG5hdGl2ZSBhcHAufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAHvLh2G2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1637145022" Creator="system" proto="protoPost" >
+<attribute name="Created" >2021-11-17T05:12:53-05:00</attribute>
+<attribute name="Date" >2021-11-17T05:12:53-05:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-11-17T05:13:36-05:00</attribute>
+<attribute name="NLNames" >Dave;Deja Vu</attribute>
+<attribute name="Name" >What if I built Drummer out of Tinderbox?</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Sentiment" >-0.5000000075</attribute>
+<attribute name="Sentiments" >-0.2;-0.8</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >17.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >There&apos;s something happening again over in Dave&apos;s world of Drummer. It&apos;s feeling like Deja Vu all over again.
+
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6UAQAAKwAAAAEAAACMAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNjM2Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDt9ClxwYXJkXHR4MzYwXHNiODBcc2E4MFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzNiBcY2YyIFRoZXJlJ3Mgc29tZXRoaW5nIGhhcHBlbmluZyBhZ2FpbiBvdmVyIGluIERhdmUncyB3b3JsZCBvZiBEcnVtbWVyLiBJdCdzIGZlZWxpbmcgbGlrZSBEZWphIFZ1IGFsbCBvdmVyIGFnYWluLlwKXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAA0NWUYbYBAAAAAAAAAAAAAA==</rtfd>
 </item>
 </item>
 </item>
@@ -3302,8 +3352,8 @@ See also: Sometimes I change my mind</text>
 <attribute name="Modified" >2013-02-09T17:11:00-05:00</attribute>
 <attribute name="Name" >2013</attribute>
 <attribute name="SelectionCount" >50</attribute>
-<attribute name="Sentiment" >0</attribute>
-<attribute name="Sentiments" >0</attribute>
+<attribute name="Sentiment" >-0.8000000119</attribute>
+<attribute name="Sentiments" >-0.8</attribute>
 <attribute name="Width" >3</attribute>
 <attribute name="Xpos" >34.5</attribute>
 <attribute name="Ypos" >1</attribute>
@@ -3368,14 +3418,35 @@ Some want to use Nexus for good, and some for evil. }</rtf>
 <attribute name="WindowPlace" >Rect[ 629 71 1329 571]</attribute>
 <attribute name="Xpos" >7</attribute>
 <attribute name="Ypos" >0</attribute>
+<item ID="1637145025" Creator="system" >
+<attribute name="Alias" >1637145022</attribute>
+<attribute name="Created" >2021-11-17T05:12:53-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-11-17T05:13:13-05:00</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
+<item ID="1636290395" Creator="system" >
+<attribute name="Alias" >1636290392</attribute>
+<attribute name="Created" >2021-11-07T07:43:57-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-11-07T07:44:13-05:00</attribute>
+<attribute name="Name" ></attribute>
+<attribute name="SelectionCount" >5</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
 <item ID="1636192594" Creator="system" >
 <attribute name="Alias" >1636192551</attribute>
 <attribute name="Created" >2021-11-06T05:55:50-04:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-11-06T05:56:33-04:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >35</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1636114205" Creator="system" >
@@ -3386,7 +3457,7 @@ Some want to use Nexus for good, and some for evil. }</rtf>
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >11</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1636066558" Creator="system" >
@@ -3397,8 +3468,8 @@ Some want to use Nexus for good, and some for evil. }</rtf>
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >19</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636052937" Creator="system" >
 <attribute name="Alias" >1636037965</attribute>
@@ -3408,8 +3479,8 @@ Some want to use Nexus for good, and some for evil. }</rtf>
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >29</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636052932" Creator="system" >
 <attribute name="Alias" >1543666837</attribute>
@@ -3419,7 +3490,7 @@ Some want to use Nexus for good, and some for evil. }</rtf>
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >42</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636052931" Creator="system" >
@@ -3431,7 +3502,7 @@ Some want to use Nexus for good, and some for evil. }</rtf>
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >29</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636052930" Creator="system" >
@@ -3441,8 +3512,8 @@ Some want to use Nexus for good, and some for evil. }</rtf>
 <attribute name="Modified" >2017-12-31T06:19:14-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
-<attribute name="Ypos" >2.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1636052936" Creator="system" >
 <attribute name="Alias" >1510676814</attribute>
@@ -3450,25 +3521,6 @@ Some want to use Nexus for good, and some for evil. }</rtf>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2017-11-14T11:58:21-05:00</attribute>
 <attribute name="Name" ></attribute>
-<attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
-<attribute name="Ypos" >2.5</attribute>
-</item>
-<item ID="1636052929" Creator="system" >
-<attribute name="Alias" >1510528026</attribute>
-<attribute name="Created" >2017-11-12T18:05:52-05:00</attribute>
-<attribute name="Height" >1</attribute>
-<attribute name="Modified" >2017-11-13T15:05:39-05:00</attribute>
-<attribute name="Name" ></attribute>
-<attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
-<attribute name="Ypos" >4.5</attribute>
-</item>
-<item ID="1636192583" Creator="system" >
-<attribute name="Alias" >1509708451</attribute>
-<attribute name="Created" >2017-11-03T08:27:30-04:00</attribute>
-<attribute name="Height" >1</attribute>
-<attribute name="Modified" >2017-11-03T08:56:14-04:00</attribute>
 <attribute name="Width" >3</attribute>
 <attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >4.5</attribute>
@@ -3492,12 +3544,15 @@ Some want to use Nexus for good, and some for evil. }</rtf>
 <item ID="1511008406" Creator="system" >
 <attribute name="Associates" ></attribute>
 <attribute name="Created" >2017-11-18T07:33:25-05:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
 <attribute name="HTMLExportFileName" >photography</attribute>
 <attribute name="HTMLExportTemplate" >/Templates/HTML topiclist</attribute>
 <attribute name="IsComposite" >false</attribute>
 <attribute name="Modified" >2017-11-18T07:33:25-05:00</attribute>
 <attribute name="Name" >Photography</attribute>
 <attribute name="SelectionCount" >7</attribute>
+<attribute name="Sentiment" >-0.400000006</attribute>
+<attribute name="Sentiments" >-0.4</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1511008418" Creator="system" proto="Markdown" >
@@ -3511,6 +3566,8 @@ Some want to use Nexus for good, and some for evil. }</rtf>
 <attribute name="NLPlaces" >DX;Lightroom;Windows XP</attribute>
 <attribute name="Name" >Photo Processing Workflow</attribute>
 <attribute name="SelectionCount" >17</attribute>
+<attribute name="Sentiment" >-0.3058823601</attribute>
+<attribute name="Sentiments" >-0.4;-0.4;-0.2;-0.2;0.6;-0.8;-0.4;-0.4;-0.6;-0.6;-0.6;0.4;-1;0.6;-0.2;0;-0.2;-0.6;-0.6;-0.6;-0.4;0;-0.6;0;-0.4;-0.6;-0.6;-0.4;0.2;0.4;-0.4;-0.6;-0.8;-0.8;-0.8;0.2;0;0;0;-0.2;-0.6;-0.4;-0.4;-0.2;0.2;0;-0.2;-0.8;-0.2;-0.6;-0.4</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <text >## When processing a roll of film, don&apos;t forget to do the following:
@@ -3643,13 +3700,33 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Width" >3</attribute>
 <attribute name="Xpos" >26</attribute>
 <attribute name="Ypos" >4</attribute>
+<item ID="1637145026" Creator="system" >
+<attribute name="Alias" >1637145022</attribute>
+<attribute name="Created" >2021-11-17T05:12:53-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-11-17T05:13:13-05:00</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
+<item ID="1636290396" Creator="system" >
+<attribute name="Alias" >1636290392</attribute>
+<attribute name="Created" >2021-11-07T07:43:57-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-11-07T07:44:13-05:00</attribute>
+<attribute name="Name" ></attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
 <item ID="1636192595" Creator="system" >
 <attribute name="Alias" >1636192551</attribute>
 <attribute name="Created" >2021-11-06T05:55:50-04:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-11-06T05:56:33-04:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1636114206" Creator="system" >
@@ -3659,8 +3736,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2021-11-05T08:10:03-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636066559" Creator="system" >
 <attribute name="Alias" >1636066448</attribute>
@@ -3669,7 +3746,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2021-11-04T18:54:07-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636038180" Creator="system" >
@@ -3679,7 +3756,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2021-11-04T11:00:02-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 </agent>
@@ -3916,13 +3993,33 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 \f0\fs32 \cf0 &lt;h2&gt;Complete list of posts&lt;/h2&gt;
 \fs24 \
 }</rtf>
+<item ID="1637145023" Creator="system" >
+<attribute name="Alias" >1637145022</attribute>
+<attribute name="Created" >2021-11-17T05:12:53-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-11-17T05:12:53-05:00</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
+<item ID="1636290393" Creator="system" >
+<attribute name="Alias" >1636290392</attribute>
+<attribute name="Created" >2021-11-07T07:43:57-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-11-07T07:43:57-05:00</attribute>
+<attribute name="Name" ></attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
 <item ID="1636192585" Creator="system" >
 <attribute name="Alias" >1636192551</attribute>
 <attribute name="Created" >2021-11-06T05:55:50-04:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-11-06T05:56:22-04:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1636114194" Creator="system" >
@@ -3932,7 +4029,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2021-11-05T08:09:53-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1636066547" Creator="system" >
@@ -3942,7 +4039,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2021-11-04T18:54:07-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1636038166" Creator="system" >
@@ -3952,7 +4049,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2021-11-04T11:00:02-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1543666838" Creator="system" >
@@ -3962,7 +4059,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2018-12-01T07:15:03-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
+<attribute name="Xpos" >24.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1523631030" Creator="system" >
@@ -3973,7 +4070,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >14</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >28.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1514721017" Creator="system" >
@@ -3984,8 +4081,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >6</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1510676815" Creator="system" >
 <attribute name="Alias" >1510676814</attribute>
@@ -3994,8 +4091,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2017-11-14T11:22:33-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1510528027" Creator="system" >
 <attribute name="Alias" >1510528026</attribute>
@@ -4004,7 +4101,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2017-11-12T18:06:03-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1509708479" Creator="system" >
@@ -4014,7 +4111,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2017-11-03T08:27:58-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1509655298" Creator="system" >
@@ -4024,7 +4121,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2017-11-02T17:41:30-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1509652800" Creator="system" >
@@ -4034,7 +4131,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2017-11-02T16:57:23-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1509647651" Creator="system" >
@@ -4044,7 +4141,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2017-11-02T15:33:15-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
+<attribute name="Xpos" >24.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1509646986" Creator="system" >
@@ -4054,7 +4151,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-10-06T14:37:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >28.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1509646987" Creator="system" >
@@ -4064,8 +4161,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-10-06T14:41:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
-<attribute name="Ypos" >2.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1509646988" Creator="system" >
 <attribute name="Alias" >3463291967</attribute>
@@ -4074,8 +4171,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-09-29T10:51:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
-<attribute name="Ypos" >2.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1509646989" Creator="system" >
 <attribute name="Alias" >3463289588</attribute>
@@ -4084,7 +4181,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-09-29T09:58:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1509646990" Creator="system" >
@@ -4094,7 +4191,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-09-22T12:46:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1509646991" Creator="system" >
@@ -4104,7 +4201,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-09-10T16:03:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1509646992" Creator="system" >
@@ -4114,7 +4211,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-09-08T07:55:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
 <attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1509646993" Creator="system" >
@@ -4124,7 +4221,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-08-29T15:39:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
+<attribute name="Xpos" >24.5</attribute>
 <attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1509646994" Creator="system" >
@@ -4134,7 +4231,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-08-24T12:22:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >28.5</attribute>
 <attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1509646995" Creator="system" >
@@ -4144,8 +4241,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-08-24T09:48:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
-<attribute name="Ypos" >4.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646996" Creator="system" >
 <attribute name="Alias" >3458275066</attribute>
@@ -4154,8 +4251,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-08-02T11:02:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
-<attribute name="Ypos" >4.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646997" Creator="system" >
 <attribute name="Alias" >3457786081</attribute>
@@ -4165,7 +4262,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >17</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646998" Creator="system" >
@@ -4175,7 +4272,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-07-27T15:48:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646999" Creator="system" >
@@ -4185,7 +4282,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-07-27T12:29:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509647000" Creator="system" >
@@ -4195,7 +4292,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-07-26T08:47:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509647001" Creator="system" >
@@ -4205,7 +4302,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-07-27T15:32:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
+<attribute name="Xpos" >24.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509647002" Creator="system" >
@@ -4215,7 +4312,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-06-02T14:12:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >28.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509647003" Creator="system" >
@@ -4225,8 +4322,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-07-27T15:34:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
-<attribute name="Ypos" >6.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509647004" Creator="system" >
 <attribute name="Alias" >3450367983</attribute>
@@ -4235,8 +4332,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-07-27T15:34:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
-<attribute name="Ypos" >6.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509647005" Creator="system" >
 <attribute name="Alias" >3450366318</attribute>
@@ -4245,7 +4342,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-05-02T20:07:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509646972" Creator="system" >
@@ -4255,7 +4352,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-07-27T15:34:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509646973" Creator="system" >
@@ -4266,7 +4363,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >48</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509646974" Creator="system" >
@@ -4276,7 +4373,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-03-17T18:10:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
 <attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509646975" Creator="system" >
@@ -4286,7 +4383,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-03-16T12:23:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
+<attribute name="Xpos" >24.5</attribute>
 <attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509646976" Creator="system" >
@@ -4297,7 +4394,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >210</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >28.5</attribute>
 <attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509646977" Creator="system" >
@@ -4307,8 +4404,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-07-27T16:54:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
-<attribute name="Ypos" >8.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646978" Creator="system" >
 <attribute name="Alias" >3445017650</attribute>
@@ -4317,8 +4414,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-03-01T21:28:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
-<attribute name="Ypos" >8.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646979" Creator="system" >
 <attribute name="Alias" >3444585647</attribute>
@@ -4327,7 +4424,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-02-24T21:25:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646980" Creator="system" >
@@ -4338,7 +4435,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >384</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646981" Creator="system" >
@@ -4348,7 +4445,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-02-17T22:33:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646982" Creator="system" >
@@ -4358,7 +4455,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-02-13T22:05:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
 <attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646983" Creator="system" >
@@ -4368,7 +4465,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-02-10T16:35:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
+<attribute name="Xpos" >24.5</attribute>
 <attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646984" Creator="system" >
@@ -4378,7 +4475,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-02-09T21:58:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >28.5</attribute>
 <attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646985" Creator="system" >
@@ -4388,8 +4485,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-02-09T18:25:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
-<attribute name="Ypos" >10.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509647010" Creator="system" >
 <attribute name="Alias" >3443256661</attribute>
@@ -4399,8 +4496,8 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >262</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
-<attribute name="Ypos" >10.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509647006" Creator="system" >
 <attribute name="Alias" >3443203021</attribute>
@@ -4409,7 +4506,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-02-09T10:51:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509647007" Creator="system" >
@@ -4419,7 +4516,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-02-09T16:48:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509647008" Creator="system" >
@@ -4429,7 +4526,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-02-09T16:47:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509647009" Creator="system" >
@@ -4439,7 +4536,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Modified" >2013-02-09T16:47:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
 <attribute name="Ypos" >12.5</attribute>
 </item>
 </agent>
@@ -4468,7 +4565,7 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="HTMLDontExport" >true</attribute>
 <attribute name="HTMLExportChildren" >false</attribute>
 <attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-11-06T06:11:36-04:00</attribute>
+<attribute name="Modified" >2021-11-07T07:47:07-05:00</attribute>
 <attribute name="Name" >Debug</attribute>
 <attribute name="SelectionCount" >16</attribute>
 <attribute name="Sentiment" >-0.200000003</attribute>
@@ -4477,12 +4574,13 @@ What is notes.baty.net made of? Glad you asked. The site is built using Tinderbo
 <attribute name="Ypos" >4</attribute>
 <text >git add .
 git diff-index --quiet HEAD || git commit -m &quot;Publish checkpoint&quot;
-[main 5547544] Publish checkpoint
- 79 files changed, 83 insertions(+), 355 deletions(-)
+[main 6fd6bfc] Publish checkpoint
+ 6 files changed, 142 insertions(+), 67 deletions(-)
  rewrite public/archives.html (86%)
+ create mode 100644 public/posts/2021/11/ItsaboutwhereIliketotype.html
 git push
 To github.com:jackbaty/tinderbox-blog.git
-   428740e..5547544  main -&gt; main
+   5547544..6fd6bfc  main -&gt; main
 </text>
 </item>
 <item ID="1510854809" Creator="system" proto="protoPage" >
@@ -4713,13 +4811,33 @@ To github.com:jackbaty/tinderbox-blog.git
 <attribute name="Width" >3</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
+<item ID="1637145024" Creator="system" >
+<attribute name="Alias" >1637145022</attribute>
+<attribute name="Created" >2021-11-17T05:12:53-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-11-17T05:12:53-05:00</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
+<item ID="1636290394" Creator="system" >
+<attribute name="Alias" >1636290392</attribute>
+<attribute name="Created" >2021-11-07T07:43:57-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-11-07T07:43:57-05:00</attribute>
+<attribute name="Name" ></attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
 <item ID="1636192586" Creator="system" >
 <attribute name="Alias" >1636192551</attribute>
 <attribute name="Created" >2021-11-06T05:55:50-04:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-11-06T05:56:22-04:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1636114195" Creator="system" >
@@ -4729,8 +4847,8 @@ To github.com:jackbaty/tinderbox-blog.git
 <attribute name="Modified" >2021-11-05T08:09:53-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636066548" Creator="system" >
 <attribute name="Alias" >1636066448</attribute>
@@ -4739,7 +4857,7 @@ To github.com:jackbaty/tinderbox-blog.git
 <attribute name="Modified" >2021-11-04T18:54:07-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636038167" Creator="system" >
@@ -4749,7 +4867,7 @@ To github.com:jackbaty/tinderbox-blog.git
 <attribute name="Modified" >2021-11-04T11:00:02-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 </agent>
@@ -5027,8 +5145,8 @@ To github.com:jackbaty/tinderbox-blog.git
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >147</attribute>
 <attribute name="SelectionCount" >201</attribute>
-<attribute name="Sentiment" >-0.4600000113</attribute>
-<attribute name="Sentiments" >-0.4;-0.2;-0.8;-0.4;-0.2;-0.6;-0.6;-0.8;0;-0.6</attribute>
+<attribute name="Sentiment" >-0.4500000104</attribute>
+<attribute name="Sentiments" >-0.4;-0.2;-0.8;-0.4;-0.2;-0.6;-0.6;-0.8;0;0;-0.8;-0.6</attribute>
 <attribute name="WindowPlace" >Rect[ 30 48 1284 1244]</attribute>
 <attribute name="Xpos" >24</attribute>
 <attribute name="Ypos" >1</attribute>
@@ -5220,7 +5338,7 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="IsTemplate" >true</attribute>
 <attribute name="Modified" >2021-11-05T07:04:40-04:00</attribute>
-<attribute name="NLNames" >Jack Baty</attribute>
+<attribute name="NLNames" >Jack;Jack Baty</attribute>
 <attribute name="Name" >rss</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >26</attribute>
@@ -5359,101 +5477,99 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 </item>
 <links >
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443201461" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443203021" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443256661" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443203021" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443266533" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443266537" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="904" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.flyingmeat.com/voodoopad/"  />
-<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="1538" slen="17" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://html5boilerplate.com"  />
-<link name="*untitled" sourceid="3443274121" sourcecreator="system" sstart="21" slen="24" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://baty.net/Posts/2013/02/BookList.html"  />
-<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="462" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://jackbaty.tumblr.com/"  />
-<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="448" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://wordpress.com/"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443354701" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="904" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.flyingmeat.com/voodoopad/"  />
+<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="1538" slen="17" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://html5boilerplate.com"  />
+<link name="*untitled" sourceid="3443274121" sourcecreator="system" sstart="21" slen="24" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://baty.net/Posts/2013/02/BookList.html"  />
+<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="462" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://jackbaty.tumblr.com/"  />
+<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="448" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://wordpress.com/"  />
 <link name="prototype" sourceid="3443266533" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443274661" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="316" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443354701" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="316" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="771" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://johnmacfarlane.net/pandoc/"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443623561" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="704" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
-<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="771" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://johnmacfarlane.net/pandoc/"  />
-<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="729" slen="10" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.devontechnologies.com/products/devonthink/overview.html"  />
 <link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="900" slen="23" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443256661" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="709" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://daringfireball.net/projects/markdown/"  />
-<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="729" slen="10" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.devontechnologies.com/products/devonthink/overview.html"  />
+<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="729" slen="10" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.devontechnologies.com/products/devonthink/overview.html"  />
+<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="704" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="729" slen="10" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.devontechnologies.com/products/devonthink/overview.html"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3444585647" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="49" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://en.wikipedia.org/wiki/LaTeX"  />
-<link name="*untitled" sourceid="3443623561" sourcecreator="system" sstart="1217" slen="10" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="https://twitter.com/viticci/status/301760068188250112#"  />
+<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="49" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://en.wikipedia.org/wiki/LaTeX"  />
+<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="709" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://daringfireball.net/projects/markdown/"  />
+<link name="*untitled" sourceid="3443623561" sourcecreator="system" sstart="1217" slen="10" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="https://twitter.com/viticci/status/301760068188250112#"  />
 <link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443245021" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="1203" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
-<link name="*untitled" sourceid="3443274121" sourcecreator="system" sstart="21" slen="24" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://baty.net/RecentBooks.html"  />
+<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="1203" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3445092841" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="715" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://evernote.com"  />
 <link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="1072" slen="23" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443256661" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443274121" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3445092841" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="715" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://evernote.com"  />
-<link name="*untitled" sourceid="3445152841" sourcecreator="system" sstart="1746" slen="11" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://fieldnotesbrand.com"  />
+<link name="*untitled" sourceid="3445152841" sourcecreator="system" sstart="1746" slen="11" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://fieldnotesbrand.com"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3445152841" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="1914" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.barebones.com/products/yojimbo/"  />
-<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="716" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
-<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3445092655" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3446353807" sourcecreator="system" sstart="147" slen="1" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://pastebin.com/0xXV8k7k"  />
-<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3453007736" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="716" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="1914" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.barebones.com/products/yojimbo/"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450366317" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3446353807" sourcecreator="system" sstart="85" slen="20" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://pastebin.com/0xXV8k7k"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3444475540" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3453007737" sourcecreator="system" sstart="464" slen="12" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="https://www.digitalocean.com/?refcode=a39ae1210279"  />
-<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3455772410" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3445152841" sourcecreator="system" sstart="12" slen="14" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://en.wikipedia.org/wiki/Commonplace_book"  />
+<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3453007736" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3446353807" sourcecreator="system" sstart="147" slen="1" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://pastebin.com/0xXV8k7k"  />
+<link name="*untitled" sourceid="3446353807" sourcecreator="system" sstart="85" slen="20" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://pastebin.com/0xXV8k7k"  />
+<link name="*untitled" sourceid="3443274121" sourcecreator="system" sstart="21" slen="24" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://baty.net/RecentBooks.html"  />
+<link name="*untitled" sourceid="3453007737" sourcecreator="system" sstart="464" slen="12" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="https://www.digitalocean.com/?refcode=a39ae1210279"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3446353807" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443266533" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443268541" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450366318" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3444475540" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3445092655" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3455772410" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3457592334" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3445152841" sourcecreator="system" sstart="12" slen="14" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://en.wikipedia.org/wiki/Commonplace_book"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3455772411" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3457592334" sourcecreator="system" sstart="174" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://fargo.io"  />
-<link name="*untitled" sourceid="3455772411" sourcecreator="system" sstart="299" slen="24" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://baty.net/Posts/2013/07/ChangesatSmallPicture.html"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450366704" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450611057" destcreator="jbaty" color="normal"  />
+<link name="*untitled" sourceid="3455772411" sourcecreator="system" sstart="299" slen="24" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://baty.net/Posts/2013/07/ChangesatSmallPicture.html"  />
+<link name="*untitled" sourceid="3457592334" sourcecreator="system" sstart="174" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://fargo.io"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450367983" destcreator="jbaty" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450366704" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450366318" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450611057" destcreator="jbaty" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3457755121" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3455772411" sourcecreator="system" sstart="105" slen="14" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://notes.baty.net"  />
+<link name="prototype" sourceid="3443266533" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443268541" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3457754702" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3446276701" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443291355" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443272141" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3457780504" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443272621" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3455772411" sourcecreator="system" sstart="105" slen="14" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://notes.baty.net"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3446276701" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3457786081" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3457592334" sourcecreator="system" sstart="52" slen="17" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://dave.smallpict.com/2013/07/25/changesAtSmallPicture"  />
+<link name="*untitled" sourceid="3457592334" sourcecreator="system" sstart="52" slen="17" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://dave.smallpict.com/2013/07/25/changesAtSmallPicture"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3453007737" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443985001" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443273041" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3447560770" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443272621" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443985001" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3458275064" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3217" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.barebones.com/products/bbedit/index.html"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3025" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.adobe.com/products/photoshop-lightroom.html"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3226" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://culturedcode.com/things/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2922" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="https://www.dropbox.com"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3217" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.barebones.com/products/bbedit/index.html"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3226" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://culturedcode.com/things/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2922" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="https://www.dropbox.com"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443291355" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3458275066" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2944" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3100" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="https://agilebits.com/onepassword/mac"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2932" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.obdev.at/products/launchbar/index.html"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2956" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://evernote.com"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3112" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.flyingmeat.com/acorn/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3130" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://evernote.com/skitch/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3054" slen="11" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://mthr.me/slicereader/"  />
-<link name="*untitled" sourceid="3457786081" sourcecreator="system" sstart="24" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2991" slen="12" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://smilesoftware.com/TextExpander/index.html"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3120" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://pilotmoon.com/popclip/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2967" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.thebrain.com"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2944" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3025" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.adobe.com/products/photoshop-lightroom.html"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3130" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://evernote.com/skitch/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3112" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.flyingmeat.com/acorn/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2956" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://evernote.com"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2932" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.obdev.at/products/launchbar/index.html"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3054" slen="11" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://mthr.me/slicereader/"  />
+<link name="*untitled" sourceid="3457786081" sourcecreator="system" sstart="24" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3100" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="https://agilebits.com/onepassword/mac"  />
+<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3457780504" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3120" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://pilotmoon.com/popclip/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2967" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.thebrain.com"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3445017650" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3068" slen="12" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://twitterrific.com/mac"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3037" slen="14" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.camerabits.com/learn-more/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3006" slen="16" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.keyboardmaestro.com/main/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3180" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://brew.sh"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3460179481" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3235" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.hipchat.com/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3068" slen="12" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://twitterrific.com/mac"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3180" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://brew.sh"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3037" slen="14" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.camerabits.com/learn-more/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3006" slen="16" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.keyboardmaestro.com/main/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3235" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.hipchat.com/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2991" slen="12" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://smilesoftware.com/TextExpander/index.html"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3461423638" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3139" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="https://developer.apple.com/xcode/"  />
+<link name="*untitled" sourceid="3463291967" sourcecreator="system" sstart="182" slen="26" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.jetpens.com/Midori-Brass-Bullet-Pencil-Holder-Gold/pd/8727"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3191" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.sno.phy.queensu.ca/~phil/exiftool/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3139" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="https://developer.apple.com/xcode/"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3461670362" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3463291967" sourcecreator="system" sstart="182" slen="26" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.jetpens.com/Midori-Brass-Bullet-Pencil-Holder-Gold/pd/8727"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3191" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.sno.phy.queensu.ca/~phil/exiftool/"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509647522" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3463911001" destcreator="system" color="normal"  />
 <link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="1541" slen="17" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443354701" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509643486" destcreator="system" color="normal"  />
@@ -5462,42 +5578,46 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3463289588" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3459946100" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3462694687" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3460631575" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1509708451" sourcecreator="system" sstart="73" slen="32" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="https://www.baty.net/2013/digital-recordkeeping/"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3461423640" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3463291967" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1509708451" sourcecreator="system" sstart="73" slen="32" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="https://www.baty.net/2013/digital-recordkeeping/"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509655291" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3460179481" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509647522" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3463911181" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="431" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="https://www.baty.net/"  />
-<link name="*untitled" sourceid="1509647522" sourcecreator="system" sstart="101" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="1509647522" sourcecreator="system" sstart="101" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3460631575" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3463291967" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1510528026" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1510528024" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="431" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="https://www.baty.net/"  />
 <link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509643484" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1510854809" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514721014" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1510854809" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="624" slen="17" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="https://www.baty.net/2012/201212where-my-avatar-came-from/"  />
+<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1543666834" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1543666837" sourcecreator="system" sstart="184" slen="7" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="3457781042" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514721016" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1510676814" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="1511008575" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1511008418" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="624" slen="17" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="https://www.baty.net/2012/201212where-my-avatar-came-from/"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514721016" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1636037965" sourcecreator="system" sstart="78" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="https://eastgate.com/Tinderbox"  />
 <link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1523630994" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1543666837" sourcecreator="system" sstart="184" slen="7" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="3457781042" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1543666834" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1636037965" sourcecreator="system" sstart="78" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="https://eastgate.com/Tinderbox"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1523630996" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636037959" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1523630997" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636037965" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1510528024" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1543666837" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1523630997" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636066448" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1636037965" sourcecreator="system" sstart="107" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="https://pages.cloudflare.com"  />
-<link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636037949" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="443" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="https://www.baty.blog/"  />
+<link name="*untitled" sourceid="1636037965" sourcecreator="system" sstart="107" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="https://pages.cloudflare.com"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636037965" destcreator="system" color="normal"  />
 <link name="*untitled" sourceid="1636037965" sourcecreator="system" sstart="127" slen="26" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1523630997" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636037949" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="443" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="https://www.baty.blog/"  />
 <link name="*untitled" sourceid="1543666837" sourcecreator="system" sstart="25" slen="18" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="3443256661" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636114182" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1636114182" sourcecreator="system" sstart="124" slen="16" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="https://pages.cloudflare.com"  />
-<link name="*untitled" sourceid="1636114182" sourcecreator="system" sstart="23" slen="14" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636118464" destcreator="jbaty" color="normal" URL="http://notes.baty.net"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636192551" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1636114182" sourcecreator="system" sstart="23" slen="14" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="http://notes.baty.net"  />
+<link name="*untitled" sourceid="1636114182" sourcecreator="system" sstart="124" slen="16" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637144699" destcreator="jbaty" color="normal" URL="https://pages.cloudflare.com"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636290392" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637145022" destcreator="system" color="normal"  />
 </links>
 <macros >
 <macro name="Image" >&lt;img src=&quot;^root^img/$1&quot; alt=&quot;$2&quot;&gt;</macro>
@@ -5622,8 +5742,8 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <FindWindowY > 137</FindWindowY>
 <RenameWindowX > 500</RenameWindowX>
 <RenameWindowY > 226</RenameWindowY>
-<InspectorX > 670</InspectorX>
-<InspectorY > 891</InspectorY>
+<InspectorX > 956</InspectorX>
+<InspectorY > 824</InspectorY>
 <EnterKeyAction > 0</EnterKeyAction>
 <UpdateViewShown > 1/26/13 1:45 PM</UpdateViewShown>
 <TimelineScale > 1000</TimelineScale>
@@ -5666,11 +5786,11 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <LastVersionString > b226</LastVersionString>
 </preferences>
 <windows >
-<window bounds="Rect[ 1257 493 3041 1839]" ruler="0" toolbar="0" >
+<window bounds="Rect[ 224 775 2008 2121]" ruler="0" toolbar="0" >
 <tabs >
-<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" scale="32" ID="1636037949" scrollX="0" scrollY="0" selection="1636192551 " expanded="1636037959 " textTab="0" splitRatio="0.495455" xattribute="" xattribute2="" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="0" xunlimited="0" xbins2="0" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1636118462" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
-<tab selected="0" name="" subtitle="" viewType="1" usingRoadmap="1" hideBreadcrumbs="0" scale="32" ID="1636118464" scrollX="0" scrollY="0" selection="" expanded="3443195221 1510528024 1523630996 1543666834 1636037949 1636037959 3443274661 3443200382 1511008406 " textTab="1" splitRatio="0.511993" xattribute="" xattribute2="" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="0" xunlimited="0" xbins2="0" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1636118462" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
-<tab selected="0" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" scale="32" ID="3443195281" scrollX="0" scrollY="0" selection="" expanded="3443195221 1510528024 1523630994 1523630996 1543666834 1636037949 1636037959 3443274661 3443200382 1511008406 3443195281 3443204221 " textTab="0" splitRatio="0.511993" xattribute="" xattribute2="" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="0" xunlimited="0" xbins2="0" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1636118462" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
+<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" scale="32" ID="1636037949" scrollX="0" scrollY="0" selection="1637145022 " expanded="1636037959 " textTab="0" splitRatio="0.495455" xattribute="" xattribute2="" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="0" xunlimited="0" xbins2="0" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1637143358" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
+<tab selected="0" name="" subtitle="" viewType="1" usingRoadmap="1" hideBreadcrumbs="0" scale="32" ID="1637144699" scrollX="0" scrollY="0" selection="" expanded="3443195221 1510528024 1523630996 1543666834 1636037949 1636037959 3443274661 3443200382 1511008406 " textTab="1" splitRatio="0.511993" xattribute="" xattribute2="" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="0" xunlimited="0" xbins2="0" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1637143358" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
+<tab selected="0" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" scale="32" ID="3443195281" scrollX="0" scrollY="0" selection="" expanded="3443195221 1510528024 1523630994 1523630996 1543666834 1636037949 1636037959 3443274661 3443200382 1511008406 3443195281 3443204221 " textTab="0" splitRatio="0.511993" xattribute="" xattribute2="" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="0" xunlimited="0" xbins2="0" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1637143358" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
 </tabs>
 </window>
 </windows>
@@ -5686,5 +5806,5 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <badges limit="7" >
 document</badges>
 <preview >
-JVBERi0xLjMKJcTl8uXrp/Og0MTGCjMgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL0xlbmd0aCAxMTI1ID4+CnN0cmVhbQp4AZ1XTW8bNxC981fM0QIaaUnu5zVOWySnFBKQQ9CDrMpW0pXd+ANB/n3fG5K7WnlXUmID3rF2OBzOe3wz+iZ/yTdZXD9Z2TyJ1d+njXgn1nk7L2Qvvkl2G2yX43PY9In2Tm6NBrleSjbP68q7KodVlLUrrYNVOudsZWV5jf2sZPh9wwe2qWWDXZyUcTtDI+zlu52CtZMlEkY0+XI2DOOZVhdM7VjFHYVGcM0QOZUDJyn5U/FMwTKdJSiTrbUEKJLNeRKHIE5LRwtF6UPpibEkpWKlYl2dm7vCGRTg7YpBWJf4WO1lsdoQktWtfJYrl82kwMPO5G9ZfZDfVyhFSpVuFimZphRrG8eUMh/MNppVjaT0vVpML2UToLBNQSjg4mVvuN5jhcap4lI+p0EYBNCFDLA05Ngh5r1fHhPN6adcHPHTDDJ62gxpRdcjpE5wjkhhmbU1+WyzYl7n3hr878AknpBFw0ua4SX/r+bMimUaI1w6Qy2VYVBcFmAacxs/bi2N7q+uTXTV+/fH3sq7B0XT4B6SBRkJluJYkIJoVg3pQpDO0uXTzBSNXG3bzUxKuXrYb+Vmvfn3N3kvdy/bJ/0Qf6epFKmidc88qlWx8oFVBcumVFKrY/pF198MIK58zzmN/rOcqzyvTyBtF2CES91GZzgX4wHXHqwJXGPIU7g6E3Glvk7iWlQX4WogA9ftw8s/t+36cQb5AL7yHQYA3t7I+n7d/nj+shmFNZvXVZFZT1mOFoAAxxTGvNbDkmMwE8xwjjCrdQZmaOOkyltcjtcoTUuLOdb38QAjMHcbRZjNhLQEv0NpAXlwXG0wwyZwLC0HB+2kJbcH0oIq+vpAWvByIC25T9LCUK96WTrrJRSMxwUFexU6khafpOUkBX3RU9Cc7kT3D8/gHCgHouExv1nr8/kHRAVMnN9v8T4KC7T/uEdJyWZpMR2gZBgJot0GOwudXn2inXhnLpKXQafBzEHeIVqYLrCdTheG+/Y7nZ0uJsKQLSaJdJxnOtcwXWCjX5wuCk5HaMJ7ydGfnCWJCi0drVSUKVDhjtX2svHiymKqWH0dzhSdTowqhis7xYCZFAOSFBVDLSY5LI91TRACw4Px+v2s3qcAWBgDjE553UZyRu9jPL1smC5O9fHOdbqP57xs6OnolxRTpxOHmpbXMswh0eTUgVf4lEMjxjZ1wFh4aDoOsTv5JPdxcQipK2B2izWOTjkaMqxYfNw+brb/Pb+sW3mEpA5bbzjOYrlDH9ghaR3TLk0bWZ1OG6nFJPjtIlzd43H6YLB+9cUgAsgKKYJMTCcQHjIYKKBSj8UIn6B4GTNDLcPwRjnXESt+xela8OJPZHXHngyUiGeNAVDNNppZhUh8nYWpd2SaRxA3CEJIEa3FyBXXhQCKYRoku29KOhDg4AjjGWb0qjBjZufxHB2mA4wZv3kEPxihjyXlPTx0HvLtyQCd0NkScnjpbPkeeg/h36/vtrKCjUqhGfSiz5r/DyUNBHYKZW5kc3RyZWFtCmVuZG9iagoxIDAgb2JqCjw8IC9UeXBlIC9QYWdlIC9QYXJlbnQgMiAwIFIgL1Jlc291cmNlcyA0IDAgUiAvQ29udGVudHMgMyAwIFIgL01lZGlhQm94IFswIDAgODgyIDEyNDhdCj4+CmVuZG9iago0IDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiAvVGV4dCBdIC9Db2xvclNwYWNlIDw8IC9DczEgNSAwIFIgPj4gL0V4dEdTdGF0ZSA8PCAvR3MxCjE2IDAgUiAvR3MyIDE3IDAgUiAvR3MzIDE4IDAgUiAvR3M0IDE5IDAgUiA+PiAvRm9udCA8PCAvVGMxIDYgMCBSID4+IC9YT2JqZWN0Cjw8IC9GbTEgNyAwIFIgL0ZtMiA5IDAgUiAvRm0zIDExIDAgUiAvRm00IDEzIDAgUiA+PiAvU2hhZGluZyA8PCAvU2gxIDE1IDAgUgo+PiA+PgplbmRvYmoKNyAwIG9iago8PCAvRmlsdGVyIC9GbGF0ZURlY29kZSAvVHlwZSAvWE9iamVjdCAvU3VidHlwZSAvRm9ybSAvRm9ybVR5cGUgMSAvQkJveCBbMTI1IDExNzcgMTQxIDExOTNdCi9SZXNvdXJjZXMgOCAwIFIgL0dyb3VwIDw8IC9TIC9UcmFuc3BhcmVuY3kgL0NTIDIwIDAgUiAvSSB0cnVlIC9LIGZhbHNlID4+Ci9MZW5ndGggNzIgPj4Kc3RyZWFtCngBK1QIVChUMDQyVTA0NDdXMDQDoaJUhXCFPAX9gNSi5NSCktLEHIWiTJAyMwUDIAQpgmlIzlXQ98w1VHDJ5wpUCAQA/H4TMQplbmRzdHJlYW0KZW5kb2JqCjggMCBvYmoKPDwgL1Byb2NTZXQgWyAvUERGIC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0gL1hPYmplY3QgPDwgL0ltMSAyMSAwIFIgPj4gPj4KZW5kb2JqCjkgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0Zvcm0gL0Zvcm1UeXBlIDEgL0JCb3ggWzEyNSAxMTU1IDE0MSAxMTcxXQovUmVzb3VyY2VzIDEwIDAgUiAvR3JvdXAgPDwgL1MgL1RyYW5zcGFyZW5jeSAvQ1MgMjAgMCBSIC9JIHRydWUgL0sgZmFsc2UgPj4KL0xlbmd0aCA3MCA+PgpzdHJlYW0KeAErVAhUKFQwNDJVMDQ0BRJmIFSUqhCukKegH5BalJxaUFKamKNQlAlSZqZgAIQgRTANybkK+p65hgou+VyBCoEA+zYTKQplbmRzdHJlYW0KZW5kb2JqCjEwIDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdIC9YT2JqZWN0IDw8IC9JbTEgMjEgMCBSID4+ID4+CmVuZG9iagoxMSAwIG9iago8PCAvRmlsdGVyIC9GbGF0ZURlY29kZSAvVHlwZSAvWE9iamVjdCAvU3VidHlwZSAvRm9ybSAvRm9ybVR5cGUgMSAvQkJveCBbMTI1IDExMzMgMTQxIDExNDldCi9SZXNvdXJjZXMgMTIgMCBSIC9Hcm91cCA8PCAvUyAvVHJhbnNwYXJlbmN5IC9DUyAyMCAwIFIgL0kgdHJ1ZSAvSyBmYWxzZSA+PgovTGVuZ3RoIDcyID4+CnN0cmVhbQp4AStUCFQoVDA0MlUwNDQ2VjA0A6GiVIVwhTwF/YDUouTUgpLSxByFokyQMjMFAyAEKYJpSM5V0PfMNVRwyecKVAgEAPnuEyEKZW5kc3RyZWFtCmVuZG9iagoxMiAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXSAvWE9iamVjdCA8PCAvSW0xIDIxIDAgUiA+PiA+PgplbmRvYmoKMTMgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0Zvcm0gL0Zvcm1UeXBlIDEgL0JCb3ggWzEyNSAxMTExIDE0MSAxMTI3XQovUmVzb3VyY2VzIDE0IDAgUiAvR3JvdXAgPDwgL1MgL1RyYW5zcGFyZW5jeSAvQ1MgMjAgMCBSIC9JIHRydWUgL0sgZmFsc2UgPj4KL0xlbmd0aCA3MCA+PgpzdHJlYW0KeAErVAhUKFQwNDJVMAQCBUMzECpKVQhXyFPQD0gtSk4tKClNzFEoygQpM1MwAEKQIpiG5FwFfc9cQwWXfK5AhUAA+KYTGQplbmRzdHJlYW0KZW5kb2JqCjE0IDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdIC9YT2JqZWN0IDw8IC9JbTEgMjEgMCBSID4+ID4+CmVuZG9iagoxNSAwIG9iago8PCAvQ29sb3JTcGFjZSAyMCAwIFIgL1NoYWRpbmdUeXBlIDIgL0Nvb3JkcyBbIDExNiA0IDExNiAxNiBdIC9Eb21haW4gWyAwCjEgXSAvRXh0ZW5kIFsgdHJ1ZSB0cnVlIF0gL0Z1bmN0aW9uIDIyIDAgUiA+PgplbmRvYmoKMjEgMCBvYmoKPDwgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0ltYWdlIC9XaWR0aCAzMiAvSGVpZ2h0IDMyIC9JbnRlcnBvbGF0ZSB0cnVlIC9Db2xvclNwYWNlCjIzIDAgUiAvSW50ZW50IC9QZXJjZXB0dWFsIC9TTWFzayAyNCAwIFIgL0JpdHNQZXJDb21wb25lbnQgOCAvTGVuZ3RoIDU0OSAvRmlsdGVyCi9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAGllluv6VAQx30IEY8evIoHT9v38SLnQwpv7CAiQgiJ+2VTl2pd6/x6VpQ6tfbS/vdudNaM35iZtcrt9lA0Gs1kMtls9s9vSqVSiUTi8U61u1AoJA+0LMswjNVqtVgscrlcOByWx7945fzj8bherweDQbPZrFar3W633+/HYrEXiMSU80+n03a7HY1G7Xb7+59ADYdD9RS/8nVdn8/nvV6vVquRAf7hcFBPIeefz2fTNJfLJcBWq0WL4DMRFsfjcTwel3RGuOT8y+XCp6VFs9mMEhqNhgNkfTKZ0Cg5Qe69Xq+MgBaJEjqdjsMXN6SORCIvi8+mCp9uwGEKdIlB1+v1YrFYKBTy+TzmdDqVnAs5n1bTIkrgCGw2G5GCXcp2rVQqpVKpXC6zgSUQiYsy4dMipsxBIMVut6NRtJ0TIbKQiEFIIBKXaKOTgipo1H6/pxCyMHHOBYkIk0AkLocvUtAoCiELtZCIoZNI07SA/JcstMtJJHKp8HnXR7rdo62bpcKnA76lwr9/nI9f6ZUKnzB/YuIqfML8iRGr8AnzJ/aqCp/97C17p5vmkT+Xns1AfMOF/d/goaHCN3Sdfw+5Vm3jfolY21Lhe5DVlnjiqfB5kri0dVlPhnC43H742hPSdSscDzcPfxU+P58cadzZl6eEw+X+lP/jCX6zyBeBCp/ffu/1g8u+3kiFT0wQSb6kcCWTya8ASqfTcj7e4Hou/y/fTm0YCmVuZHN0cmVhbQplbmRvYmoKMjQgMCBvYmoKPDwgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0ltYWdlIC9XaWR0aCAzMiAvSGVpZ2h0IDMyIC9Db2xvclNwYWNlIC9EZXZpY2VHcmF5Ci9CaXRzUGVyQ29tcG9uZW50IDggL0xlbmd0aCAxMzcgL0ZpbHRlciAvRmxhdGVEZWNvZGUgPj4Kc3RyZWFtCngBY2BgYDD1DAtHABtjoBAKUPuPAr4bocgyMJijSP///94eVYEFmjy6Agz5f6gmYMj/R1WAKQ9UYMcIdwQW+f//f+ril///Hx4OWPX//w8PBhzy5jALcMhbjMpDQmA0fNAzCJgPTx/o+QuqGp6+9Br7+zBAf7seLH1xyCipYAAlGQ6QPADhhICPCmVuZHN0cmVhbQplbmRvYmoKMTYgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvY2EgMC4xMjUgPj4KZW5kb2JqCjE3IDAgb2JqCjw8IC9UeXBlIC9FeHRHU3RhdGUgL2NhIDAuNCA+PgplbmRvYmoKMTggMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvQ0EgMC4zID4+CmVuZG9iagoxOSAwIG9iago8PCAvVHlwZSAvRXh0R1N0YXRlIC9jYSAxID4+CmVuZG9iagoyNSAwIG9iago8PCAvTiAzIC9BbHRlcm5hdGUgL0RldmljZVJHQiAvTGVuZ3RoIDI2MTIgL0ZpbHRlciAvRmxhdGVEZWNvZGUgPj4Kc3RyZWFtCngBnZZ3VFPZFofPvTe90BIiICX0GnoJINI7SBUEUYlJgFAChoQmdkQFRhQRKVZkVMABR4ciY0UUC4OCYtcJ8hBQxsFRREXl3YxrCe+tNfPemv3HWd/Z57fX2Wfvfde6AFD8ggTCdFgBgDShWBTu68FcEhPLxPcCGBABDlgBwOFmZgRH+EQC1Py9PZmZqEjGs/buLoBku9ssv1Amc9b/f5EiN0MkBgAKRdU2PH4mF+UClFOzxRky/wTK9JUpMoYxMhahCaKsIuPEr2z2p+Yru8mYlybkoRpZzhm8NJ6Mu1DemiXho4wEoVyYJeBno3wHZb1USZoA5fco09P4nEwAMBSZX8znJqFsiTJFFBnuifICAAiUxDm8cg6L+TlongB4pmfkigSJSWKmEdeYaeXoyGb68bNT+WIxK5TDTeGIeEzP9LQMjjAXgK9vlkUBJVltmWiR7a0c7e1Z1uZo+b/Z3x5+U/09yHr7VfEm7M+eQYyeWd9s7KwvvRYA9iRamx2zvpVVALRtBkDl4axP7yAA8gUAtN6c8x6GbF6SxOIMJwuL7OxscwGfay4r6Df7n4Jvyr+GOfeZy+77VjumFz+BI0kVM2VF5aanpktEzMwMDpfPZP33EP/jwDlpzcnDLJyfwBfxhehVUeiUCYSJaLuFPIFYkC5kCoR/1eF/GDYnBxl+nWsUaHVfAH2FOVC4SQfIbz0AQyMDJG4/egJ961sQMQrIvrxorZGvc48yev7n+h8LXIpu4UxBIlPm9gyPZHIloiwZo9+EbMECEpAHdKAKNIEuMAIsYA0cgDNwA94gAISASBADlgMuSAJpQASyQT7YAApBMdgBdoNqcADUgXrQBE6CNnAGXARXwA1wCwyAR0AKhsFLMAHegWkIgvAQFaJBqpAWpA+ZQtYQG1oIeUNBUDgUA8VDiZAQkkD50CaoGCqDqqFDUD30I3Qaughdg/qgB9AgNAb9AX2EEZgC02EN2AC2gNmwOxwIR8LL4ER4FZwHF8Db4Uq4Fj4Ot8IX4RvwACyFX8KTCEDICAPRRlgIG/FEQpBYJAERIWuRIqQCqUWakA6kG7mNSJFx5AMGh6FhmBgWxhnjh1mM4WJWYdZiSjDVmGOYVkwX5jZmEDOB+YKlYtWxplgnrD92CTYRm40txFZgj2BbsJexA9hh7DscDsfAGeIccH64GFwybjWuBLcP14y7gOvDDeEm8Xi8Kt4U74IPwXPwYnwhvgp/HH8e348fxr8nkAlaBGuCDyGWICRsJFQQGgjnCP2EEcI0UYGoT3QihhB5xFxiKbGO2EG8SRwmTpMUSYYkF1IkKZm0gVRJaiJdJj0mvSGTyTpkR3IYWUBeT64knyBfJQ+SP1CUKCYUT0ocRULZTjlKuUB5QHlDpVINqG7UWKqYup1aT71EfUp9L0eTM5fzl+PJrZOrkWuV65d7JU+U15d3l18unydfIX9K/qb8uAJRwUDBU4GjsFahRuG0wj2FSUWaopViiGKaYolig+I1xVElvJKBkrcST6lA6bDSJaUhGkLTpXnSuLRNtDraZdowHUc3pPvTk+nF9B/ovfQJZSVlW+Uo5RzlGuWzylIGwjBg+DNSGaWMk4y7jI/zNOa5z+PP2zavaV7/vCmV+SpuKnyVIpVmlQGVj6pMVW/VFNWdqm2qT9QwaiZqYWrZavvVLquNz6fPd57PnV80/+T8h+qwuol6uPpq9cPqPeqTGpoavhoZGlUalzTGNRmabprJmuWa5zTHtGhaC7UEWuVa57VeMJWZ7sxUZiWzizmhra7tpy3RPqTdqz2tY6izWGejTrPOE12SLls3Qbdct1N3Qk9LL1gvX69R76E+UZ+tn6S/R79bf8rA0CDaYItBm8GooYqhv2GeYaPhYyOqkavRKqNaozvGOGO2cYrxPuNbJrCJnUmSSY3JTVPY1N5UYLrPtM8Ma+ZoJjSrNbvHorDcWVmsRtagOcM8yHyjeZv5Kws9i1iLnRbdFl8s7SxTLessH1kpWQVYbbTqsPrD2sSaa11jfceGauNjs86m3ea1rakt33a/7X07ml2w3Ra7TrvP9g72Ivsm+zEHPYd4h70O99h0dii7hH3VEevo4bjO8YzjByd7J7HTSaffnVnOKc4NzqMLDBfwF9QtGHLRceG4HHKRLmQujF94cKHUVduV41rr+sxN143ndsRtxN3YPdn9uPsrD0sPkUeLx5Snk+cazwteiJevV5FXr7eS92Lvau+nPjo+iT6NPhO+dr6rfS/4Yf0C/Xb63fPX8Of61/tPBDgErAnoCqQERgRWBz4LMgkSBXUEw8EBwbuCHy/SXyRc1BYCQvxDdoU8CTUMXRX6cxguLDSsJux5uFV4fnh3BC1iRURDxLtIj8jSyEeLjRZLFndGyUfFRdVHTUV7RZdFS5dYLFmz5EaMWowgpj0WHxsVeyR2cqn30t1Lh+Ps4grj7i4zXJaz7NpyteWpy8+ukF/BWXEqHhsfHd8Q/4kTwqnlTK70X7l35QTXk7uH+5LnxivnjfFd+GX8kQSXhLKE0USXxF2JY0muSRVJ4wJPQbXgdbJf8oHkqZSQlKMpM6nRqc1phLT4tNNCJWGKsCtdMz0nvS/DNKMwQ7rKadXuVROiQNGRTChzWWa7mI7+TPVIjCSbJYNZC7Nqst5nR2WfylHMEeb05JrkbssdyfPJ+341ZjV3dWe+dv6G/ME17msOrYXWrlzbuU53XcG64fW+649tIG1I2fDLRsuNZRvfbore1FGgUbC+YGiz7+bGQrlCUeG9Lc5bDmzFbBVs7d1ms61q25ciXtH1YsviiuJPJdyS699ZfVf53cz2hO29pfal+3fgdgh33N3puvNYmWJZXtnQruBdreXM8qLyt7tX7L5WYVtxYA9pj2SPtDKosr1Kr2pH1afqpOqBGo+a5r3qe7ftndrH29e/321/0wGNA8UHPh4UHLx/yPdQa61BbcVh3OGsw8/rouq6v2d/X39E7Ujxkc9HhUelx8KPddU71Nc3qDeUNsKNksax43HHb/3g9UN7E6vpUDOjufgEOCE58eLH+B/vngw82XmKfarpJ/2f9rbQWopaodbc1om2pDZpe0x73+mA050dzh0tP5v/fPSM9pmas8pnS8+RzhWcmzmfd37yQsaF8YuJF4c6V3Q+urTk0p2usK7ey4GXr17xuXKp2737/FWXq2euOV07fZ19ve2G/Y3WHruell/sfmnpte9tvelws/2W462OvgV95/pd+y/e9rp95Y7/nRsDiwb67i6+e/9e3D3pfd790QepD14/zHo4/Wj9Y+zjoicKTyqeqj+t/dX412apvfTsoNdgz7OIZ4+GuEMv/5X5r0/DBc+pzytGtEbqR61Hz4z5jN16sfTF8MuMl9Pjhb8p/rb3ldGrn353+71nYsnE8GvR65k/St6ovjn61vZt52To5NN3ae+mp4req74/9oH9oftj9MeR6exP+E+Vn40/d3wJ/PJ4Jm1m5t/3hPP7CmVuZHN0cmVhbQplbmRvYmoKNSAwIG9iagpbIC9JQ0NCYXNlZCAyNSAwIFIgXQplbmRvYmoKMjYgMCBvYmoKPDwgL04gMyAvQWx0ZXJuYXRlIC9EZXZpY2VSR0IgL0xlbmd0aCAxMDcyIC9GaWx0ZXIgL0ZsYXRlRGVj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YRcUHRkcH8RkLZwRyCDOYAdrgAEhwIJo9MRDJDBRz0DxIBSJhGAUC+LG0Kz/yLeY9//37NAd6N4KYMeKS46PDI9gM2zQDTyUYceKidvODo3XYTjFhujpMAwNDIzwcby7La4oIgD5OriqN+vBu3+0/wGoUJ/KCmVuZHN0cmVhbQplbmRvYmoKMjMgMCBvYmoKWyAvSUNDQmFzZWQgMjcgMCBSIF0KZW5kb2JqCjIyIDAgb2JqCjw8IC9GdW5jdGlvblR5cGUgMCAvQml0c1BlclNhbXBsZSA4IC9TaXplIFsgMTM2NSBdIC9Eb21haW4gWyAwIDEgXSAvUmFuZ2UKWyAwIDEgMCAxIDAgMSBdIC9MZW5ndGggMTQxIC9GaWx0ZXIgL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AaXBZ0KBAQAA0PufKdlkC4Vo2FHI3nwdwY/3XhDccQNXcAFncAJHcAB7sANbsAFrsAJLsAB/YG5mYAp+wQ+YgDH4BiMwBAPQBz3QBR3wBT7Bh3kHbdACb6AJGqAOXsELqIEqqIBnUAYlUAQFkwc5kAUZ8ATSIAWSIAHiIAaiIALC4BGEwMM9/2diz+cKZW5kc3RyZWFtCmVuZG9iagoyIDAgb2JqCjw8IC9UeXBlIC9QYWdlcyAvTWVkaWFCb3ggWzAgMCA4ODIgMTI0OF0gL0NvdW50IDEgL0tpZHMgWyAxIDAgUiBdID4+CmVuZG9iagoyOCAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgL1ZlcnNpb24gLzEuNCA+PgplbmRvYmoKNiAwIG9iago8PCAvVHlwZSAvRm9udCAvU3VidHlwZSAvVHlwZTEgL0Jhc2VGb250IC9BQUFBQUIrSWRlYWxTYW5zU1NtLUJvb2sgL0ZvbnREZXNjcmlwdG9yCjI5IDAgUiAvRW5jb2RpbmcgL01hY1JvbWFuRW5jb2RpbmcgL0ZpcnN0Q2hhciAzMiAvTGFzdENoYXIgMTIxIC9XaWR0aHMgWyAyNDYKMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDI2NyAwIDI2NiAwIDY3MSA0MDkgNTYwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMAowIDAgNzE3IDAgMCAwIDAgMCAzNDIgMCAwIDAgMCAwIDAgMCAwIDAgMCA2NzUgMCAwIDEwMzggMCAwIDAgMCAwIDAgMCAwIDAgNTU1CjYyNyA1NDkgNjI2IDU3NCAzODIgNTQzIDAgMjc4IDAgNTM3IDI3OCA5MjcgNjIyIDYxNyAwIDAgMzkyIDQ3NiA0MDIgNjIzIDAKNzk5IDAgNTM0IF0gPj4KZW5kb2JqCjI5IDAgb2JqCjw8IC9UeXBlIC9Gb250RGVzY3JpcHRvciAvRm9udE5hbWUgL0FBQUFBQitJZGVhbFNhbnNTU20tQm9vayAvRmxhZ3MgMzIgL0ZvbnRCQm94ClstMTYyIC0yODUgMTMwMCAxMTk3XSAvSXRhbGljQW5nbGUgMCAvQXNjZW50IDk2MCAvRGVzY2VudCAtMjQwIC9DYXBIZWlnaHQKNzAzIC9TdGVtViA5NiAvWEhlaWdodCA1MDUgL1N0ZW1IIDgzIC9BdmdXaWR0aCAyNzggL01heFdpZHRoIDE1MjQgL0ZvbnRGaWxlMwozMCAwIFIgPj4KZW5kb2JqCjMwIDAgb2JqCjw8IC9TdWJ0eXBlIC9UeXBlMUMgL0xlbmd0aCA3MjMxIC9GaWx0ZXIgL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AYWZd1QUV9/Hd1lmZ3cu2TyyGQM7zqwFTayJGHtUVJQiCAI2UESlSZG+S1VUZNssoKKCivTeEWsw1igW7N0AlhhLEtNzh1zy5L2ryZPnPec95+Wf2TMz/G75lfv7fkYssrYSicVi+9mWvzmj3YJDVkf5rl6f4OsbPXZOTEyk5eE4gREJg6wEViLQ1sjGRtJjY216B01CrYOI9wZZNxKDFNJ3BynmDugYZLvLViQRi63fHz5+nOMbY4Mt1gZjc4Mt5v73LdFuPLjoQ1GCKE3UInomloiHiseLPcVbxcfF16z+ZTXJarvVUavPraBkp6Tceoz1MesfCIrII2qJY8Qd4gXxHfGHVCl1kI6WzpIulCZIc6QPpH3k+yRLOpCjyY/IuaSe3EkWkiVkBXmMvEjeJO+S35I/yhSyobIRso9lk2XuspWycJlGlikzyAplp2XnZLdlPbJnstdypfwD+US5k9xZvkgeKI+Ua+Ub5EZ5rnyHvFBeKm+QH5Yfl5+S35N/Lf+FsqJISk2NpJwoZ8qVWkHFUdnUdqqAKqWqqQbqJHWLukd9Q/0bDACDwDAwCnwKnIEHWARWgzigBZtAHigAVaAZdIDz4BZ4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v6CgnfH2pXnErjIogetMKpBXjXEihXGiaZc+Nztbr7OQBNPGHF1eXk6u5feS7F74a09COXim6xEu9aYUAahE5EtMLYMNFrdiOtM3rSdZa9v1Wij+HtOZ3ZMIhSGZA9xRvt10GnMmmfSk8aCpw8iDHZpGC1TLwZsLIzBzu9nWfrg1omlOCfbEypQmFtj+9kpQvQKavggcAoD3M8sS8UeQFIysTliQFVgRGTI/iMPjDk5+bMEaa99YLLDYO2XR36ClTdfE/HDj2K2OkJbJe7DZd7Dsx+ciCa2x7E4HI/D+XfsakGeNp0ynjHyZ5SuYDJRRtwHMyfknLPHRJsq07B2A5BVIAgxw91B6AvyxuBUzz8VtLMhp5AyxofoEJjfQDBKNYdspEIODGzzCaBKnleusQEsRo7OaN13eWq+FtnbAyzA9O4jjf87nGfBYePxY/OSVBcLqKWDjgNlbY+Y9XY0sSbo5FZhwPRytOap5fhrQb0440MKcqtQkrAuMdsAvJxnB/wACX+ZCCmVuZHN0cmVhbQplbmRvYmoKMzEgMCBvYmoKPDwgL1Byb2R1Y2VyIChtYWNPUyBWZXJzaW9uIDEyLjAuMSBcKEJ1aWxkIDIxQTU1OFwpIFF1YXJ0eiBQREZDb250ZXh0KSAvQ3JlYXRpb25EYXRlCihEOjIwMjExMTA2MTExNzMzWjAwJzAwJykgL01vZERhdGUgKEQ6MjAyMTExMDYxMTE3MzNaMDAnMDAnKSA+PgplbmRvYmoKeHJlZgowIDMyCjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMTIyMCAwMDAwMCBuIAowMDAwMDExNDE3IDAwMDAwIG4gCjAwMDAwMDAwMjIgMDAwMDAgbiAKMDAwMDAwMTMyNSAwMDAwMCBuIAowMDAwMDA3MTkxIDAwMDAwIG4gCjAwMDAwMTE1NjUgMDAwMDAgbiAKMDAwMDAwMTU3NSAwMDAwMCBuIAowMDAwMDAxODYxIDAwMDAwIG4gCjAwMDAwMDE5NTEgMDAwMDAgbiAKMDAwMDAwMjIzNiAwMDAwMCBuIAowMDAwMDAyMzI3IDAwMDAwIG4gCjAwMDAwMDI2MTUgMDAwMDAgbiAKMDAwMDAwMjcwNiAwMDAwMCBuIAowMDAwMDAyOTkyIDAwMDAwIG4gCjAwMDAwMDMwODMgMDAwMDAgbiAKMDAwMDAwNDI5MCAwMDAwMCBuIAowMDAwMDA0MzM5IDAwMDAwIG4gCjAwMDAwMDQzODYgMDAwMDAgbiAKMDAwMDAwNDQzMyAwMDAwMCBuIAowMDAwMDA4NDAwIDAwMDAwIG4gCjAwMDAwMDMyMTkgMDAwMDAgbiAKMDAwMDAxMTExNiAwMDAwMCBuIAowMDAwMDExMDc5IDAwMDAwIG4gCjAwMDAwMDM5ODQgMDAwMDAgbiAKMDAwMDAwNDQ3OCAwMDAwMCBuIAowMDAwMDA3MjI3IDAwMDAwIG4gCjAwMDAwMDg0MzcgMDAwMDAgbiAKMDAwMDAxMTUwMSAwMDAwMCBuIAowMDAwMDExOTgwIDAwMDAwIG4gCjAwMDAwMTIyMzggMDAwMDAgbiAKMDAwMDAxOTU2MCAwMDAwMCBuIAp0cmFpbGVyCjw8IC9TaXplIDMyIC9Sb290IDI4IDAgUiAvSW5mbyAzMSAwIFIgL0lEIFsgPDk2ZmZhNGNiMzYzZGE3NjViZjA2NmVlYzg0NzA5NWMwPgo8OTZmZmE0Y2IzNjNkYTc2NWJmMDY2ZWVjODQ3MDk1YzA+IF0gPj4Kc3RhcnR4cmVmCjE5NzI1CiUlRU9GCg==</preview>
+JVBERi0xLjMKJcTl8uXrp/Og0MTGCjMgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL0xlbmd0aCAxMzU4ID4+CnN0cmVhbQp4AaVYTY/bNhC981fMrTbQeknq+1Sgm7ZITw3WQA5BD7Yjr91I68QfSPff982QlOy1vtCuDx5LoyE58+bN036jD/SNHh5PhjYn0os8S7SJ4ivL0GlDRUpGFznV+IqcWXkzj6nCfWW0WDvaunCPTwgS51lkMw6XpLlNjYWVWmtNZujpESsb0vj8xF/GaGyi5liRXyhCaFkwkzXI8PeOnrBpxKF9XwBqAqhKvHsWotgvxGfgqN1+OWVU44BmkRiYw66FhBTXwrtKin+rDb078BrKGMkhguLQYhp44vycWWdyvvOEr1rbXi3emBmOt6OP9BIelpDuCd6ne9jFkehiuice/iyPm/Lr+bKq6IhMqo5SPDztUP4dNi2pmbpt7Gp429ia3wQDzyEl5b+MMfPWUn1I4eRJBWVjTQrFQALTJgNyhZPHOzMFHgowktIE9AsWgfaH37GrZ7QDp9WgSgjGRsWGznIYGnAQg/HusChNxGeRD/aMMJbDdIKKvWrK0Vi8qV7sabKMZfaD4RybbpWF3H4j2a9qO8KQiRlaebKwieW++mWJS/KI/1rW9LDcwJGWW/pEs4+71Rw/Zmfab+k9rS/76kzv5iqh2fFS1+WRDpczHeCjabal5ZwsvPcvn8vjmq+mNPvn5zn9Rcs/6NclIBM2ykuAWnKd6UQrTyfGcgKku9lEYZhZjOaqMd04a4RO1A2dIOFxR8KROKGVlhXCale0ogZopTNAR8mCnxqhFe8ntIJjD9GKjRTvPad+WrFMKyHVDnxIcQCdxwHQyjjgYKM4eO8Ke/7hRKs1l/z7rjyivpZmJXBR7b/gh1H4cYZBswOdX7+WA4VPE10kmudIBDKzcbpIUPoIDSk28C92VOA6bPbx9kj5ufP6polNJHWI1izHhlsralZyVn/xEQboUfdh7uvvXHn/WTggG65pNaYVF0nJmL3juCveQ5pMLing/og5SYxTZnVnhaRIqMABbb0zzmsk5Z7U9lZLi1szUMEsLoq8UQImZlJ0/QoztK7FNpW0Lltg+G2DQj/g43hCJ7YD/orOhgLcV8I0C/lOREd2kqz3m9KJwVX1d2I0qRNt7hlZTelEgwarV88l0y2aGC14QtfdcSymt3BsijJpaTUpRBqEkDEwQ6FiFiZyX6yAJz+InWQDs06RbGk6WlG0d397mc4AHRUVP0bXCLe6eIJNmS8ie3zxQw9C6uJ4Q9qUe5CfNEkqSE8WeRwhxSaJoDs5jzyhcJNNdxOqLskXTlkESRCa0qPXn3UK2tJ0lPfjSWhL9GTefzk4Pi9PQuuLtZcDr3PCzmeLl5KRp3qme0vygiwozUARTn/KdIfs98hjCzP3v78s5Pkt8vDS4PF9NdWHkPc2AOSB54hbKdz4jSDP+91Wt1vbNa79XJLcVZeFUwAUoMjqzmR2srp7rA6Xz9tqJZOch/d3VBllLde0ellVr+f9BnW/IxbQSgexWDCRLy9MHNINg4JTKOUX63+U10Krj4u2gfIiQIsPiPWoLS8fCB/XlK3fcHm9HwIhGJ+9h1h4kA+89AZisSBpfqVsiKXIWmLhmy2xYJprO0gsIVm30Ato7jzukKBM1RRBWcSToKf4xWJOSQGkVRswCfRiXdJ6tfnyI8Tk84XZBhcHsSf6kfGfshyyicgrMIi3KxLb5KK2xMfbIwi8fX0IzeWBAR0HBCKa049YwulHXsupRl7J60fFI6vrfxK2L8z9jHOuClGdfsRC9/rR/ZtmRD9CbBtrclVTjDllLc+pRFLHVpMUlqL3+tFAcuDptK+86ua9cWagG5d/uxe+D/8CVT/daAplbmRzdHJlYW0KZW5kb2JqCjEgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvUmVzb3VyY2VzIDQgMCBSIC9Db250ZW50cyAzIDAgUiAvTWVkaWFCb3ggWzAgMCA4OTUgMTI2M10KPj4KZW5kb2JqCjQgMCBvYmoKPDwgL1Byb2NTZXQgWyAvUERGIC9UZXh0IF0gL0NvbG9yU3BhY2UgPDwgL0NzMSA1IDAgUiA+PiAvRXh0R1N0YXRlIDw8IC9HczEKMjAgMCBSIC9HczIgMjEgMCBSIC9HczMgMjIgMCBSIC9HczQgMjMgMCBSID4+IC9Gb250IDw8IC9UYzEgOSAwIFIgPj4gL1hPYmplY3QKPDwgL0ZtMSA2IDAgUiAvRm0yIDEwIDAgUiAvRm0zIDEyIDAgUiAvRm00IDE0IDAgUiAvRm01IDE2IDAgUiAvRm02IDE4IDAgUgo+PiAvU2hhZGluZyA8PCAvU2gxIDggMCBSID4+ID4+CmVuZG9iago2IDAgb2JqCjw8IC9GaWx0ZXIgL0ZsYXRlRGVjb2RlIC9UeXBlIC9YT2JqZWN0IC9TdWJ0eXBlIC9Gb3JtIC9Gb3JtVHlwZSAxIC9CQm94IFsxMjUgMTA4MyAxNDEgMTA5OV0KL1Jlc291cmNlcyA3IDAgUiAvR3JvdXAgPDwgL1MgL1RyYW5zcGFyZW5jeSAvQ1MgMjQgMCBSIC9JIHRydWUgL0sgZmFsc2UgPj4KL0xlbmd0aCA3MiA+PgpzdHJlYW0KeAErVAhUKFQwNDJVMDSwMFYwNAOholSFcIU8Bf2A1KLk1IKS0sQchaJMkDIzBQMgBCmCaUjOVdD3zDVUcMnnClQIBAD7OBMpCmVuZHN0cmVhbQplbmRvYmoKNyAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXSAvWE9iamVjdCA8PCAvSW0xIDI1IDAgUiA+PiA+PgplbmRvYmoKMTAgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0Zvcm0gL0Zvcm1UeXBlIDEgL0JCb3ggWzEyNSAxMTA1IDE0MSAxMTIxXQovUmVzb3VyY2VzIDExIDAgUiAvR3JvdXAgPDwgL1MgL1RyYW5zcGFyZW5jeSAvQ1MgMjQgMCBSIC9JIHRydWUgL0sgZmFsc2UgPj4KL0xlbmd0aCA3MCA+PgpzdHJlYW0KeAErVAhUKFQwNDJVMDQ0ABJmIFSUqhCukKegH5BalJxaUFKamKNQlAlSZqZgAIQgRTANybkK+p65hgou+VyBCoEA+ZcTHwplbmRzdHJlYW0KZW5kb2JqCjExIDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdIC9YT2JqZWN0IDw8IC9JbTEgMjUgMCBSID4+ID4+CmVuZG9iagoxMiAwIG9iago8PCAvRmlsdGVyIC9GbGF0ZURlY29kZSAvVHlwZSAvWE9iamVjdCAvU3VidHlwZSAvRm9ybSAvRm9ybVR5cGUgMSAvQkJveCBbMTI1IDExMjYgMTQxIDExNDJdCi9SZXNvdXJjZXMgMTMgMCBSIC9Hcm91cCA8PCAvUyAvVHJhbnNwYXJlbmN5IC9DUyAyNCAwIFIgL0kgdHJ1ZSAvSyBmYWxzZSA+PgovTGVuZ3RoIDcxID4+CnN0cmVhbQp4AStUCFQoVDA0MlUwNDQyUzAEo6JUhXCFPAX9gNSi5NSCktLEHIWiTJAyMwUDIAQpgmlIzlXQ98w1VHDJ5wpUCAQA+o4TJQplbmRzdHJlYW0KZW5kb2JqCjEzIDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdIC9YT2JqZWN0IDw8IC9JbTEgMjUgMCBSID4+ID4+CmVuZG9iagoxNCAwIG9iago8PCAvRmlsdGVyIC9GbGF0ZURlY29kZSAvVHlwZSAvWE9iamVjdCAvU3VidHlwZSAvRm9ybSAvRm9ybVR5cGUgMSAvQkJveCBbMTI1IDExNDggMTQxIDExNjRdCi9SZXNvdXJjZXMgMTUgMCBSIC9Hcm91cCA8PCAvUyAvVHJhbnNwYXJlbmN5IC9DUyAyNCAwIFIgL0kgdHJ1ZSAvSyBmYWxzZSA+PgovTGVuZ3RoIDcyID4+CnN0cmVhbQp4AStUCFQoVDA0MlUwNDSxUDA0A6GiVIVwhTwF/YDUouTUgpLSxByFokyQMjMFAyAEKYJpSM5V0PfMNVRwyecKVAgEAPvWEy0KZW5kc3RyZWFtCmVuZG9iagoxNSAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXSAvWE9iamVjdCA8PCAvSW0xIDI1IDAgUiA+PiA+PgplbmRvYmoKMTYgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0Zvcm0gL0Zvcm1UeXBlIDEgL0JCb3ggWzEyNSAxMTcwIDE0MSAxMTg2XQovUmVzb3VyY2VzIDE3IDAgUiAvR3JvdXAgPDwgL1MgL1RyYW5zcGFyZW5jeSAvQ1MgMjQgMCBSIC9JIHRydWUgL0sgZmFsc2UgPj4KL0xlbmd0aCA3MiA+PgpzdHJlYW0KeAErVAhUKFQwNDJVMDQ0N1AwNAOholSFcIU8Bf2A1KLk1IKS0sQchaJMkDIzBQMgBCmCaUjOVdD3zDVUcMnnClQIBAD6RxMjCmVuZHN0cmVhbQplbmRvYmoKMTcgMCBvYmoKPDwgL1Byb2NTZXQgWyAvUERGIC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0gL1hPYmplY3QgPDwgL0ltMSAyNSAwIFIgPj4gPj4KZW5kb2JqCjE4IDAgb2JqCjw8IC9GaWx0ZXIgL0ZsYXRlRGVjb2RlIC9UeXBlIC9YT2JqZWN0IC9TdWJ0eXBlIC9Gb3JtIC9Gb3JtVHlwZSAxIC9CQm94IFsxMjUgMTE5MiAxNDEgMTIwOF0KL1Jlc291cmNlcyAxOSAwIFIgL0dyb3VwIDw8IC9TIC9UcmFuc3BhcmVuY3kgL0NTIDI0IDAgUiAvSSB0cnVlIC9LIGZhbHNlID4+Ci9MZW5ndGggNzIgPj4Kc3RyZWFtCngBK1QIVChUMDQyVTA0tDRSMDQDoaJUhXCFPAX9gNSi5NSCktLEHIWiTJAyMwUDIAQpgmlIzlXQ98w1VHDJ5wpUCAQA+48TKwplbmRzdHJlYW0KZW5kb2JqCjE5IDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdIC9YT2JqZWN0IDw8IC9JbTEgMjUgMCBSID4+ID4+CmVuZG9iago4IDAgb2JqCjw8IC9Db2xvclNwYWNlIDI0IDAgUiAvU2hhZGluZ1R5cGUgMiAvQ29vcmRzIFsgMTE2IDQgMTE2IDE2IF0gL0RvbWFpbiBbIDAKMSBdIC9FeHRlbmQgWyB0cnVlIHRydWUgXSAvRnVuY3Rpb24gMjYgMCBSID4+CmVuZG9iagoyNSAwIG9iago8PCAvVHlwZSAvWE9iamVjdCAvU3VidHlwZSAvSW1hZ2UgL1dpZHRoIDMyIC9IZWlnaHQgMzIgL0ludGVycG9sYXRlIHRydWUgL0NvbG9yU3BhY2UKMjcgMCBSIC9JbnRlbnQgL1BlcmNlcHR1YWwgL1NNYXNrIDI4IDAgUiAvQml0c1BlckNvbXBvbmVudCA4IC9MZW5ndGggNTQ5IC9GaWx0ZXIKL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AaWWW6/pUBDHfQgRjx68igdP2/fxIudDCm/sICJCCIn7ZVOXal3r/HpWlDq19tL+92501ozfmJm1yu32UDQazWQy2Wz2z29KpVKJROLxTrW7UCgkD7QsyzCM1Wq1WCxyuVw4HJbHv3jl/OPxuF6vB4NBs9msVqvdbrff78disReIxJTzT6fTdrsdjUbtdvv7n0ANh0P1FL/ydV2fz+e9Xq9Wq5EB/uFwUE8h55/PZ9M0l8slwFarRYvgMxEWx+NxPB6XdEa45PzL5cKnpUWz2YwSGo2GA2R9MpnQKDlB7r1er4yAFokSOp2Owxc3pI5EIi+Lz6YKn27AYQp0iUHX6/VisVgoFPL5POZ0OpWcCzmfVtMiSuAIbDYbkYJdynatVCqlUqlcLrOBJRCJizLh0yKmzEEgxW63o1G0nRMhspCIQUggEpdoo5OCKmjUfr+nELIwcc4FiQiTQCQuhy9S0CgKIQu1kIihk0jTtID8lyy0y0kkcqnweddHut2jrZulwqcDvqXCv3+cj1/plQqfMH9i4ip8wvyJEavwCfMn9qoKn/3sLXunm+aRP5eezUB8w4X93+ChocI3dJ1/D7lWbeN+iVjbUuF7kNWWeOKp8HmSuLR1WU+GcLjcfvjaE9J1KxwPNw9/FT4/nxxp3NmXp4TD5f6U/+MJfrPIF4EKn99+7/WDy77eSIVPTBBJvqRwJZPJrwBKp9NyPt7gei7/L99ObRgKZW5kc3RyZWFtCmVuZG9iagoyOCAwIG9iago8PCAvVHlwZSAvWE9iamVjdCAvU3VidHlwZSAvSW1hZ2UgL1dpZHRoIDMyIC9IZWlnaHQgMzIgL0NvbG9yU3BhY2UgL0RldmljZUdyYXkKL0JpdHNQZXJDb21wb25lbnQgOCAvTGVuZ3RoIDEzNyAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAFjYGBgMPUMC0cAG2OgEApQ+48CvhuhyDIwmKNI////3h5VgQWaPLoCDPl/qCZgyP9HVYApD1Rgxwh3BBb5//9/6uKX//8fHg5Y9f//Dw8GHPLmMAtwyFuMykNCYDR80DMImA9PH+j5C6oanr70Gvv7MEB/ux4sfXHIKKlgACUZDpA8AOGEgI8KZW5kc3RyZWFtCmVuZG9iagoyMCAwIG9iago8PCAvVHlwZSAvRXh0R1N0YXRlIC9jYSAwLjQgPj4KZW5kb2JqCjIxIDAgb2JqCjw8IC9UeXBlIC9FeHRHU3RhdGUgL0NBIDAuMyA+PgplbmRvYmoKMjIgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvY2EgMSA+PgplbmRvYmoKMjMgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0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BMPBAcG7gh8v0l8kXNQWAkL8Q3aFPAk1DF0V+nMYLiw0rCbsebhVeH54dwQtYkVEQ8S7SI/I0shHi40WSxZ3RslHxUXVR01Fe0WXRUuXWCxZs+RGjFqMIKY9Fh8bFXskdnKp99LdS4fj7OIK4+4uM1yWs+zacrXlqcvPrpBfwVlxKh4bHx3fEP+JE8Kp5Uyu9F+5d+UE15O7h/uS58Yr543xXfhl/JEEl4SyhNFEl8RdiWNJrkkVSeMCT0G14HWyX/KB5KmUkJSjKTOp0anNaYS0+LTTQiVhirArXTM9J70vwzSjMEO6ymnV7lUTokDRkUwoc1lmu5iO/kz1SIwkmyWDWQuzarLeZ0dln8pRzBHm9OSa5G7LHcnzyft+NWY1d3Vnvnb+hvzBNe5rDq2F1q5c27lOd13BuuH1vuuPbSBtSNnwy0bLjWUb326K3tRRoFGwvmBos+/mxkK5QlHhvS3OWw5sxWwVbO3dZrOtatuXIl7R9WLL4oriTyXckuvfWX1X+d3M9oTtvaX2pft34HYId9zd6brzWJliWV7Z0K7gXa3lzPKi8re7V+y+VmFbcWAPaY9kj7QyqLK9Sq9qR9Wn6qTqgRqPmua96nu37Z3ax9vXv99tf9MBjQPFBz4eFBy8f8j3UGutQW3FYdzhrMPP66Lqur9nf19/RO1I8ZHPR4VHpcfCj3XVO9TXN6g3lDbCjZLGseNxx2/94PVDexOr6VAzo7n4BDghOfHix/gf754MPNl5in2q6Sf9n/a20FqKWqHW3NaJtqQ2aXtMe9/pgNOdHc4dLT+b/3z0jPaZmrPKZ0vPkc4VnJs5n3d+8kLGhfGLiReHOld0Prq05NKdrrCu3suBl69e8blyqdu9+/xVl6tnrjldO32dfb3thv2N1h67npZf7H5p6bXvbb3pcLP9luOtjr4Ffef6Xfsv3va6feWO/50bA4sG+u4uvnv/Xtw96X3e/dEHqQ9eP8x6OP1o/WPs46InCk8qnqo/rf3V+Ndmqb307KDXYM+ziGePhrhDL/+V+a9PwwXPqc8rRrRG6ketR8+M+YzderH0xfDLjJfT44W/Kf6295XRq59+d/u9Z2LJxPBr0euZP0reqL45+tb2bedk6OTTd2nvpqeK3qu+P/aB/aH7Y/THkensT/hPlZ+NP3d8CfzyeCZtZubf94Tz+wplbmRzdHJlYW0KZW5kb2JqCjUgMCBv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cfLH3NxTefmnfyooLCo+8/PPv5ScLS07V15ecf7XyqoLFy/+Vv17zaXa2rr6yw1//NH4Z1Nz85W/Wq5eu3a99cbNm7dut7XdaW+/e6+j435nZ1d394OHjx49fvLk6bPnz1/09Pb29b989ervgcGh4dcjb0bHxifevpt6P/1hdu7jJw4QyQgAXRAnICEpLSOHI2CoLOEx0NbR0zdAEEwWIFhYWv0bBB6FRQgLFHAIixQQBi4FHoa9XAw8DjwMixxwDIscEAYuBxwDzuFrDJ8pXEUUEIZbCMNnCl1dCxAWGOAI/h7AEfAITL6bmp6ZnUfrJ5DIFCqNny4gJCwiKiYhKcVloIggqOIQ1JETFikYf8HwtRu4duD5gWsIriNwSwTgNLiewHEsugK3Be4L3BgLSPbwnIEb4zORz85A1uA5g2eNr5FUfUbCNUYjjoTrC9wWXBzIE/eRI5AhcDf09Pa9fDUwiBiMTUxOTX+YQ+sH3n7H9wTFFKAoA8CbBOB7CSBLHkBdAx0nMgBuggCeK4BgZPT5wfcPfijiu4gARHQa0kEEpEARloIemIEtuIAvhEI6HIUCqIJmeAUzGB0zwdZhQdhRrBRrxqYIwgRtApOQTiggPCUqEC2IW4hniMMkYZIxKZXURlYk25PjyC0UeQqbUkRpp+pSj1BH+Tz4amkMmiftEO09P5O/i+5AbxAwFCgXXCZYLKQiVCSsJlwmoi9SK2on2i62WWxUPE1CUqJc0k7ymVSytLR0jcxGmXnZIjlH+XwFJ4UZxVKlTcrCylcZu1XMVN6qVi1hqRmoTS7bo26vIaLxVLNMK1l7rY6CzoTudb1C/WQDL0Mxw0mjLuM6k0LTA2bbzP1XOK00X6VhIWRJtJyzemc9ajNsO2g3uGbIfsJh2pGzlrZOwlnFxcDVer2HW5j7Lo+cDeVevd6cjUq+Vn5Bm/b7l2/uCJgLXBrkEVLJ7AkTC3eISIms3vomhhlbzOrdphofmlDGHktK3XFjp+SukJSLe4hpZemcfd7fVmbQDl45pHI4/Uh/VkW2WM6uH14ed/tROzcvTyA/tWBrYW+x3y/uJe1ld8rdKzorey5EVu+poddp1tc3uPyZ1CzUYnP12fVdN+tvb2rj3FvbMdGZ1/3No4Inrk85zy/0MPtk++++OjhgMzg/XDeSOGo6JjU2PVE3mTJl+37pNN/M3dlTc6nzoZ+Wc5B/uI3Arb4YyKPaG8BqWAt+EAW7IQdKoRG6YRwTwLQwRywcy8TOYx3YB4IawZWQTCghPCDSiKuJLOJZYg9JnuRDOk7qIsuTA8gl5FGKOSWD0k1VpW6n3uRT4dvN94RmRjtOm+P3579K16afECALbBcYENwkeE/IUahZ2EK4WcRapFXUSbRLzFdsUDxZgi5RiKr+QuqQtJ70A5n9smayQ3Kn5X0UhBX+UkxXslSaV25kZKi4qyqrDiypVctaylxmoS6i/kbjnmaF1kntdJ1IXX+9tfqWBubLjQ0NjZYbm5lYm7qYBZonrMhYmbuqevUji49WDGtHG7Ztod39b6TsXRwOODY49awjOsu6OLpGrj/ids794QaKp4UXyzvPp9OX5me9abd/UwBti0dgTtCDEG1meuj1cLmI7ZEdUWrRmTFDLMe46njxhBT260S/pNZk053nU9R256cqpOXuldj33X6+jB8OymcWHlY5Uv29U9bj7PCc8WNpJ5RPtuRm50WddihQL6IVz/48WfKstPPcg4obv16run+xrfpGTWttX/3rhvHGl039V0Zbxq69ae2/OXr7+Z32u1c6ajq/70576PNY78n8s5YXR3td+wVfNv7NHOAMZb1WHjk/qjGWMz731n/y4rvZ97rTfjMHP+TNlsz9NJ/zMeETa6H+GKq+IEiDKqq9DWyACNgDJ9COvw3DaL/rYe5YInYau45NElQIHoR9hN8Jw0Q14mZiLrGbJI1qforUR9YmJ5CvUMQpwZRLVGFqGLWJT4kvla+XZk/7lV+e/wD/B3oMvU/AV6BD0BXV20vosXCg8IjIDlGKaK6YrlireKD4J1RtXykRqXvSR2U8ZRmyI3KN8tkKoYrmSuJKo8p3GL+rFKkeWsJWY6E6B6i7a3hp+mht0Y7RSdLN0vtJ/7LB4+XzRsrGTiZs0zKznhXSK11XZa7usJS12mJdZTNt57Km0p7qEO5Y5zSyTsHZymWHa8n6Dneih9mGZM8arykfrY3bfCv9Jv0tNn8X0B+oHZQUfJupH5oa1hlhEnlq61i0X0wzSzUuZ9t0QjC7K9EhqTZZc2dhitzuY6mSacf2iuzL3E/OyD4ol1mAqvvbP6r7W67JqaJ8xdOlBeaFd4qdz7z+5fBZhdIr5wIraOerK7dcIFw8Wx1VI32ppY59WamhvjG2Sbq5/q/gq9RrFa12Nx7dim3D7hy6S72XfZ/SebSL8yDqYdfj1U+KnhGfu7w41tPTZ9Qf+PL4q/YB8qDWkNNw2OvUkZNvykdrxi6NV09ceFs2WfAuYyr6/frp5TPCMyMfLs8envOeV5kf+lj1qQyvP++OyD0FpJ3t1jBCWNGs+Egmi2EXFB0ZHB/EZC2cEcggzmAHa4ABIcCCaPTEQyQwUc9A8SAUiYRgFAvixtCs/8i3mPf/9+zQHejeCmDHikuOjwyPYDNs0A08lGHHionbzg6N12E4xYbo6TAMDQyM8HG8uy2uKCIA+Tq4qjfrwbt/tP8BqFCfygplbmRzdHJlYW0KZW5kb2JqCjI3IDAgb2JqClsgL0lDQ0Jhc2VkIDMxIDAgUiBdCmVuZG9iagoyNiAwIG9iago8PCAvRnVuY3Rpb25UeXBlIDAgL0JpdHNQZXJTYW1wbGUgOCAvU2l6ZSBbIDEzNjUgXSAvRG9tYWluIFsgMCAxIF0gL1JhbmdlClsgMCAxIDAgMSAwIDEgXSAvTGVuZ3RoIDE0MSAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAGlwWdCgQEAAND7nynZZAuFaNhRyN58HcGP914Q3HEDV3ABZ3ACR3AAe7ADW7ABa7ACS7AAf2BuZmAKfsEPmIAx+AYjMAQD0Ac90AUd8AU+wYd5B23QAm+gCRqgDl7BC6iBKqiAZ1AGJVAEBZMHOZAFGfAE0iAFkiAB4iAGoiACwuARhMDDPf9nYs/nCmVuZHN0cmVhbQplbmRvYmoKMiAwIG9iago8PCAvVHlwZSAvUGFnZXMgL01lZGlhQm94IFswIDAgODk1IDEyNjNdIC9Db3VudCAxIC9LaWRzIFsgMSAwIFIgXSA+PgplbmRvYmoKMzIgMCBvYmoKPDwgL1R5cGUgL0NhdGFsb2cgL1BhZ2VzIDIgMCBSIC9WZXJzaW9uIC8xLjQgPj4KZW5kb2JqCjkgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNlRm9udCAvQUFBQUFCK0lkZWFsU2Fuc1NTbS1Cb29rIC9Gb250RGVzY3JpcHRvcgozMyAwIFIgL0VuY29kaW5nIC9NYWNSb21hbkVuY29kaW5nIC9GaXJzdENoYXIgMzIgL0xhc3RDaGFyIDEyMSAvV2lkdGhzIFsgMjQ2CjAgMCAwIDAgMCAwIDIxMyAwIDAgMCAwIDI2NyAwIDI2NiAwIDY3MSA0MDkgNTYwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDQ3NwowIDAgMCA3MTcgNzcwIDAgMCAwIDAgMzQyIDAgMCAwIDAgMCAwIDAgMCAwIDAgNjc1IDAgMCAxMDM4IDAgMCAwIDAgMCAwIDAgMAowIDU1NSA2MjcgNTQ5IDYyNiA1NzQgMzgyIDU0MyA2MjIgMjc4IDAgNTM3IDI3OCA5MjcgNjIyIDYxNyA2MjcgMCAzOTIgNDc2CjQwMiA2MjMgMCA3OTkgNTI4IDUzNCBdID4+CmVuZG9iagozMyAwIG9iago8PCAvVHlwZSAvRm9udERlc2NyaXB0b3IgL0ZvbnROYW1lIC9BQUFBQUIrSWRlYWxTYW5zU1NtLUJvb2sgL0ZsYWdzIDMyIC9Gb250QkJveApbLTE2MiAtMjg1IDEzMDAgMTE5N10gL0l0YWxpY0FuZ2xlIDAgL0FzY2VudCA5NjAgL0Rlc2NlbnQgLTI0MCAvQ2FwSGVpZ2h0CjcwMyAvU3RlbVYgOTYgL1hIZWlnaHQgNTA1IC9TdGVtSCA4MyAvQXZnV2lkdGggMjc4IC9NYXhXaWR0aCAxNTI0IC9Gb250RmlsZTMKMzQgMCBSID4+CmVuZG9iagozNCAwIG9iago8PCAvU3VidHlwZSAvVHlwZTFDIC9MZW5ndGggNzYwOSAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAGFmXdUFFfbwHeB2dmdSzaRzRjYcWYtaOyJGHtDRSmCICAqIKLSpEjfpSoqsh0QQUFFeu/FGow1igV7jQGMJrYkxiQmd8glb767mrzv+53znfPxz+zZHZ57n+c+9XeFAgszgVAotFlo+ls0wTkoeH2k1/rN8V5eUZMWRUdHmH6czDMCfpgZz5rztAWytDTvs7TQv4emo7ZhxIfDLJqIYVLR+8Ok7kO6hn04xUpgLhRafDR6ymS7t8KGm6QNx+KGm8T9768Ee/HigrGCeEGqoFXwndBcOFI4Regm3Ck8Ibxu9oHZdLM8s2NmX5hB8wLzCouJFsctXhMUkUvUEceJu8Rz4kfiT5FMZCuaIFogWi6KF2WLvhINkB+RLGlLTiA/IReTGrKALCJLyUryOHmJvEXeI38gfxZLxSPFY8SfimeIXcRrxWFipThDrBUXic+Iz4vviPvE34lf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cm9kdWNlciAobWFjT1MgVmVyc2lvbiAxMi4xIFwoQnVpbGQgMjFDNTAzMWRcKSBRdWFydHogUERGQ29udGV4dCkgL0NyZWF0aW9uRGF0ZQooRDoyMDIxMTExNzEwMTMzN1owMCcwMCcpIC9Nb2REYXRlIChEOjIwMjExMTE3MTAxMzM3WjAwJzAwJykgPj4KZW5kb2JqCnhyZWYKMCAzNgowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDE0NTMgMDAwMDAgbiAKMDAwMDAxMjQyOSAwMDAwMCBuIAowMDAwMDAwMDIyIDAwMDAwIG4gCjAwMDAwMDE1NTggMDAwMDAgbiAKMDAwMDAwODIwMyAwMDAwMCBuIAowMDAwMDAxODMyIDAwMDAwIG4gCjAwMDAwMDIxMTggMDAwMDAgbiAKMDAwMDAwNDEwMCAwMDAwMCBuIAowMDAwMDEyNTc3IDAwMDAwIG4gCjAwMDAwMDIyMDggMDAwMDAgbiAKMDAwMDAwMjQ5NCAwMDAwMCBuIAowMDAwMDAyNTg1IDAwMDAwIG4gCjAwMDAwMDI4NzIgMDAwMDAgbiAKMDAwMDAwMjk2MyAwMDAwMCBuIAowMDAwMDAzMjUxIDAwMDAwIG4gCjAwMDAwMDMzNDIgMDAwMDAgbiAKMDAwMDAwMzYzMCAwMDAwMCBuIAowMDAwMDAzNzIxIDAwMDAwIG4gCjAwMDAwMDQwMDkgMDAwMDAgbiAKMDAwMDAwNTMwNiAwMDAwMCBuIAowMDAwMDA1MzUzIDAwMDAwIG4gCjAwMDAwMDU0MDAgMDAwMDAgbiAKMDAwMDAwNTQ0NSAwMDAwMCBuIAowMDAwMDA5NDEyIDAwMDAwIG4gCjAwMDAwMDQyMzUgMDAwMDAgbiAKMDAwMDAxMjEyOCAwMDAwMCBuIAowMDAwMDEyMDkxIDAwMDAwIG4gCjAwMDAwMDUwMDAgMDAwMDAgbiAKMDAwMDAwNTQ5MCAwMDAwMCBuIAowMDAwMDA4MjM5IDAwMDAwIG4gCjAwMDAwMDk0NDkgMDAwMDAgbiAKMDAwMDAxMjUxMyAwMDAwMCBuIAowMDAwMDEzMDA0IDAwMDAwIG4gCjAwMDAwMTMyNjIgMDAwMDAgbiAKMDAwMDAyMDk2MiAwMDAwMCBuIAp0cmFpbGVyCjw8IC9TaXplIDM2IC9Sb290IDMyIDAgUiAvSW5mbyAzNSAwIFIgL0lEIFsgPDhiMWFkNTNkMjIyODcyMzE3YWYxNzcwNGE1NDM3ZGZlPgo8OGIxYWQ1M2QyMjI4NzIzMTdhZjE3NzA0YTU0MzdkZmU+IF0gPj4Kc3RhcnR4cmVmCjIxMTI3CiUlRU9GCg==</preview>
 </tinderbox>
