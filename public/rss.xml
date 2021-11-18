@@ -6,6 +6,13 @@
 <link>https://notes.baty.net</link>
 <description>Jack takes notes</description>
 	<item>
+<title>About that M10 Monochrom</title>
+<link>https://notes.baty.net/posts/2021/11/18/AboutthatM10Monochrom.html</link>
+<description><![CDATA[
+<p>I've been thinking a lot lately about getting a Leica M10 Monochrom. I know, I know, it's a bad idea. I had the <b>Leica Q2 Monochrom</b> and sold it. But but but! The idea is that if I consider myself a primarily black and white photographer, and I do, there's nothing better than the M10M. Except it's way too expensive for something so limited. Then I had a genius idea. What about an M10-P again? But, and here's the genius part, set up Lightroom to convert raw images to black and white on import! That way I never have to actually see each image in color and decide if I should convert it to black and white. It's darn close to shooting B&W right in the camera. Later, if I do happen to get curious, I can peek at the original color version, just in case. Ha? Ya?</p>
+    ]]></description>
+<guid>https://notes.baty.net/posts/2021/11/18/AboutthatM10Monochrom.html</guid>
+</item><item>
 <title>No news is good news</title>
 <link>https://notes.baty.net/posts/2021/11/18/Nonewsisgoodnews.html</link>
 <description><![CDATA[
@@ -80,13 +87,6 @@
 <p>I'd long ago abandoned <a href="http://notes.baty.net">notes.baty.net</a> as a place for this Tinderbox-rendered blog. But now that I've published it again via <a href="https://pages.cloudflare.com">Cloudflare Pages</a>, I thought it should live at its old address, so here we are.</p>
     ]]></description>
 <guid>https://notes.baty.net/posts/2021/11/05/notesbatynet.html</guid>
-</item><item>
-<title>Cloudflare web analytics</title>
-<link>https://notes.baty.net/posts/2021/11/04/Cloudflarewebanalytics.html</link>
-<description><![CDATA[
-<p>One thing that attracted me to Cloudflare Pages for static site hosting is they offer built-in traffic analytics. I just enabled Web Analytics for this domain, and their message says "Changes will take effect on the next deployment." So, I'm writing this note as an excuse to deploy 😁</p>
-    ]]></description>
-<guid>https://notes.baty.net/posts/2021/11/04/Cloudflarewebanalytics.html</guid>
 </item>
 </channel>
 
