@@ -35,7 +35,7 @@ blockquote {font-style: oblique;  margin-left: 1em; padding-left: 10px;border-le
 .notextpost {
   margin-top: 1em;
 }
-.notextpost a {
+.postNoTitle a {
 	color: #444;
 }
 
@@ -114,4 +114,13 @@ blockquote {font-style: oblique;  margin-left: 1em; padding-left: 10px;border-le
 	padding-bottom: 10px;
 	padding-top: 10px;
 	padding-right: 15px;
+}
+
+.permalinkHash a {
+	color: purple;
+	opacity: 0.3;
+	font-weight: normal;
+	font-size: 14px;
+	cursor: pointer;
+	text-decoration: none;
 }
