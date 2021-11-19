@@ -26,6 +26,7 @@ body {
 .navbar .content-container h1 {margin-bottom:0.15em;}
 .post-date {color: #CCC;font-size:0.8em}
 article {margin-bottom: 2em;}
+article.singlePost h2 {margin-bottom: 2px;}
 h2, h3 {margin-bottom: 0.5em;}
 header h2, header h3, h2.dayHeader {font-family: "Oswald", sans-serif;}
 h2.dayHeader {text-align:center;}
