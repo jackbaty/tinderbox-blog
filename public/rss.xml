@@ -6,6 +6,13 @@
 <link>https://notes.baty.net</link>
 <description>Jack takes notes</description>
 	<item>
+<title>I'll come back to this later</title>
+<link>https://notes.baty.net/posts/2021/11/19/Illcomebacktothislater.html</link>
+<description><![CDATA[
+<p>I was all over rebuilding this blog yesterday. This morning I planned to gut the HTML/CSS and try to clean things up a bit myself rather than <strike>stealing</strike> borrowing Dave's legacy markup. It wasn't long before I ran into the road block called "Modern Web Development" and lost my mojo. Maybe it's that I feel like crap from the Moderna booster vaccine yesterday, but I think I'll let this idle for a bit.</p>
+    ]]></description>
+<guid>https://notes.baty.net/posts/2021/11/19/Illcomebacktothislater.html</guid>
+</item><item>
 <title>I went to a bookstore yesterday</title>
 <link>https://notes.baty.net/posts/2021/11/19/Iwenttoabookstoreyesterd.html</link>
 <description><![CDATA[
@@ -86,13 +93,6 @@
 <p>It also depends on where the text is to end up. If it's for, say, a blog post, why not just write in a browser, since one could argue that for web publishing, editing in a browser <i>is</i> using a native app.</p>
     ]]></description>
 <guid>https://notes.baty.net/posts/2021/11/06/ItsaboutwhereIliketotype.html</guid>
-</item><item>
-<title>Image Test</title>
-<link>https://notes.baty.net/posts/2021/11/06/ImageTest.html</link>
-<description><![CDATA[
-<p>If I want a "Featured Image" on a post here, I just paste the URL in the "Image" attribute of the post and the template puts it where it belongs. I'd almost forgotten I did that. Can you imagine how great things would be if I focused my time and attention on just one or two things for months or years rather than just dipping my toes in?</p>
-    ]]></description>
-<guid>https://notes.baty.net/posts/2021/11/06/ImageTest.html</guid>
 </item>
 </channel>
 
