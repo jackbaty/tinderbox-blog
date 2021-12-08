@@ -13,13 +13,6 @@
     ]]></description>
 <guid>https://notes.baty.net/posts/2021/11/08/WednesdayDecember82021.html</guid>
 </item><item>
-<title>08</title>
-<link>https://notes.baty.net/posts/2021/11/08/08.html</link>
-<description><![CDATA[
-
-    ]]></description>
-<guid>https://notes.baty.net/posts/2021/11/08/08.html</guid>
-</item><item>
 <title>I'll come back to this later</title>
 <link>https://notes.baty.net/posts/2021/11/19/Illcomebacktothislater.html</link>
 <description><![CDATA[
@@ -86,6 +79,19 @@
 <p>And what if it worked the same way? For example, this post has no title. I <a href="  https://rudimentarylathe.wiki/#Tinderbox%20Drummer%20blog">wrote up some notes</a>.</p>
     ]]></description>
 <guid>https://notes.baty.net/posts/2021/11/17/Thishasnotitle.html</guid>
+</item><item>
+<title>What if I built Drummer out of Tinderbox?</title>
+<link>https://notes.baty.net/posts/2021/11/17/WhatifIbuiltDrummeroutof.html</link>
+<description><![CDATA[
+<p>I've been mentally hedging my bets around <a href="http://drummer.scripting.com">Drummer</a> and wondering how difficult it would be to morph this Tinderbox-generated blog into something much more Drummer like. They're both based on outlines, after all. I'd just need to change the export templates to group by day and deal with individual vs titled notes. There's probably a lot more to it, but let's noodle on it, shall we?</p>
+
+<p>:2 hours later:</p>
+
+<p>I did it. You're soaking in it. I <a href="  https://rudimentarylathe.wiki/#Tinderbox%20Drummer%20blog">wrote up some notes in the wiki</a>.</p>
+
+
+    ]]></description>
+<guid>https://notes.baty.net/posts/2021/11/17/WhatifIbuiltDrummeroutof.html</guid>
 </item>
 </channel>
 
