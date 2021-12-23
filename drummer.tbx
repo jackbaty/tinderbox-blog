@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<tinderbox version="2" revision="13" savedBy="version 9.0.1 b538" uuid="132BDBA5-3FFD-41F8-8D13-2777DAFC59BD" >
+<tinderbox version="2" revision="13" savedBy="version 9.1.1 b543" uuid="132BDBA5-3FFD-41F8-8D13-2777DAFC59BD" >
 <attrib Name="anything" editable="0" visibleInEditor="1" default="" >
 <attrib Name="System" parent="anything" editable="0" visibleInEditor="1" default="" >
 <attrib Name="AI" parent="System" editable="0" visibleInEditor="1" default="" >
@@ -931,7 +931,7 @@
 <linkType name="response" visible="1" showLabel="1" required="0" colorString="black" style="0" arrowType="0" onLink=""  />
 <linkType name="update" visible="1" showLabel="1" required="0" colorString="black" style="0" arrowType="0" onLink=""  />
 </linkTypes>
-<item ID="1639000657" Creator="system" >
+<item ID="1640252725" Creator="system" >
 <attribute name="Associates" ></attribute>
 <attribute name="Created" >2013-02-08T19:02:00-05:00</attribute>
 <attribute name="IsComposite" >false</attribute>
@@ -948,8 +948,8 @@
 <attribute name="Modified" >2021-11-18T04:47:53-05:00</attribute>
 <attribute name="Name" >Content</attribute>
 <attribute name="SelectionCount" >1</attribute>
-<attribute name="Sentiment" >0.200000003</attribute>
-<attribute name="Sentiments" >0.2</attribute>
+<attribute name="Sentiment" >-0.8000000119</attribute>
+<attribute name="Sentiments" >-0.8</attribute>
 <attribute name="Separator" >true</attribute>
 <attribute name="SortAlsoTransform" ></attribute>
 <attribute name="SortTransform" ></attribute>
@@ -1161,6 +1161,7 @@ She just shook her head dismissively and walked out of the room.\par
 <attribute name="Name" >Crux</attribute>
 <attribute name="ReadCount" >14</attribute>
 <attribute name="SelectionCount" >48</attribute>
+<attribute name="Sentiment" >-0.400000006</attribute>
 <attribute name="Sentiments" >0;-0.8</attribute>
 <attribute name="Telephone" >0857662961</attribute>
 <attribute name="Topic" >Book</attribute>
@@ -2132,8 +2133,8 @@ ER  -
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >167</attribute>
 <attribute name="SelectionCount" >411</attribute>
-<attribute name="Sentiment" >-0.3777777867</attribute>
-<attribute name="Sentiments" >-0.6;-1;0.4;-0.6;0;-0.6;-0.8;0.4;-0.8;0;-0.8;-0.6;-0.8;0.4;-0.4;0;-0.6;-0.4</attribute>
+<attribute name="Sentiment" >-0.6888889025</attribute>
+<attribute name="Sentiments" >-0.6;-1;-1;-0.6;-0.6;-0.6;-0.8;-0.8;-0.8;-0.8;-0.8;-0.6;-0.8;-0.8;-0.4;-0.4;-0.6;-0.4</attribute>
 <attribute name="WindowPlace" >Rect[ 50 50 1073 1110]</attribute>
 <attribute name="Xpos" >39</attribute>
 <attribute name="Ypos" >4</attribute>
@@ -2225,8 +2226,8 @@ We&apos;re all Web Kids these days.}</rtf>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >74</attribute>
 <attribute name="SelectionCount" >209</attribute>
-<attribute name="Sentiment" >0.0333333301</attribute>
-<attribute name="Sentiments" >-0.6;-0.4;0.4;-0.2;1;0;0.8;-0.8;-0.6;0;0;0.8</attribute>
+<attribute name="Sentiment" >0.04999999578</attribute>
+<attribute name="Sentiments" >-0.6;-0.4;-0.4;-0.2;1;1;0.8;-0.8;-0.6;0;0;0.8</attribute>
 <attribute name="WindowPlace" >Rect[ 50 50 1134 823]</attribute>
 <attribute name="Xpos" >36</attribute>
 <attribute name="Ypos" >4</attribute>
@@ -2337,6 +2338,7 @@ I love hearing wonderful things for the first time. Howard&apos;s guitar work is
 <attribute name="PostType" >book</attribute>
 <attribute name="ReadCount" >14</attribute>
 <attribute name="SelectionCount" >36</attribute>
+<attribute name="Sentiment" >-0.6000000238</attribute>
 <attribute name="Sentiments" >-0.6;-0.6</attribute>
 <attribute name="Topic" >Book</attribute>
 <attribute name="Xpos" >42</attribute>
@@ -2407,8 +2409,8 @@ Maybe it&apos;s time for the complexity pendulum to start swinging the other way
 <attribute name="Name" >Using Tinderbox to publish LaTeX documents</attribute>
 <attribute name="ReadCount" >195</attribute>
 <attribute name="SelectionCount" >383</attribute>
-<attribute name="Sentiment" >-0.472727282</attribute>
-<attribute name="Sentiments" >-0.2;-0.6;-0.6;-0.4;-0.2;-0.4;-0.4;-0.6;-0.8;-0.4;-0.6;-0.4;-0.8;-0.2;-0.6;-0.8;0.4;-0.4;0;0;0;0;-0.8;-0.8;-0.8;-0.8;-0.6;-0.8;-0.8;-0.8;0.4;-1;-0.8</attribute>
+<attribute name="Sentiment" >-0.5090909189</attribute>
+<attribute name="Sentiments" >-0.2;-0.6;-0.6;-0.4;-0.2;-0.4;-0.4;-0.6;-0.8;-0.4;-0.6;-0.4;-0.8;-0.2;-0.6;-0.8;-0.8;-0.4;0;0;0;0;-0.8;-0.8;-0.8;-0.8;-0.6;-0.8;-0.8;-0.8;0.4;-1;-0.8</attribute>
 <attribute name="Topic" >LaTeX;Tinderbox</attribute>
 <attribute name="WindowPlace" >Rect[ 452 284 1578 1181]</attribute>
 <attribute name="Xpos" >39</attribute>
@@ -2731,8 +2733,8 @@ I plan to stick with this setup for as long as I can. The one area I waffle is w
 <attribute name="Name" >Blogging with Tinderbox</attribute>
 <attribute name="ReadCount" >56</attribute>
 <attribute name="SelectionCount" >260</attribute>
-<attribute name="Sentiment" >-0.2823529471</attribute>
-<attribute name="Sentiments" >-0.2;0.8;-0.8;-0.6;-0.6;-1;-1;0;0.2;-0.2;-0.2;-0.4;0.4;0.4;-0.6;-0.4;-0.6</attribute>
+<attribute name="Sentiment" >-0.3764705956</attribute>
+<attribute name="Sentiments" >-0.2;0.8;-0.8;-0.6;-0.6;-1;-1;0;0.2;-0.2;-0.2;-0.4;-0.4;-0.4;-0.6;-0.4;-0.6</attribute>
 <attribute name="Topic" >Blogging</attribute>
 <attribute name="Width" >3</attribute>
 <attribute name="WindowPlace" >Rect[ 50 50 984 774]</attribute>
@@ -3097,8 +3099,8 @@ So in my case, the Tinderbox &quot;Stamp&quot; looks like this...
 <attribute name="NLNames" >Joan Didion</attribute>
 <attribute name="Name" >What if no one reads this?</attribute>
 <attribute name="SelectionCount" >32</attribute>
-<attribute name="Sentiment" >-0.4400000036</attribute>
-<attribute name="Sentiments" >-0.8;-1;0.4;-0.8;0</attribute>
+<attribute name="Sentiment" >-0.8800000072</attribute>
+<attribute name="Sentiments" >-0.8;-1;-1;-0.8;-0.8</attribute>
 <attribute name="URL" >https://www.brainpickings.org/2012/11/19/joan-didion-on-keeping-a-notebook/</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -3248,7 +3250,7 @@ It does. Now what? Well, there&apos;s always the Archive.</text>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-11-04T10:59:18-04:00</attribute>
 <attribute name="Name" >11</attribute>
-<attribute name="SelectionCount" >65</attribute>
+<attribute name="SelectionCount" >66</attribute>
 <attribute name="Sentiments" ></attribute>
 <attribute name="Sort" >Date</attribute>
 <attribute name="Width" >3</attribute>
@@ -3636,7 +3638,7 @@ Bookstores are the best.</text>
 <attribute name="Modified" >2021-12-08T16:57:43-05:00</attribute>
 <attribute name="Name" >08</attribute>
 <attribute name="RenderedTitle" >Wednesday, December 8, 2021</attribute>
-<attribute name="SelectionCount" >1</attribute>
+<attribute name="SelectionCount" >2</attribute>
 <attribute name="Sentiments" ></attribute>
 <attribute name="Width" >3</attribute>
 <attribute name="Xpos" >45.5</attribute>
@@ -3650,8 +3652,8 @@ Bookstores are the best.</text>
 <attribute name="NLNames" >Alex</attribute>
 <attribute name="Name" >Alex reminded me about this blog</attribute>
 <attribute name="SelectionCount" >8</attribute>
-<attribute name="Sentiment" >-0.400000006</attribute>
-<attribute name="Sentiments" >0;-0.8</attribute>
+<attribute name="Sentiment" >-0.8000000119</attribute>
+<attribute name="Sentiments" >-0.8;-0.8</attribute>
 <attribute name="Width" >3</attribute>
 <attribute name="Xpos" >3.5</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -3665,7 +3667,7 @@ Bookstores are the best.</text>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-12-08T17:38:42-05:00</attribute>
 <attribute name="Name" >Where is this hosted?</attribute>
-<attribute name="SelectionCount" >5</attribute>
+<attribute name="SelectionCount" >10</attribute>
 <attribute name="Sentiment" >-0.8000000119</attribute>
 <attribute name="Sentiments" >-0.8;-0.8</attribute>
 <attribute name="Width" >3</attribute>
@@ -3673,6 +3675,47 @@ Bookstores are the best.</text>
 <attribute name="Ypos" >0</attribute>
 <text >Is it funny that I don&apos;t even remember where this site is hosted? Maybe not &quot;funny&quot; so much as symptomatic of the entire problem. Update: It&apos;s using Cloudflare Pages.</text>
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7QAQAAKwAAAAEAAADIAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNjM2Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDt9ClxwYXJkXHR4MzYwXHJpNDAwXHNiODBcc2E4MFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzNiBcY2YyIElzIGl0IGZ1bm55IHRoYXQgSSBkb24ndCBldmVuIHJlbWVtYmVyIHdoZXJlIHRoaXMgc2l0ZSBpcyBob3N0ZWQ/IE1heWJlIG5vdCAiZnVubnkiIHNvIG11Y2ggYXMgc3ltcHRvbWF0aWMgb2YgdGhlIGVudGlyZSBwcm9ibGVtLiBVcGRhdGU6IEl0J3MgdXNpbmcgQ2xvdWRmbGFyZSBQYWdlcy59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAA8jOxYbYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+</item>
+</item>
+<item ID="1640253168" Creator="system" proto="protoMonthlyArchive" >
+<attribute name="Created" >2021-12-23T04:32:12-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-12-23T04:32:12-05:00</attribute>
+<attribute name="Name" >12</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1640253169" Creator="system" proto="protoDay" >
+<attribute name="Created" >2021-12-23T04:32:19-05:00</attribute>
+<attribute name="Date" >2021-12-23T04:32:23-05:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-12-23T04:32:19-05:00</attribute>
+<attribute name="Name" >Thursday, December 23, 2021</attribute>
+<attribute name="RenderedTitle" >Thursday, December 23, 2021</attribute>
+<attribute name="SelectionCount" >1</attribute>
+<attribute name="Sentiment" >-0.6000000238</attribute>
+<attribute name="Sentiments" >-0.6</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1640253173" Creator="system" proto="protoPost" >
+<attribute name="Created" >2021-12-23T04:32:39-05:00</attribute>
+<attribute name="Date" >2021-12-23T04:32:39-05:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-12-23T04:33:45-05:00</attribute>
+<attribute name="Name" >Undecided</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Sentiment" >-0.6000000238</attribute>
+<attribute name="Sentiments" >-0.6;-0.6</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >3.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Well, as long as I&apos;m undecided about what to write where, I may as well do a little bit of it here, no?</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6LAQAAKwAAAAEAAACDAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNjM2Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDt9ClxwYXJkXHR4MzYwXHNiODBcc2E4MFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzNiBcY2YyIFdlbGwsIGFzIGxvbmcgYXMgSSdtIHVuZGVjaWRlZCBhYm91dCB3aGF0IHRvIHdyaXRlIHdoZXJlLCBJIG1heSBhcyB3ZWxsIGRvIGEgbGl0dGxlIGJpdCBvZiBpdCBoZXJlLCBubz99AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAeULEYbYBAAAAAAAAAAAAAA==</rtfd>
 </item>
 </item>
 </item>
@@ -4338,44 +4381,44 @@ Some want to use Nexus for good, and some for evil. }</rtf>
 <item ID="1510679640" Creator="system" >
 <attribute name="Associates" ></attribute>
 <attribute name="Created" >2017-11-14T12:13:59-05:00</attribute>
-<attribute name="DominantLanguage" >tr</attribute>
+<attribute name="DominantLanguage" >en</attribute>
 <attribute name="HTMLDontExport" >true</attribute>
 <attribute name="HTMLExportChildren" >false</attribute>
 <attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-12-08T17:33:19-05:00</attribute>
+<attribute name="Modified" >2021-12-08T18:54:25-05:00</attribute>
 <attribute name="Name" >Debug</attribute>
 <attribute name="SelectionCount" >33</attribute>
-<attribute name="Sentiment" >-0.6000000238</attribute>
-<attribute name="Sentiments" >-0.6</attribute>
+<attribute name="Sentiment" >-0.3250000104</attribute>
+<attribute name="Sentiments" >0.2;-0.4;-0.8;-0.6;-0.6;-0.6;0;0.2</attribute>
 <attribute name="Xpos" >29.5</attribute>
 <attribute name="Ypos" >4</attribute>
+<text >git add .
+git diff-index --quiet HEAD || git commit -m &quot;Publish checkpoint&quot;
+[main d090e1c] Publish checkpoint
+ 7 files changed, 24 insertions(+), 30 deletions(-)
+git push
+To github.com:jackbaty/tinderbox-blog.git
+   26be5f4..d090e1c  main -&gt; main
+</text>
 </item>
 <item ID="1637246098" Creator="system" >
 <attribute name="Created" >2021-11-18T09:17:57-05:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="HTMLDontExport" >true</attribute>
 <attribute name="HTMLExportChildren" >false</attribute>
-<attribute name="Modified" >2021-12-08T17:33:14-05:00</attribute>
+<attribute name="Modified" >2021-12-23T04:32:01-05:00</attribute>
 <attribute name="Name" >Logs</attribute>
 <attribute name="SelectionCount" >9</attribute>
-<attribute name="Sentiment" >-0.4833333542</attribute>
-<attribute name="Sentiments" >-0.6;0.8;-0.6;-0.6;-0.6;-0.6;-0.6;-0.6;-0.6;-0.6;-0.6;-0.6</attribute>
+<attribute name="Sentiment" >-0.2500000149</attribute>
+<attribute name="Sentiments" >-0.6;0.8;-0.6;-0.6</attribute>
 <attribute name="Xpos" >61</attribute>
 <attribute name="Ypos" >4</attribute>
 <text >Hello, world!
 Wow
 here we are
-12/8/21 4:57 PM
-12/8/21 4:59 PM
-Published Blog
-12/8/21 4:59 PM
-Published Blog
-12/8/21 5:05 PM
-Published Blog
-12/8/21 5:33 PM
-Published Blog
+12/23/21 4:32 AM
 </text>
-<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5NAwAAKwAAAAEAAABFAwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNjM2Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUwO1xyZWQwXGdyZWVuMFxibHVlMDt9CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3NwdGhyZWVcYzBcYzBcYzA7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIEhlbGxvLCB3b3JsZCFcClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGZzNDggXGNmMiBXb3cKXGZzMjQgXApoZXJlIHdlIGFyZVwKMTIvOC8yMSA0OjU3IFBNXAoxMi84LzIxIDQ6NTkgUE1cClB1Ymxpc2hlZCBCbG9nXAoxMi84LzIxIDQ6NTkgUE1cClB1Ymxpc2hlZCBCbG9nXAoxMi84LzIxIDU6MDUgUE1cClB1Ymxpc2hlZCBCbG9nXAoxMi84LzIxIDU6MzMgUE1cClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YzIFB1Ymxpc2hlZCBCbG9nXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAqjKxYbYBAAAAAAAAAAAAAA==</rtfd>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7KAgAAKwAAAAEAAADCAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyNjM2Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUwO1xyZWQwXGdyZWVuMFxibHVlMDt9CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3NwdGhyZWVcYzBcYzBcYzA7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIEhlbGxvLCB3b3JsZCFcClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGZzNDggXGNmMiBXb3cKXGZzMjQgXApoZXJlIHdlIGFyZVwKXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwClxjZjMgMTIvMjMvMjEgNDozMiBBTVwKfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAABFCxGG2AQAAAAAAAAAAAAA=</rtfd>
 </item>
 <item ID="1637228916" Creator="system" >
 <attribute name="Created" >2021-11-18T04:48:35-05:00</attribute>
@@ -4420,13 +4463,23 @@ Published Blog
 <attribute name="WindowPlace" >Rect[ 629 71 1329 571]</attribute>
 <attribute name="Xpos" >7</attribute>
 <attribute name="Ypos" >0</attribute>
+<item ID="1640253171" Creator="system" >
+<attribute name="Alias" >1640253169</attribute>
+<attribute name="Created" >2021-12-23T04:32:19-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-12-23T04:32:19-05:00</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
 <item ID="1639001089" Creator="system" >
 <attribute name="Alias" >1639001085</attribute>
 <attribute name="Created" >2021-12-08T16:57:43-05:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-12-08T16:57:43-05:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637320020" Creator="system" >
@@ -4436,7 +4489,7 @@ Published Blog
 <attribute name="Modified" >2021-11-19T06:00:05-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637228244" Creator="system" >
@@ -4447,8 +4500,8 @@ Published Blog
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >6</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637157668" Creator="system" >
 <attribute name="Alias" >1637155643</attribute>
@@ -4458,7 +4511,7 @@ Published Blog
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >125</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637180448" Creator="system" >
@@ -4469,7 +4522,7 @@ Published Blog
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >43</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637161340" Creator="system" >
@@ -4479,8 +4532,8 @@ Published Blog
 <attribute name="Modified" >2021-11-17T10:02:07-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
-<attribute name="Ypos" >2.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1637161329" Creator="system" >
 <attribute name="Alias" >1637161308</attribute>
@@ -4490,7 +4543,7 @@ Published Blog
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >12</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1637161186" Creator="system" >
@@ -4500,7 +4553,7 @@ Published Blog
 <attribute name="Modified" >2021-11-17T09:59:40-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >4.5</attribute>
 </item>
 </agent>
@@ -4527,13 +4580,23 @@ Published Blog
 <attribute name="Width" >3</attribute>
 <attribute name="Xpos" >26</attribute>
 <attribute name="Ypos" >4</attribute>
+<item ID="1640253178" Creator="system" >
+<attribute name="Alias" >1640253173</attribute>
+<attribute name="Created" >2021-12-23T04:32:39-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-12-23T04:32:39-05:00</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
 <item ID="1639002573" Creator="system" >
 <attribute name="Alias" >1639002532</attribute>
 <attribute name="Created" >2021-12-08T17:28:51-05:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-12-08T17:29:32-05:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1639001094" Creator="system" >
@@ -4541,8 +4604,9 @@ Published Blog
 <attribute name="Created" >2021-12-08T16:57:52-05:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-12-08T16:57:52-05:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637334845" Creator="system" >
@@ -4552,8 +4616,8 @@ Published Blog
 <attribute name="Modified" >2021-11-19T10:14:04-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637320021" Creator="system" >
 <attribute name="Alias" >1637320016</attribute>
@@ -4562,8 +4626,8 @@ Published Blog
 <attribute name="Modified" >2021-11-19T06:00:20-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637264233" Creator="system" >
 <attribute name="Alias" >1637264196</attribute>
@@ -4572,7 +4636,7 @@ Published Blog
 <attribute name="Modified" >2021-11-18T14:36:55-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637252616" Creator="system" >
@@ -4582,7 +4646,7 @@ Published Blog
 <attribute name="Modified" >2021-11-18T11:23:34-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637246102" Creator="system" >
@@ -4592,8 +4656,8 @@ Published Blog
 <attribute name="Modified" >2021-11-18T09:20:10-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
-<attribute name="Ypos" >2.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1637228248" Creator="system" >
 <attribute name="Alias" >1637228245</attribute>
@@ -4602,26 +4666,6 @@ Published Blog
 <attribute name="Modified" >2021-11-18T04:34:10-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >2</attribute>
-<attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
-<attribute name="Ypos" >2.5</attribute>
-</item>
-<item ID="1637180449" Creator="system" >
-<attribute name="Alias" >1637180377</attribute>
-<attribute name="Created" >2021-11-17T15:19:36-05:00</attribute>
-<attribute name="Height" >1</attribute>
-<attribute name="Modified" >2021-11-17T15:20:33-05:00</attribute>
-<attribute name="Name" ></attribute>
-<attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
-<attribute name="Ypos" >4.5</attribute>
-</item>
-<item ID="1637156691" Creator="system" >
-<attribute name="Alias" >1637155834</attribute>
-<attribute name="Created" >2021-11-17T08:30:33-05:00</attribute>
-<attribute name="Height" >1</attribute>
-<attribute name="Modified" >2021-11-17T08:36:24-05:00</attribute>
-<attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
 <attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >4.5</attribute>
@@ -4667,13 +4711,23 @@ Published Blog
 \f0\fs32 \cf0 &lt;h2&gt;Complete list of posts&lt;/h2&gt;
 \fs24 \
 }</rtf>
+<item ID="1640253174" Creator="system" >
+<attribute name="Alias" >1640253173</attribute>
+<attribute name="Created" >2021-12-23T04:32:39-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-12-23T04:32:39-05:00</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
 <item ID="1639002562" Creator="system" >
 <attribute name="Alias" >1639002532</attribute>
 <attribute name="Created" >2021-12-08T17:28:51-05:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-12-08T17:29:21-05:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1639001090" Creator="system" >
@@ -4681,8 +4735,9 @@ Published Blog
 <attribute name="Created" >2021-12-08T16:57:52-05:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-12-08T16:57:52-05:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637334834" Creator="system" >
@@ -4692,7 +4747,7 @@ Published Blog
 <attribute name="Modified" >2021-11-19T10:13:53-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637320017" Creator="system" >
@@ -4702,7 +4757,7 @@ Published Blog
 <attribute name="Modified" >2021-11-19T06:00:09-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637264222" Creator="system" >
@@ -4712,7 +4767,7 @@ Published Blog
 <attribute name="Modified" >2021-11-18T14:36:55-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
+<attribute name="Xpos" >24.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637252605" Creator="system" >
@@ -4722,7 +4777,7 @@ Published Blog
 <attribute name="Modified" >2021-11-18T11:23:20-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >28.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637246100" Creator="system" >
@@ -4732,7 +4787,7 @@ Published Blog
 <attribute name="Modified" >2021-11-18T09:20:10-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
+<attribute name="Xpos" >32.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637228246" Creator="system" >
@@ -4742,8 +4797,8 @@ Published Blog
 <attribute name="Modified" >2021-11-18T04:33:31-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637180437" Creator="system" >
 <attribute name="Alias" >1637180377</attribute>
@@ -4752,7 +4807,7 @@ Published Blog
 <attribute name="Modified" >2021-11-17T15:20:33-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637156679" Creator="system" >
@@ -4762,7 +4817,7 @@ Published Blog
 <attribute name="Modified" >2021-11-17T08:36:24-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637157472" Creator="system" >
@@ -4772,7 +4827,7 @@ Published Blog
 <attribute name="Modified" >2021-11-17T05:15:38-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636290393" Creator="system" >
@@ -4782,7 +4837,7 @@ Published Blog
 <attribute name="Modified" >2021-11-07T07:43:57-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636192585" Creator="system" >
@@ -4792,7 +4847,7 @@ Published Blog
 <attribute name="Modified" >2021-11-06T05:56:22-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636114194" Creator="system" >
@@ -4802,7 +4857,7 @@ Published Blog
 <attribute name="Modified" >2021-11-05T08:09:53-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >24.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636066547" Creator="system" >
@@ -4812,7 +4867,7 @@ Published Blog
 <attribute name="Modified" >2021-11-04T18:54:07-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
+<attribute name="Xpos" >28.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1636038166" Creator="system" >
@@ -4822,7 +4877,7 @@ Published Blog
 <attribute name="Modified" >2021-11-04T11:00:02-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
+<attribute name="Xpos" >32.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1543666838" Creator="system" >
@@ -4914,8 +4969,8 @@ Published Blog
 <attribute name="Modified" >2017-11-02T15:33:15-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
-<attribute name="Ypos" >6.5</attribute>
+<attribute name="Xpos" >32.5</attribute>
+<attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1509646986" Creator="system" >
 <attribute name="Alias" >3463911001</attribute>
@@ -4924,7 +4979,7 @@ Published Blog
 <attribute name="Modified" >2013-10-06T14:37:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646987" Creator="system" >
@@ -4934,7 +4989,7 @@ Published Blog
 <attribute name="Modified" >2013-10-06T14:41:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646988" Creator="system" >
@@ -4944,7 +4999,7 @@ Published Blog
 <attribute name="Modified" >2013-09-29T10:51:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646989" Creator="system" >
@@ -4954,7 +5009,7 @@ Published Blog
 <attribute name="Modified" >2013-09-29T09:58:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646990" Creator="system" >
@@ -4964,7 +5019,7 @@ Published Blog
 <attribute name="Modified" >2013-09-22T12:46:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646991" Creator="system" >
@@ -4974,7 +5029,7 @@ Published Blog
 <attribute name="Modified" >2013-09-10T16:03:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646992" Creator="system" >
@@ -4984,7 +5039,7 @@ Published Blog
 <attribute name="Modified" >2013-09-08T07:55:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
+<attribute name="Xpos" >24.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646993" Creator="system" >
@@ -4994,8 +5049,8 @@ Published Blog
 <attribute name="Modified" >2013-08-29T15:39:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
-<attribute name="Ypos" >8.5</attribute>
+<attribute name="Xpos" >28.5</attribute>
+<attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646994" Creator="system" >
 <attribute name="Alias" >3460179481</attribute>
@@ -5004,8 +5059,8 @@ Published Blog
 <attribute name="Modified" >2013-08-24T12:22:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
-<attribute name="Ypos" >8.5</attribute>
+<attribute name="Xpos" >32.5</attribute>
+<attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1509646995" Creator="system" >
 <attribute name="Alias" >3459946100</attribute>
@@ -5014,7 +5069,7 @@ Published Blog
 <attribute name="Modified" >2013-08-24T09:48:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
 <attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509646996" Creator="system" >
@@ -5024,7 +5079,7 @@ Published Blog
 <attribute name="Modified" >2013-08-02T11:02:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509646997" Creator="system" >
@@ -5035,7 +5090,7 @@ Published Blog
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >17</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509646998" Creator="system" >
@@ -5045,7 +5100,7 @@ Published Blog
 <attribute name="Modified" >2013-07-27T15:48:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509646999" Creator="system" >
@@ -5055,7 +5110,7 @@ Published Blog
 <attribute name="Modified" >2013-07-27T12:29:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509647000" Creator="system" >
@@ -5065,7 +5120,7 @@ Published Blog
 <attribute name="Modified" >2013-07-26T08:47:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
 <attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509647001" Creator="system" >
@@ -5075,8 +5130,8 @@ Published Blog
 <attribute name="Modified" >2013-07-27T15:32:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
-<attribute name="Ypos" >10.5</attribute>
+<attribute name="Xpos" >24.5</attribute>
+<attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509647002" Creator="system" >
 <attribute name="Alias" >3453007737</attribute>
@@ -5085,8 +5140,8 @@ Published Blog
 <attribute name="Modified" >2013-06-02T14:12:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
-<attribute name="Ypos" >10.5</attribute>
+<attribute name="Xpos" >28.5</attribute>
+<attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509647003" Creator="system" >
 <attribute name="Alias" >3450611057</attribute>
@@ -5095,8 +5150,8 @@ Published Blog
 <attribute name="Modified" >2013-07-27T15:34:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
-<attribute name="Ypos" >10.5</attribute>
+<attribute name="Xpos" >32.5</attribute>
+<attribute name="Ypos" >8.5</attribute>
 </item>
 <item ID="1509647004" Creator="system" >
 <attribute name="Alias" >3450367983</attribute>
@@ -5105,7 +5160,7 @@ Published Blog
 <attribute name="Modified" >2013-07-27T15:34:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
 <attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509647005" Creator="system" >
@@ -5115,7 +5170,7 @@ Published Blog
 <attribute name="Modified" >2013-05-02T20:07:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646972" Creator="system" >
@@ -5125,7 +5180,7 @@ Published Blog
 <attribute name="Modified" >2013-07-27T15:34:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646973" Creator="system" >
@@ -5136,7 +5191,7 @@ Published Blog
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >48</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646974" Creator="system" >
@@ -5146,7 +5201,7 @@ Published Blog
 <attribute name="Modified" >2013-03-17T18:10:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646975" Creator="system" >
@@ -5156,8 +5211,8 @@ Published Blog
 <attribute name="Modified" >2013-03-16T12:23:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
-<attribute name="Ypos" >12.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
+<attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646976" Creator="system" >
 <attribute name="Alias" >3445152841</attribute>
@@ -5167,8 +5222,8 @@ Published Blog
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >210</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
-<attribute name="Ypos" >12.5</attribute>
+<attribute name="Xpos" >24.5</attribute>
+<attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646977" Creator="system" >
 <attribute name="Alias" >3445092841</attribute>
@@ -5177,8 +5232,8 @@ Published Blog
 <attribute name="Modified" >2013-07-27T16:54:00-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
-<attribute name="Ypos" >12.5</attribute>
+<attribute name="Xpos" >28.5</attribute>
+<attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646978" Creator="system" >
 <attribute name="Alias" >3445017650</attribute>
@@ -5187,8 +5242,8 @@ Published Blog
 <attribute name="Modified" >2013-03-01T21:28:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
-<attribute name="Ypos" >12.5</attribute>
+<attribute name="Xpos" >32.5</attribute>
+<attribute name="Ypos" >10.5</attribute>
 </item>
 <item ID="1509646979" Creator="system" >
 <attribute name="Alias" >3444585647</attribute>
@@ -5197,7 +5252,7 @@ Published Blog
 <attribute name="Modified" >2013-02-24T21:25:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
 <attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509646980" Creator="system" >
@@ -5208,7 +5263,7 @@ Published Blog
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >384</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509646981" Creator="system" >
@@ -5218,7 +5273,7 @@ Published Blog
 <attribute name="Modified" >2013-02-17T22:33:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509646982" Creator="system" >
@@ -5228,7 +5283,7 @@ Published Blog
 <attribute name="Modified" >2013-02-13T22:05:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509646983" Creator="system" >
@@ -5238,8 +5293,8 @@ Published Blog
 <attribute name="Modified" >2013-02-10T16:35:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
-<attribute name="Ypos" >14.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509646984" Creator="system" >
 <attribute name="Alias" >3443291355</attribute>
@@ -5248,8 +5303,8 @@ Published Blog
 <attribute name="Modified" >2013-02-09T21:58:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
-<attribute name="Ypos" >14.5</attribute>
+<attribute name="Xpos" >20.5</attribute>
+<attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509646985" Creator="system" >
 <attribute name="Alias" >3443274121</attribute>
@@ -5258,8 +5313,8 @@ Published Blog
 <attribute name="Modified" >2013-02-09T18:25:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
-<attribute name="Ypos" >14.5</attribute>
+<attribute name="Xpos" >24.5</attribute>
+<attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509647010" Creator="system" >
 <attribute name="Alias" >3443256661</attribute>
@@ -5269,8 +5324,8 @@ Published Blog
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >262</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
-<attribute name="Ypos" >14.5</attribute>
+<attribute name="Xpos" >28.5</attribute>
+<attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509647006" Creator="system" >
 <attribute name="Alias" >3443203021</attribute>
@@ -5279,8 +5334,8 @@ Published Blog
 <attribute name="Modified" >2013-02-09T10:51:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >16.5</attribute>
-<attribute name="Ypos" >14.5</attribute>
+<attribute name="Xpos" >32.5</attribute>
+<attribute name="Ypos" >12.5</attribute>
 </item>
 <item ID="1509647007" Creator="system" >
 <attribute name="Alias" >3443272621</attribute>
@@ -5289,7 +5344,7 @@ Published Blog
 <attribute name="Modified" >2013-02-09T16:48:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >20.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
 <attribute name="Ypos" >14.5</attribute>
 </item>
 <item ID="1509647008" Creator="system" >
@@ -5299,7 +5354,7 @@ Published Blog
 <attribute name="Modified" >2013-02-09T16:47:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >24.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >14.5</attribute>
 </item>
 <item ID="1509647009" Creator="system" >
@@ -5309,7 +5364,7 @@ Published Blog
 <attribute name="Modified" >2013-02-09T16:47:00-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >28.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >14.5</attribute>
 </item>
 </agent>
@@ -5354,13 +5409,23 @@ Published Blog
 \f0\fs32 \cf0 &lt;h2&gt;Complete list of posts&lt;/h2&gt;
 \fs24 \
 }</rtf>
+<item ID="1640253170" Creator="system" >
+<attribute name="Alias" >1640253169</attribute>
+<attribute name="Created" >2021-12-23T04:32:19-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-12-23T04:32:19-05:00</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
 <item ID="1639001086" Creator="system" >
 <attribute name="Alias" >1639001085</attribute>
 <attribute name="Created" >2021-12-08T16:57:43-05:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-12-08T16:57:43-05:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637320018" Creator="system" >
@@ -5370,7 +5435,7 @@ Published Blog
 <attribute name="Modified" >2021-11-19T06:00:05-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637228243" Creator="system" >
@@ -5380,8 +5445,8 @@ Published Blog
 <attribute name="Modified" >2021-11-18T04:31:34-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637157654" Creator="system" >
 <attribute name="Alias" >1637155643</attribute>
@@ -5391,7 +5456,7 @@ Published Blog
 <attribute name="Name" ></attribute>
 <attribute name="SelectionCount" >95</attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637180438" Creator="system" >
@@ -5401,7 +5466,7 @@ Published Blog
 <attribute name="Modified" >2021-11-17T15:19:02-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637161330" Creator="system" >
@@ -5411,8 +5476,8 @@ Published Blog
 <attribute name="Modified" >2021-11-17T10:02:07-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
-<attribute name="Ypos" >2.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1637161318" Creator="system" >
 <attribute name="Alias" >1637161308</attribute>
@@ -5421,7 +5486,7 @@ Published Blog
 <attribute name="Modified" >2021-11-17T10:01:47-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1637161175" Creator="system" >
@@ -5431,7 +5496,7 @@ Published Blog
 <attribute name="Modified" >2021-11-17T09:59:26-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >4.5</attribute>
 </item>
 </agent>
@@ -5457,13 +5522,23 @@ Published Blog
 <attribute name="Width" >3</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
+<item ID="1640253176" Creator="system" >
+<attribute name="Alias" >1640253173</attribute>
+<attribute name="Created" >2021-12-23T04:32:39-05:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="Modified" >2021-12-23T04:32:39-05:00</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >0.5</attribute>
+</item>
 <item ID="1639002563" Creator="system" >
 <attribute name="Alias" >1639002532</attribute>
 <attribute name="Created" >2021-12-08T17:28:51-05:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-12-08T17:29:21-05:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1639001092" Creator="system" >
@@ -5471,8 +5546,9 @@ Published Blog
 <attribute name="Created" >2021-12-08T16:57:52-05:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="Modified" >2021-12-08T16:57:52-05:00</attribute>
+<attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637334835" Creator="system" >
@@ -5482,7 +5558,7 @@ Published Blog
 <attribute name="Modified" >2021-11-19T10:13:53-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
 </item>
 <item ID="1637320019" Creator="system" >
@@ -5492,8 +5568,8 @@ Published Blog
 <attribute name="Modified" >2021-11-19T06:00:09-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
-<attribute name="Ypos" >0.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637264223" Creator="system" >
 <attribute name="Alias" >1637264196</attribute>
@@ -5502,7 +5578,7 @@ Published Blog
 <attribute name="Modified" >2021-11-18T14:36:55-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637252606" Creator="system" >
@@ -5512,7 +5588,7 @@ Published Blog
 <attribute name="Modified" >2021-11-18T11:23:20-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637246101" Creator="system" >
@@ -5522,7 +5598,7 @@ Published Blog
 <attribute name="Modified" >2021-11-18T09:20:10-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >12.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637228247" Creator="system" >
@@ -5532,7 +5608,7 @@ Published Blog
 <attribute name="Modified" >2021-11-18T04:33:31-05:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
 <attribute name="Ypos" >2.5</attribute>
 </item>
 <item ID="1637180439" Creator="system" >
@@ -5582,8 +5658,8 @@ Published Blog
 <attribute name="Modified" >2021-11-06T05:56:22-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >0.5</attribute>
-<attribute name="Ypos" >6.5</attribute>
+<attribute name="Xpos" >16.5</attribute>
+<attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="1636114195" Creator="system" >
 <attribute name="Alias" >1636114182</attribute>
@@ -5592,7 +5668,7 @@ Published Blog
 <attribute name="Modified" >2021-11-05T08:09:53-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >4.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1636066548" Creator="system" >
@@ -5602,7 +5678,7 @@ Published Blog
 <attribute name="Modified" >2021-11-04T18:54:07-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >8.5</attribute>
+<attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 <item ID="1636038167" Creator="system" >
@@ -5612,7 +5688,7 @@ Published Blog
 <attribute name="Modified" >2021-11-04T11:00:02-04:00</attribute>
 <attribute name="Name" ></attribute>
 <attribute name="Width" >3</attribute>
-<attribute name="Xpos" >12.5</attribute>
+<attribute name="Xpos" >8.5</attribute>
 <attribute name="Ypos" >6.5</attribute>
 </item>
 </agent>
@@ -5921,8 +5997,8 @@ Published Blog
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >147</attribute>
 <attribute name="SelectionCount" >199</attribute>
-<attribute name="Sentiment" >-0.4444444577</attribute>
-<attribute name="Sentiments" >-0.6;-0.2;-0.4;-0.2;-0.6;-0.6;-0.8;0;-0.6</attribute>
+<attribute name="Sentiment" >-0.5333333479</attribute>
+<attribute name="Sentiments" >-0.6;-0.2;-0.4;-0.2;-0.6;-0.6;-0.8;-0.8;-0.6</attribute>
 <attribute name="WindowPlace" >Rect[ 30 48 1284 1244]</attribute>
 <attribute name="Xpos" >6.5</attribute>
 <attribute name="Ypos" >1</attribute>
@@ -5950,8 +6026,8 @@ Published Blog
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >147</attribute>
 <attribute name="SelectionCount" >242</attribute>
-<attribute name="Sentiment" >-0.4727272852</attribute>
-<attribute name="Sentiments" >-0.4;-0.2;-0.8;-0.4;-0.6;-0.2;-0.6;-0.6;-0.8;0;-0.6</attribute>
+<attribute name="Sentiment" >-0.545454559</attribute>
+<attribute name="Sentiments" >-0.4;-0.2;-0.8;-0.4;-0.6;-0.2;-0.6;-0.6;-0.8;-0.8;-0.6</attribute>
 <attribute name="WindowPlace" >Rect[ 30 48 1284 1244]</attribute>
 <attribute name="Xpos" >27.5</attribute>
 <attribute name="Ypos" >1</attribute>
@@ -5978,8 +6054,8 @@ Published Blog
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >147</attribute>
 <attribute name="SelectionCount" >260</attribute>
-<attribute name="Sentiment" >-0.5142857262</attribute>
-<attribute name="Sentiments" >-0.4;-0.4;-0.8;-0.6;-0.6;-0.8;0</attribute>
+<attribute name="Sentiment" >-0.6285714422</attribute>
+<attribute name="Sentiments" >-0.4;-0.4;-0.8;-0.6;-0.6;-0.8;-0.8</attribute>
 <attribute name="WindowPlace" >Rect[ 30 48 1284 1244]</attribute>
 <attribute name="Xpos" >34.5</attribute>
 <attribute name="Ypos" >1</attribute>
@@ -6026,8 +6102,8 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >147</attribute>
 <attribute name="SelectionCount" >179</attribute>
-<attribute name="Sentiment" >-0.3777777884</attribute>
-<attribute name="Sentiments" >-0.6;-0.2;-0.4;-0.2;-0.4;-0.4;-0.6;0;-0.6</attribute>
+<attribute name="Sentiment" >-0.4444444577</attribute>
+<attribute name="Sentiments" >-0.6;-0.2;-0.4;-0.2;-0.4;-0.4;-0.6;-0.6;-0.6</attribute>
 <attribute name="WindowPlace" >Rect[ 30 48 1284 1244]</attribute>
 <attribute name="Xpos" >14</attribute>
 <attribute name="Ypos" >1</attribute>
@@ -6054,8 +6130,8 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >323</attribute>
 <attribute name="SelectionCount" >613</attribute>
-<attribute name="Sentiment" >-0.3368421126</attribute>
-<attribute name="Sentiments" >0.4;-0.8;-0.6;-0.8;-0.4;-0.4;0.4;-0.4;-0.4;-0.8;-0.8;0;0;-0.4;0.4;-0.6;0.2;-0.8;-0.6</attribute>
+<attribute name="Sentiment" >-0.4736842207</attribute>
+<attribute name="Sentiments" >-0.6;-0.8;-0.6;-0.8;-0.4;-0.4;0.4;-0.4;-0.4;-0.8;-0.8;-0.8;-0.8;-0.4;0.4;-0.6;0.2;-0.8;-0.6</attribute>
 <attribute name="URL" >https://forum.eastgate.com/</attribute>
 <attribute name="WindowPlace" >Rect[ 173 151 1207 974]</attribute>
 <attribute name="Xpos" >3</attribute>
@@ -6091,8 +6167,8 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >323</attribute>
 <attribute name="SelectionCount" >683</attribute>
-<attribute name="Sentiment" >-0.3466666758</attribute>
-<attribute name="Sentiments" >-0.6;-0.2;-0.4;-0.8;-0.6;-0.8;0;-0.6;0.2;0.2;-0.6;-0.6;-0.4;0.4;-0.4;-0.4;-0.8;-0.8;0;-0.6;-0.8;0;0;-0.4;0.4;-0.6;0.2;-0.8;0;-0.6</attribute>
+<attribute name="Sentiment" >-0.5333333462</attribute>
+<attribute name="Sentiments" >-0.6;-0.2;-0.4;-0.8;-0.6;-0.8;-0.8;-0.6;-0.6;-0.6;-0.6;-0.6;-0.4;0.4;-0.4;-0.4;-0.8;-0.8;-0.8;-0.6;-0.8;-0.8;-0.8;-0.4;0.4;-0.6;0.2;-0.8;-0.8;-0.6</attribute>
 <attribute name="URL" >https://forum.eastgate.com/</attribute>
 <attribute name="WindowPlace" >Rect[ 173 151 1207 974]</attribute>
 <attribute name="Xpos" >31</attribute>
@@ -6149,8 +6225,8 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >323</attribute>
 <attribute name="SelectionCount" >570</attribute>
-<attribute name="Sentiment" >-0.2666666726</attribute>
-<attribute name="Sentiments" >0;-0.2;0.4;-0.4;-0.4;-0.8;-0.8;0;0;-0.4;0.4;-0.6;0.2;-0.8;-0.6</attribute>
+<attribute name="Sentiment" >-0.3733333409</attribute>
+<attribute name="Sentiments" >0;-0.2;0.4;-0.4;-0.4;-0.8;-0.8;-0.8;-0.8;-0.4;0.4;-0.6;0.2;-0.8;-0.6</attribute>
 <attribute name="WindowPlace" >Rect[ 173 151 1207 974]</attribute>
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0.5</attribute>
@@ -6250,8 +6326,8 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >26</attribute>
 <attribute name="SelectionCount" >94</attribute>
-<attribute name="Sentiment" >-0.2888888965</attribute>
-<attribute name="Sentiments" >-0.6;-0.8;0.4;-0.4;-0.6;-0.8;-0.2;0.2;0.2</attribute>
+<attribute name="Sentiment" >-0.511111122</attribute>
+<attribute name="Sentiments" >-0.6;-0.8;-0.8;-0.4;-0.6;-0.8;-0.2;-0.2;-0.2</attribute>
 <attribute name="WindowPlace" >Rect[ 776 715 1476 1215]</attribute>
 <attribute name="Xpos" >42.5</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -6278,8 +6354,8 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ReadCount" >39</attribute>
 <attribute name="SelectionCount" >74</attribute>
-<attribute name="Sentiment" >-0.2666666773</attribute>
-<attribute name="Sentiments" >-0.6;-0.6;0.4;-0.4;-0.4;-0.4;-0.6;0.8;-0.6</attribute>
+<attribute name="Sentiment" >-0.4222222368</attribute>
+<attribute name="Sentiments" >-0.6;-0.6;0.4;-0.4;-0.4;-0.4;-0.6;-0.6;-0.6</attribute>
 <attribute name="WindowPlace" >Rect[ 407 219 1107 719]</attribute>
 <attribute name="Xpos" >46</attribute>
 <attribute name="Ypos" >0</attribute>
@@ -6328,8 +6404,8 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <attribute name="Name" >top</attribute>
 <attribute name="ReadCount" >86</attribute>
 <attribute name="SelectionCount" >239</attribute>
-<attribute name="Sentiment" >-0.5440000099</attribute>
-<attribute name="Sentiments" >-0.8;-1;-1;-0.8;-0.8;-0.6;-0.8;-0.8;-0.4;-0.6;-0.6;0.6;-0.8;-1;0.2;-0.8;-0.6;-0.6;0.2;-0.8;-0.4;-0.6;-0.6;-0.2;0</attribute>
+<attribute name="Sentiment" >-0.6880000114</attribute>
+<attribute name="Sentiments" >-0.8;-1;-1;-0.8;-0.8;-0.6;-0.8;-0.8;-0.4;-0.6;-0.6;0.6;-0.8;-1;-1;-0.8;-0.8;-0.8;-0.8;-0.8;-0.4;-0.6;-0.6;-0.6;-0.6</attribute>
 <attribute name="URL" >http://www.rssboard.org/rss-autodiscovery</attribute>
 <attribute name="Width" >3</attribute>
 <attribute name="WindowPlace" >Rect[ 182 183 1304 1021]</attribute>
@@ -6375,8 +6451,8 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <attribute name="Name" >bottom</attribute>
 <attribute name="ReadCount" >10</attribute>
 <attribute name="SelectionCount" >48</attribute>
-<attribute name="Sentiment" >-0.1500000022</attribute>
-<attribute name="Sentiments" >0.4;-0.8;-0.8;0;0;0.4;-0.4;0</attribute>
+<attribute name="Sentiment" >-0.400000006</attribute>
+<attribute name="Sentiments" >0;-0.8;-0.8;-0.8;-0.8;0.4;-0.4;0</attribute>
 <attribute name="WindowPlace" >Rect[ 698 410 1398 910]</attribute>
 <attribute name="Xpos" >26</attribute>
 <attribute name="Ypos" >4</attribute>
@@ -6399,6 +6475,7 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 </item>
 <item ID="1637246073" Creator="system" >
 <attribute name="Created" >2021-11-18T09:17:43-05:00</attribute>
+<attribute name="DominantLanguage" >de</attribute>
 <attribute name="HTMLDontExport" >true</attribute>
 <attribute name="HTMLExportChildren" >false</attribute>
 <attribute name="Height" >4</attribute>
@@ -6406,6 +6483,7 @@ For more, see the &lt;a href=&quot;^root^/archives.html&quot;&gt;archives&lt;/a&
 <attribute name="Modified" >2021-11-18T09:17:43-05:00</attribute>
 <attribute name="Name" >Hints</attribute>
 <attribute name="OnAdd" >$NeverComposite=true;</attribute>
+<attribute name="Sentiments" >0</attribute>
 <attribute name="Width" >10</attribute>
 <attribute name="Xpos" >50.5</attribute>
 <attribute name="Ypos" >4</attribute>
@@ -6529,8 +6607,8 @@ body{
 <attribute name="Modified" >2021-11-18T09:17:43-05:00</attribute>
 <attribute name="Name" >Markdown</attribute>
 <attribute name="SelectionCount" >1</attribute>
-<attribute name="Sentiment" >-0.4000000099</attribute>
-<attribute name="Sentiments" >-0.6;-0.4;0.2;-0.4;-0.4;-0.4;-0.4;-0.4;-0.4;-0.6;-0.6;-0.4;-0.2;-0.6;-0.4</attribute>
+<attribute name="Sentiment" >-0.4400000105</attribute>
+<attribute name="Sentiments" >-0.6;-0.4;-0.4;-0.4;-0.4;-0.4;-0.4;-0.4;-0.4;-0.6;-0.6;-0.4;-0.2;-0.6;-0.4</attribute>
 <attribute name="SyntaxHighlighting" >Syntax</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >0</attribute>
@@ -6815,180 +6893,183 @@ LogDate();
 <links >
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443201461" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443203021" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="904" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.flyingmeat.com/voodoopad/"  />
-<link name="prototype" sourceid="3443266533" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443266537" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="904" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.flyingmeat.com/voodoopad/"  />
 <link name="prototype" sourceid="3443266533" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443274661" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="1538" slen="17" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://html5boilerplate.com"  />
-<link name="*untitled" sourceid="3443274121" sourcecreator="system" sstart="21" slen="24" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://baty.net/Posts/2013/02/BookList.html"  />
+<link name="prototype" sourceid="3443266533" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443266537" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="1538" slen="17" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://html5boilerplate.com"  />
+<link name="*untitled" sourceid="3443274121" sourcecreator="system" sstart="21" slen="24" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://baty.net/Posts/2013/02/BookList.html"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443623561" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="462" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://jackbaty.tumblr.com/"  />
-<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="316" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
-<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="771" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://johnmacfarlane.net/pandoc/"  />
-<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="709" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://daringfireball.net/projects/markdown/"  />
+<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="771" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://johnmacfarlane.net/pandoc/"  />
+<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="709" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://daringfireball.net/projects/markdown/"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443256661" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="729" slen="10" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.devontechnologies.com/products/devonthink/overview.html"  />
-<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="729" slen="10" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.devontechnologies.com/products/devonthink/overview.html"  />
+<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="316" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="462" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://jackbaty.tumblr.com/"  />
+<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="729" slen="10" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.devontechnologies.com/products/devonthink/overview.html"  />
+<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="729" slen="10" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.devontechnologies.com/products/devonthink/overview.html"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443354701" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="448" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://wordpress.com/"  />
-<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="715" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://evernote.com"  />
-<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="49" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://en.wikipedia.org/wiki/LaTeX"  />
-<link name="*untitled" sourceid="3443623561" sourcecreator="system" sstart="1217" slen="10" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://twitter.com/viticci/status/301760068188250112#"  />
-<link name="*untitled" sourceid="3445152841" sourcecreator="system" sstart="1746" slen="11" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://fieldnotesbrand.com"  />
+<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="715" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://evernote.com"  />
+<link name="*untitled" sourceid="3443256661" sourcecreator="system" sstart="448" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://wordpress.com/"  />
+<link name="*untitled" sourceid="3443623561" sourcecreator="system" sstart="1217" slen="10" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://twitter.com/viticci/status/301760068188250112#"  />
+<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="49" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://en.wikipedia.org/wiki/LaTeX"  />
+<link name="*untitled" sourceid="3445152841" sourcecreator="system" sstart="1746" slen="11" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://fieldnotesbrand.com"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3444585647" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="704" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
 <link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="1072" slen="23" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443256661" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3445092841" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443274121" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="1914" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.barebones.com/products/yojimbo/"  />
-<link name="*untitled" sourceid="3446353807" sourcecreator="system" sstart="147" slen="1" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://pastebin.com/0xXV8k7k"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450366317" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="1914" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.barebones.com/products/yojimbo/"  />
+<link name="*untitled" sourceid="3443354701" sourcecreator="system" sstart="704" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3453007736" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443245021" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3444475540" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3453007737" sourcecreator="system" sstart="464" slen="12" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://www.digitalocean.com/?refcode=a39ae1210279"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3457592334" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3453007737" sourcecreator="system" sstart="464" slen="12" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://www.digitalocean.com/?refcode=a39ae1210279"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450366704" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="1203" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
-<link name="*untitled" sourceid="3443274121" sourcecreator="system" sstart="21" slen="24" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://baty.net/RecentBooks.html"  />
-<link name="*untitled" sourceid="3445152841" sourcecreator="system" sstart="12" slen="14" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://en.wikipedia.org/wiki/Commonplace_book"  />
-<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="900" slen="23" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443256661" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3444475540" sourcecreator="system" sstart="1203" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3445152841" sourcecreator="system" sstart="12" slen="14" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://en.wikipedia.org/wiki/Commonplace_book"  />
+<link name="*untitled" sourceid="3443274121" sourcecreator="system" sstart="21" slen="24" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://baty.net/RecentBooks.html"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3455772410" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3446353807" sourcecreator="system" sstart="85" slen="20" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://pastebin.com/0xXV8k7k"  />
+<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="900" slen="23" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443256661" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3446353807" sourcecreator="system" sstart="147" slen="1" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://pastebin.com/0xXV8k7k"  />
+<link name="*untitled" sourceid="3446353807" sourcecreator="system" sstart="85" slen="20" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://pastebin.com/0xXV8k7k"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3445092655" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3446353807" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450367983" destcreator="jbaty" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443272141" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450611057" destcreator="jbaty" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3455772411" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3455772411" sourcecreator="system" sstart="299" slen="24" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://baty.net/Posts/2013/07/ChangesatSmallPicture.html"  />
-<link name="*untitled" sourceid="3455772411" sourcecreator="system" sstart="105" slen="14" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://notes.baty.net"  />
+<link name="*untitled" sourceid="3455772411" sourcecreator="system" sstart="299" slen="24" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://baty.net/Posts/2013/07/ChangesatSmallPicture.html"  />
 <link name="prototype" sourceid="3443266533" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443268541" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3457754702" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3455772411" sourcecreator="system" sstart="105" slen="14" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://notes.baty.net"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3457755121" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450611057" destcreator="jbaty" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3457754702" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3446276701" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3450366318" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="716" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3447560770" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443273041" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3445152841" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="716" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443273041" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3457592334" sourcecreator="system" sstart="52" slen="17" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://dave.smallpict.com/2013/07/25/changesAtSmallPicture"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3457786081" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3457592334" sourcecreator="system" sstart="52" slen="17" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://dave.smallpict.com/2013/07/25/changesAtSmallPicture"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443985001" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3453007737" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2922" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://www.dropbox.com"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3217" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.barebones.com/products/bbedit/index.html"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2922" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://www.dropbox.com"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443985001" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443291355" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3130" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://evernote.com/skitch/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3226" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://culturedcode.com/things/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3025" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.adobe.com/products/photoshop-lightroom.html"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3130" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://evernote.com/skitch/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3226" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://culturedcode.com/things/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3217" slen="6" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.barebones.com/products/bbedit/index.html"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3025" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.adobe.com/products/photoshop-lightroom.html"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3458275064" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3112" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.flyingmeat.com/acorn/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2932" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.obdev.at/products/launchbar/index.html"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3120" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://pilotmoon.com/popclip/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2932" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.obdev.at/products/launchbar/index.html"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3112" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.flyingmeat.com/acorn/"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3458275066" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443272621" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3457786081" sourcecreator="system" sstart="24" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3100" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://agilebits.com/onepassword/mac"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2967" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.thebrain.com"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3180" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://brew.sh"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3068" slen="12" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://twitterrific.com/mac"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2944" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3006" slen="16" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.keyboardmaestro.com/main/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3120" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://pilotmoon.com/popclip/"  />
+<link name="*untitled" sourceid="3457786081" sourcecreator="system" sstart="24" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3100" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://agilebits.com/onepassword/mac"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2967" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.thebrain.com"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3180" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://brew.sh"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3068" slen="12" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://twitterrific.com/mac"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3006" slen="16" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.keyboardmaestro.com/main/"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3457780504" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3191" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.sno.phy.queensu.ca/~phil/exiftool/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3037" slen="14" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.camerabits.com/learn-more/"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3054" slen="11" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://mthr.me/slicereader/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3191" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.sno.phy.queensu.ca/~phil/exiftool/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3037" slen="14" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.camerabits.com/learn-more/"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509643486" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3463291967" sourcecreator="system" sstart="182" slen="26" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.jetpens.com/Midori-Brass-Bullet-Pencil-Holder-Gold/pd/8727"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3054" slen="11" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://mthr.me/slicereader/"  />
+<link name="*untitled" sourceid="3463291967" sourcecreator="system" sstart="182" slen="26" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.jetpens.com/Midori-Brass-Bullet-Pencil-Holder-Gold/pd/8727"  />
 <link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="1541" slen="17" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3443354701" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2991" slen="12" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://smilesoftware.com/TextExpander/index.html"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2956" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://evernote.com"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2944" slen="9" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2991" slen="12" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://smilesoftware.com/TextExpander/index.html"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="2956" slen="8" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://evernote.com"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3461670362" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3235" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.hipchat.com/"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3445017650" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3463289588" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509652799" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3459946100" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3463911001" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509655291" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3235" slen="7" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.hipchat.com/"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3463289588" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3461423640" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3462694687" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1509708451" sourcecreator="system" sstart="73" slen="32" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://www.baty.net/2013/digital-recordkeeping/"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509708451" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509655291" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3463911001" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1509708451" sourcecreator="system" sstart="73" slen="32" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://www.baty.net/2013/digital-recordkeeping/"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3463911181" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509652799" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3460631575" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3462694687" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3460179481" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1509647522" sourcecreator="system" sstart="101" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509708451" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1509647522" sourcecreator="system" sstart="101" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://www.eastgate.com/Tinderbox/"  />
 <link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509643484" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1509647522" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3463291967" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514721014" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="431" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://www.baty.net/"  />
+<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="431" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://www.baty.net/"  />
 <link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1510854809" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1510528026" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="624" slen="17" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://www.baty.net/2012/201212where-my-avatar-came-from/"  />
+<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514721014" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1514721016" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3457592334" sourcecreator="system" sstart="174" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://fargo.io"  />
+<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="624" slen="17" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://www.baty.net/2012/201212where-my-avatar-came-from/"  />
+<link name="*untitled" sourceid="3457592334" sourcecreator="system" sstart="174" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://fargo.io"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1510528026" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1523630994" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636037959" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1543666837" sourcecreator="system" sstart="184" slen="7" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="3457781042" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1636037965" sourcecreator="system" sstart="107" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://pages.cloudflare.com"  />
+<link name="*untitled" sourceid="1636037965" sourcecreator="system" sstart="107" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://pages.cloudflare.com"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1523630997" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636037959" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1543666837" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1510528024" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1510676814" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636037949" destcreator="system" color="normal"  />
 <link name="*untitled" sourceid="1636037965" sourcecreator="system" sstart="127" slen="26" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1523630997" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1523630996" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443245201" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636037949" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636114182" destcreator="system" color="normal"  />
 <link name="*untitled" sourceid="1543666837" sourcecreator="system" sstart="25" slen="18" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="3443256661" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="443" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://www.baty.blog/"  />
+<link name="*untitled" sourceid="3443245021" sourcecreator="system" sstart="443" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://www.baty.blog/"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1510676814" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636066448" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1523630996" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636290392" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1636114182" sourcecreator="system" sstart="124" slen="16" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://pages.cloudflare.com"  />
-<link name="*untitled" sourceid="1636114182" sourcecreator="system" sstart="23" slen="14" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://notes.baty.net"  />
+<link name="*untitled" sourceid="1636114182" sourcecreator="system" sstart="124" slen="16" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://pages.cloudflare.com"  />
+<link name="*untitled" sourceid="1636114182" sourcecreator="system" sstart="23" slen="14" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://notes.baty.net"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1543666834" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636192551" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="1637155649" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637155643" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="1637155649" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637161167" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1636037965" sourcecreator="system" sstart="78" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://eastgate.com/Tinderbox"  />
-<link name="prototype" sourceid="1637155649" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637161328" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="1511008575" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1511008418" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636192551" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637145022" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="1637155649" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637161328" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1543666837" sourcecreator="system" sstart="184" slen="7" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="3457781042" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="1637155649" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637161308" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3139" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://developer.apple.com/xcode/"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636037965" destcreator="system" color="normal"  />
-<link name="" sourceid="1637145022" sourcecreator="system" sstart="435" slen="31" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="  https://rudimentarylathe.wiki/#Tinderbox%20Drummer%20blog"  />
+<link name="*untitled" sourceid="3458275066" sourcecreator="system" sstart="3139" slen="5" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://developer.apple.com/xcode/"  />
+<link name="prototype" sourceid="1637155649" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637161167" destcreator="system" color="normal"  />
+<link name="" sourceid="1637145022" sourcecreator="system" sstart="435" slen="31" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="  https://rudimentarylathe.wiki/#Tinderbox%20Drummer%20blog"  />
+<link name="" sourceid="1637145022" sourcecreator="system" sstart="42" slen="7" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://drummer.scripting.com"  />
+<link name="prototype" sourceid="1511008575" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1511008418" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1636037965" sourcecreator="system" sstart="78" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://eastgate.com/Tinderbox"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637155834" destcreator="system" color="normal"  />
-<link name="" sourceid="1637145022" sourcecreator="system" sstart="42" slen="7" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://drummer.scripting.com"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1636037965" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1509645018" sourcecreator="system" sstart="1410" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="http://baty.net"  />
 <link name="prototype" sourceid="1637155649" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637180335" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637180377" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1509645018" sourcecreator="system" sstart="1410" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="http://baty.net"  />
-<link name="*untitled" sourceid="1637180377" sourcecreator="system" sstart="0" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://youneedastereo.com/#Ton%20Zijlstra%20is%20careful%20about%20using%20notetaking%20app%20features"  />
-<link name="*untitled" sourceid="1637180377" sourcecreator="system" sstart="392" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://orgmode.org/"  />
-<link name="" sourceid="1637155834" sourcecreator="system" sstart="75" slen="19" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="  https://rudimentarylathe.wiki/#Tinderbox%20Drummer%20blog"  />
+<link name="" sourceid="1637155834" sourcecreator="system" sstart="75" slen="19" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="  https://rudimentarylathe.wiki/#Tinderbox%20Drummer%20blog"  />
 <link name="prototype" sourceid="1637155649" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637228242" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1637180377" sourcecreator="system" sstart="0" slen="9" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://youneedastereo.com/#Ton%20Zijlstra%20is%20careful%20about%20using%20notetaking%20app%20features"  />
 <link name="prototype" sourceid="1637246088" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637246090" destcreator="system" color="normal"  />
-<link name="" sourceid="1637228245" sourcecreator="system" sstart="32" slen="21" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://rudimentarylathe.wiki"  />
+<link name="" sourceid="1637228245" sourcecreator="system" sstart="32" slen="21" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://rudimentarylathe.wiki"  />
+<link name="*untitled" sourceid="1637180377" sourcecreator="system" sstart="392" slen="8" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://orgmode.org/"  />
 <link name="prototype" sourceid="1637246088" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637246091" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="1637246088" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637246092" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="1637246088" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637246097" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637246099" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637228245" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637252590" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="1637246088" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637246097" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637228245" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="0" arrowtype="0" labelx="0" labely="0" linkWidth="1" destid="3461423638" destcreator="system" color="normal"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637264196" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="1637155649" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637320015" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637320016" destcreator="system" color="normal"  />
-<link name="*untitled" sourceid="1637320016" sourcecreator="system" sstart="131" slen="13" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://www.schulerbooks.com/"  />
-<link name="*untitled" sourceid="1637320016" sourcecreator="system" sstart="970" slen="33" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://bookshop.org/books/the-ten-thousand-doors-of-january-9780316421997/9780316421973"  />
-<link name="*untitled" sourceid="1637320016" sourcecreator="system" sstart="871" slen="24" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://bookshop.org/books/termination-shock-9780063028050/9780063028050"  />
-<link name="*untitled" sourceid="1637320016" sourcecreator="system" sstart="1010" slen="23" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://bookshop.org/books/the-selected-poetry-of-rainer-maria-rilke-bilingual-edition/9780679722014"  />
-<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637334789" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1637320016" sourcecreator="system" sstart="970" slen="33" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://bookshop.org/books/the-ten-thousand-doors-of-january-9780316421997/9780316421973"  />
+<link name="*untitled" sourceid="1637320016" sourcecreator="system" sstart="871" slen="24" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://bookshop.org/books/termination-shock-9780063028050/9780063028050"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637264196" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1637320016" sourcecreator="system" sstart="1010" slen="23" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://bookshop.org/books/the-selected-poetry-of-rainer-maria-rilke-bilingual-edition/9780679722014"  />
 <link name="prototype" sourceid="1637155649" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639001085" destcreator="system" color="normal"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639001088" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1637334789" destcreator="system" color="normal"  />
+<link name="*untitled" sourceid="1637320016" sourcecreator="system" sstart="131" slen="13" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://www.schulerbooks.com/"  />
 <link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639002532" destcreator="system" color="normal"  />
-<link name="" sourceid="1639002532" sourcecreator="system" sstart="149" slen="16" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1639000657" destcreator="jbaty" color="normal" URL="https://pages.cloudflare.com"  />
+<link name="" sourceid="1639002532" sourcecreator="system" sstart="149" slen="16" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640252725" destcreator="jbaty" color="normal" URL="https://pages.cloudflare.com"  />
+<link name="prototype" sourceid="3443201341" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640253168" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="1637155649" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640253169" destcreator="system" color="normal"  />
+<link name="prototype" sourceid="3443200141" sourcecreator="system" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1640253173" destcreator="system" color="normal"  />
 </links>
 <macros >
 <macro name="Image" >&lt;img src=&quot;^root^img/$1&quot; alt=&quot;$2&quot;&gt;</macro>
@@ -7066,7 +7147,7 @@ LogDate();
 <WarnEditingDefault > 1</WarnEditingDefault>
 <WarnDuplicateName > 0</WarnDuplicateName>
 <RunScriptsAutomatically > 1</RunScriptsAutomatically>
-<Version > version 9.0.1</Version>
+<Version > version 9.1.1</Version>
 <PreferencePane > 4</PreferencePane>
 <LastBadgeFamily > 1</LastBadgeFamily>
 <TipWindowX > 300</TipWindowX>
@@ -7157,11 +7238,11 @@ LogDate();
 <LastVersionString > b226</LastVersionString>
 </preferences>
 <windows >
-<window bounds="Rect[ 823 676 2483 1945]" ruler="1" toolbar="0" >
+<window bounds="Rect[ 518 387 2178 1656]" ruler="1" toolbar="0" >
 <tabs >
-<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="1" hideBreadcrumbs="0" scale="32" ID="1636037959" scrollX="0" scrollY="0" selection="1639002532 " expanded="1637320015 1639001085 " textTab="0" splitRatio="0.553012" xattribute="" xattribute2="" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="0" xunlimited="0" xbins2="0" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1639000649" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
-<tab selected="0" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" scale="32" ID="1639000657" scrollX="0" scrollY="0" selection="" expanded="1636037959 " textTab="0" splitRatio="0.505533" xattribute="" xattribute2="" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="0" xunlimited="0" xbins2="0" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1639000649" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
-<tab selected="0" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" scale="32" ID="1639000657" scrollX="0" scrollY="0" selection="3443245021 " expanded="1637228242 3443195281 3443204221 " textTab="0" splitRatio="0.511993" xattribute="" xattribute2="" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="0" xunlimited="0" xbins2="0" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1639000649" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
+<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="1" hideBreadcrumbs="0" scale="32" ID="1636037949" scrollX="0" scrollY="0" selection="1640253173 " expanded="1637320015 " textTab="0" splitRatio="0.553012" xattribute="" xattribute2="" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="0" xunlimited="0" xbins2="0" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1640251464" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
+<tab selected="0" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" scale="32" ID="1640252725" scrollX="0" scrollY="0" selection="" expanded="1636037959 " textTab="0" splitRatio="0.505533" xattribute="" xattribute2="" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="0" xunlimited="0" xbins2="0" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1640251464" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
+<tab selected="0" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" scale="32" ID="1640252725" scrollX="0" scrollY="0" selection="3443245021 " expanded="1637228242 3443195281 3443204221 " textTab="0" splitRatio="0.511993" xattribute="" xattribute2="" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="0" xunlimited="0" xbins2="0" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1640251464" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
 </tabs>
 </window>
 </windows>
@@ -7177,5 +7258,5 @@ LogDate();
 <badges limit="7" >
 document</badges>
 <preview >
-JVBERi0xLjMKJcTl8uXrp/Og0MTGCjMgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL0xlbmd0aCAxOTI3ID4+CnN0cmVhbQp4Aa1ZS3MbNwy+81fgVmmmtcl989Rpk7rTHjrNWDM5ZHqwZSVyI1mNH338+34ASO5K2l2vHMceL6IlQRD4+AGgvtA7+kLnbx4cLR/I4ceeNbYpK5vTw5LyjJyr/FlJW8p9lDdBzvA5ZBkD2WxoTR9V2ZtLKCqaOs/qAlJZNVnlMkhVlmWudnT5ButiNfx8xw/n6oqWWCWjCqpkOQisH+vmaSWV1nQJw6GNbsfUiNVG1fCEoRXruEEWNqobmqNbsJOK/9UmSbw7/Yzd5Bp2TYblXME7sVCSsVtESk6Bh3m/FlNMNMVRLX61Z1mZsQN+XLASHhUeiy2dL5YcmsVHmjk3p8Wf9NMC2wn2waqmLq3L2dNRcmyXr8jjU5iFcLK0USljA/mlCGxfNEdi4fPawBIMyMPcPMx0tU6U52AQMJ93ovMNr83zjwLQDosmsoGDwxpTizXurITTRkeSb0f6MFJwfrF19HYnjjOdaKTtw8sFPJW5adH4QLMfNqt/6X5uAO7Zant7d7O6oe2Krq53T4/0uL59oOvNbk4VzT7N6Q9a/LoXuk7AUuhMCh10htBB0tA1voEEz6qQoNV/3oCMofPmXdnGSFAxHmNzcND65x8HLy2TYgyaGBrGUHGWN42/+O09ioek0tkkH0VM85b5ytnyrClyh/9mIAr2HxCPVyylV/UZg479CF8NbbIB3ljhCPTCPpsO9MwB9DKGnpCQA8ack31CUpOC3TDOcXR5rgOHyFvjnE/jIGEu2/ye7nS/qotHyxueFzRAq0o6+vz31f1y9dfj09XG3PdH9PxyDQCuYehkUxHRZCoMGjJV6EqBGqizJdEkmcPEEIDm4DOBEJ6CjAQR9hd+1YbwCpRq2SrYouFlxAkDhEwXeZjOf0bq+8TEzAttqS7YiwwSlhrPB88afabT1qUOKMi6CoAxmc5BlMnh2UIs+UFYHvuFipxV7JOwIooNZav42X9wmKotZUzVPAyCjkvZS5bB0cAyhVraRl4JDxBhwmNN4+kHhPd+vbqfI96gOwK7CcWtdw+P+Awf3XyvLGe6CQpvpK4orCuqMiYmQDywm4KdU1TDjufEJEL0t+lnNz6xbTWB3ZVHTnTWSlJtU5kZp7mjeuJIQZvLQNQcFS1f2nGJ6PrilQzap5Q+TuwMHU5neUxnXL4JqA0iHYGk0fVNNTmd/fLNZkNLyVc7pLHrq+VnekR2o9lOQ725kkCHcAMJxzmtN9q1MmhuPCScTI52xbHgaIsQo01Toh13qPVKY7+uXmlsmwtH6pU0bDTEXodhh1DFEMdfoSXmILtfVh7msg6kYy5DCdnmMuOrus1lUl22uazOurnsEMnBLNQPbS5DRdXHKWGf3VyGtDY60jmU7CFBSg5KhHuxLY4wyhQQIxgwWhUtRs1IAQwG+oX+AQZRUa3uFItAKJPPjq7oerf7HLhoJzRlQFP/heGRpAJ/3TCUoQavB0GcFzVXhLC3KpCFi0Y6BfQvQUaaEBmVARxUcfVfqPwMnDtVy2HGc66U2gzauHUBrTsRdC1tgHil0AoZwVVfKzSkhidE9yt76YoGWrUVwoptKyR582Jb7oUxtT8pcwO7bUtkSnEFW18gPbuC8aOS1i6hT4ysdYAIQAgJf3pSWqyfOKg0e+gEtUJsv6Xf8DmDgx9m9reGfLW9Xt1TMWfyxpjMzqmkWYbeahISoCrTLlWizzK2J7LjZjkgIcjPIKE980e1D3yQMzNNRII2royE1F6G8A6p6UFCGhqRYI6QUJ2CBBIkSHlSVDhCGXOOIAHFWefGYAwJrm7JIbbFyhFmrzsGOVzMCXXb7P52FAi0D4QSQCjNy4Bgi3hGQfQsMxDA/F7dxgc1ypOB0HM7AvC+BAiH5xxHYbnlc37ALD1AkKEMvQiEY0qoTWimpfpIx78lglYCgwoQLLc9En5pe1iCe2hjknNGgGB9OQQESkAwuCYBEC5DoSLEAEScgodKOUOIwZxGDLbhWzHhbKeyEoOtS7khEzyw3MX+yRUPVPvXwAPUTMWDDh3HQ3MyHixuvxQPtuFqUPBQwznT8FDn0/EgFP90dwoO3H6GMKdkCFvh2jMCQeQAhBJ5G/W+AIHlrwQCbiVfgRhsxVd2k4hBh44DwZ8OhJLLUgl/xRWCSCUgMQ0I5YQbu0AM7wEEz63q3Wq8WjhIEq6eo8EO5YKyAo3VC3VeFnKVJ5FGMZPQIHJAQ64X5zpGL9QTE76AFpBiXwMN8P5UNMjQcTTgLubUPGHzKsIBdxoBDvhuYCIc8gnX6QEOE0vHQzA03arRDFaN7ZWHRBiFTEKByAEFjrmCOQGFQ5C/BgVZ0R8+rlCP+oe2ajwoFqyoYaOeLRbS0JFiAfXE251Jt1LPVgvcNUsDLVSAr1g2UkFYkeCdVpVcfOy3lFgM9yfN89mBv1T5YF5WNjrfqRNCA9EDhXSzj0p/7+sZQMKDuAIiVBRA+AKFpOYIEbH1l8PBl80rcAK0AFNTwJBGjmGB78LbAE7AAvyghODxNZkgQYXol6GvcwAEX2QTcYDbTU4OuDPoTQ5vV3ozpt3jHgN0+sZ3/wPbOi/cCmVuZHN0cmVhbQplbmRvYmoKMSAwIG9iago8PCAvVHlwZSAvUGFnZSAvUGFyZW50IDIgMCBSIC9SZXNvdXJjZXMgNCAwIFIgL0NvbnRlbnRzIDMgMCBSIC9NZWRpYUJveCBbMCAwIDczOSAxMTg2XQo+PgplbmRvYmoKNCAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL1RleHQgXSAvQ29sb3JTcGFjZSA8PCAvQ3MxIDUgMCBSID4+IC9FeHRHU3RhdGUgPDwgL0dzMQozMiAwIFIgL0dzMiAzMyAwIFIgL0dzMyAzNCAwIFIgL0dzNCAzNSAwIFIgL0dzNSAzNiAwIFIgPj4gL0ZvbnQgPDwgL1RjMSA2IDAgUgo+PiAvWE9iamVjdCA8PCAvRm0xIDcgMCBSIC9GbTIgOSAwIFIgL0ZtMyAxMiAwIFIgL0ZtNCAxNCAwIFIgL0ZtNSAxNiAwIFIgL0ZtNgoxOCAwIFIgL0ZtNyAyMCAwIFIgL0ZtOCAyMiAwIFIgL0ZtOSAyNCAwIFIgL0ZtMTAgMjYgMCBSIC9GbTExIDI4IDAgUiAvRm0xMgozMCAwIFIgPj4gL1NoYWRpbmcgPDwgL1NoMSAxMSAwIFIgPj4gPj4KZW5kb2JqCjcgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0Zvcm0gL0Zvcm1UeXBlIDEgL0JCb3ggWzEyNSA5MTkgMTQxIDkzNV0KL1Jlc291cmNlcyA4IDAgUiAvR3JvdXAgPDwgL1MgL1RyYW5zcGFyZW5jeSAvQ1MgMzcgMCBSIC9JIHRydWUgL0sgZmFsc2UgPj4KL0xlbmd0aCA3MSA+PgpzdHJlYW0KeAErVAhUKFQwNDJVsDS0VDA0A6GiVIVwhTwF/YDUouTUgpLSxByFokyQKjMFAyAEKYKqT85V0PfMNVRwyVcI5AoEANygEtcKZW5kc3RyZWFtCmVuZG9iago4IDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdIC9YT2JqZWN0IDw8IC9JbTEgMzggMCBSID4+ID4+CmVuZG9iago5IDAgb2JqCjw8IC9GaWx0ZXIgL0ZsYXRlRGVjb2RlIC9UeXBlIC9YT2JqZWN0IC9TdWJ0eXBlIC9Gb3JtIC9Gb3JtVHlwZSAxIC9CQm94IFsxMjUgODk3IDE0MSA5MTNdCi9SZXNvdXJjZXMgMTAgMCBSIC9Hcm91cCA8PCAvUyAvVHJhbnNwYXJlbmN5IC9DUyAzNyAwIFIgL0kgdHJ1ZSAvSyBmYWxzZSA+PgovTGVuZ3RoIDcxID4+CnN0cmVhbQp4AStUCFQoVDA0MlWwsDRXMDQDoaJUhXCFPAX9gNSi5NSCktLEHIWiTJAqMwUDIAQpgqpPzlXQ98w1VHDJVwjkCgQA3jwS4QplbmRzdHJlYW0KZW5kb2JqCjEwIDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdIC9YT2JqZWN0IDw8IC9JbTEgMzggMCBSID4+ID4+CmVuZG9iagoxMiAwIG9iago8PCAvRmlsdGVyIC9GbGF0ZURlY29kZSAvVHlwZSAvWE9iamVjdCAvU3VidHlwZSAvRm9ybSAvRm9ybVR5cGUgMSAvQkJveCBbMTI1IDk4NCAxNDEgMTAwMF0KL1Jlc291cmNlcyAxMyAwIFIgL0dyb3VwIDw8IC9TIC9UcmFuc3BhcmVuY3kgL0NTIDM3IDAgUiAvSSB0cnVlIC9LIGZhbHNlID4+Ci9MZW5ndGggNzEgPj4Kc3RyZWFtCngBK1QIVChUMDQyVbC0MFEwNAOholSFcIU8Bf2A1KLk1IKS0sQchaJMkCozBQMgBCmCqk/OVdD3zDVUcMlXCOQKBADdThLbCmVuZHN0cmVhbQplbmRvYmoKMTMgMCBvYmoKPDwgL1Byb2NTZXQgWyAvUERGIC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0gL1hPYmplY3QgPDwgL0ltMSAzOCAwIFIgPj4gPj4KZW5kb2JqCjE0IDAgb2JqCjw8IC9GaWx0ZXIgL0ZsYXRlRGVjb2RlIC9UeXBlIC9YT2JqZWN0IC9TdWJ0eXBlIC9Gb3JtIC9Gb3JtVHlwZSAxIC9CQm94IFsxMjUgOTYyIDE0MSA5NzhdCi9SZXNvdXJjZXMgMTUgMCBSIC9Hcm91cCA8PCAvUyAvVHJhbnNwYXJlbmN5IC9DUyAzNyAwIFIgL0kgdHJ1ZSAvSyBmYWxzZSA+PgovTGVuZ3RoIDcxID4+CnN0cmVhbQp4AStUCFQoVDA0MlWwNDNSMDQDoaJUhXCFPAX9gNSi5NSCktLEHIWiTJAqMwUDIAQpgqpPzlXQ98w1VHDJVwjkCgQA3AoS0wplbmRzdHJlYW0KZW5kb2JqCjE1IDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdIC9YT2JqZWN0IDw8IC9JbTEgMzggMCBSID4+ID4+CmVuZG9iagoxNiAwIG9iago8PCAvRmlsdGVyIC9GbGF0ZURlY29kZSAvVHlwZSAvWE9iamVjdCAvU3VidHlwZSAvRm9ybSAvRm9ybVR5cGUgMSAvQkJveCBbOTMgMTEzNyAxMDkgMTE1M10KL1Jlc291cmNlcyAxNyAwIFIgL0dyb3VwIDw8IC9TIC9UcmFuc3BhcmVuY3kgL0NTIDM3IDAgUiAvSSB0cnVlIC9LIGZhbHNlID4+Ci9MZW5ndGggNzAgPj4Kc3RyZWFtCngBK1QIVChUsDRWMDQ0NlcwNAOholSFcIU8Bf2A1KLk1IKS0sQchaJMoCqglAEQAimY+uRcBX3PXEMFl3yFQK5AANu8EtEKZW5kc3RyZWFtCmVuZG9iagoxNyAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXSAvWE9iamVjdCA8PCAvSW0xIDM4IDAgUiA+PiA+PgplbmRvYmoKMTggMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0Zvcm0gL0Zvcm1UeXBlIDEgL0JCb3ggWzkzIDExMTUgMTA5IDExMzFdCi9SZXNvdXJjZXMgMTkgMCBSIC9Hcm91cCA8PCAvUyAvVHJhbnNwYXJlbmN5IC9DUyAzNyAwIFIgL0kgdHJ1ZSAvSyBmYWxzZSA+PgovTGVuZ3RoIDcwID4+CnN0cmVhbQp4AStUCFQoVLA0VjA0NDRVMDQDoaJUhXCFPAX9gNSi5NSCktLEHIWiTKAqoJQBEAIpmPrkXAV9z1xDBZd8hUCuQADaeBLJCmVuZHN0cmVhbQplbmRvYmoKMTkgMCBvYmoKPDwgL1Byb2NTZXQgWyAvUERGIC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0gL1hPYmplY3QgPDwgL0ltMSAzOCAwIFIgPj4gPj4KZW5kb2JqCjIwIDAgb2JqCjw8IC9GaWx0ZXIgL0ZsYXRlRGVjb2RlIC9UeXBlIC9YT2JqZWN0IC9TdWJ0eXBlIC9Gb3JtIC9Gb3JtVHlwZSAxIC9CQm94IFs5MyAxMDkzIDEwOSAxMTA5XQovUmVzb3VyY2VzIDIxIDAgUiAvR3JvdXAgPDwgL1MgL1RyYW5zcGFyZW5jeSAvQ1MgMzcgMCBSIC9JIHRydWUgL0sgZmFsc2UgPj4KL0xlbmd0aCA2OCA+PgpzdHJlYW0KeAErVAhUKFSwNFYwNAARZiBUlKoQrpCnoB+QWpScWlBSmpijUJQJVAWUMgBCIAVTn5yroO+Za6jgkq8QyBUIANwUEtMKZW5kc3RyZWFtCmVuZG9iagoyMSAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXSAvWE9iamVjdCA8PCAvSW0xIDM4IDAgUiA+PiA+PgplbmRvYmoKMjIgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0Zvcm0gL0Zvcm1UeXBlIDEgL0JCb3ggWzkzIDEwNzEgMTA5IDEwODddCi9SZXNvdXJjZXMgMjMgMCBSIC9Hcm91cCA8PCAvUyAvVHJhbnNwYXJlbmN5IC9DUyAzNyAwIFIgL0kgdHJ1ZSAvSyBmYWxzZSA+PgovTGVuZ3RoIDcwID4+CnN0cmVhbQp4AStUCFQoVLA0VjA0MDdUMDQDoaJUhXCFPAX9gNSi5NSCktLEHIWiTKAqoJQBEAIpmPrkXAV9z1xDBZd8hUCuQADa0BLLCmVuZHN0cmVhbQplbmRvYmoKMjMgMCBvYmoKPDwgL1Byb2NTZXQgWyAvUERGIC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0gL1hPYmplY3QgPDwgL0ltMSAzOCAwIFIgPj4gPj4KZW5kb2JqCjI0IDAgb2JqCjw8IC9GaWx0ZXIgL0ZsYXRlRGVjb2RlIC9UeXBlIC9YT2JqZWN0IC9TdWJ0eXBlIC9Gb3JtIC9Gb3JtVHlwZSAxIC9CQm94IFs5MyAxMDQ5IDEwOSAxMDY1XQovUmVzb3VyY2VzIDI1IDAgUiAvR3JvdXAgPDwgL1MgL1RyYW5zcGFyZW5jeSAvQ1MgMzcgMCBSIC9JIHRydWUgL0sgZmFsc2UgPj4KL0xlbmd0aCA3MCA+PgpzdHJlYW0KeAErVAhUKFSwNFYwNDCxVDA0A6GiVIVwhTwF/YDUouTUgpLSxByFokygKqCUARACKZj65FwFfc9cQwWXfIVArkAA3FoS1QplbmRzdHJlYW0KZW5kb2JqCjI1IDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdIC9YT2JqZWN0IDw8IC9JbTEgMzggMCBSID4+ID4+CmVuZG9iagoyNiAwIG9iago8PCAvRmlsdGVyIC9GbGF0ZURlY29kZSAvVHlwZSAvWE9iamVjdCAvU3VidHlwZSAvRm9ybSAvRm9ybVR5cGUgMSAvQkJveCBbOTMgMTAyOCAxMDkgMTA0NF0KL1Jlc291cmNlcyAyNyAwIFIgL0dyb3VwIDw8IC9TIC9UcmFuc3BhcmVuY3kgL0NTIDM3IDAgUiAvSSB0cnVlIC9LIGZhbHNlID4+Ci9MZW5ndGggNzAgPj4Kc3RyZWFtCngBK1QIVChUsDRWMDQwslAwNAOholSFcIU8Bf2A1KLk1IKS0sQchaJMoCqglAEQAimY+uRcBX3PXEMFl3yFQK5AANtmEs8KZW5kc3RyZWFtCmVuZG9iagoyNyAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXSAvWE9iamVjdCA8PCAvSW0xIDM4IDAgUiA+PiA+PgplbmRvYmoKMjggMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0Zvcm0gL0Zvcm1UeXBlIDEgL0JCb3ggWzkzIDEwMDYgMTA5IDEwMjJdCi9SZXNvdXJjZXMgMjkgMCBSIC9Hcm91cCA8PCAvUyAvVHJhbnNwYXJlbmN5IC9DUyAzNyAwIFIgL0kgdHJ1ZSAvSyBmYWxzZSA+PgovTGVuZ3RoIDY5ID4+CnN0cmVhbQp4AStUCFQoVLA0VjA0MDBTMASjolSFcIU8Bf2A1KLk1IKS0sQchaJMoCqgrAEQAimY+uRcBX3PXEMFl3yFQK5AANoiEscKZW5kc3RyZWFtCmVuZG9iagoyOSAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXSAvWE9iamVjdCA8PCAvSW0xIDM4IDAgUiA+PiA+PgplbmRvYmoKMzAgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0Zvcm0gL0Zvcm1UeXBlIDEgL0JCb3ggWzkzIDk0MCAxMDkgOTU2XQovUmVzb3VyY2VzIDMxIDAgUiAvR3JvdXAgPDwgL1MgL1RyYW5zcGFyZW5jeSAvQ1MgMzcgMCBSIC9JIHRydWUgL0sgZmFsc2UgPj4KL0xlbmd0aCA2OCA+PgpzdHJlYW0KeAErVAhUKFSwNFawNDFQMDQDoaJUhXCFPAX9gNSi5NSCktLEHIWiTKAioJQBEAIpqPLkXAV9z1xDBZd8oCGBALwDEokKZW5kc3RyZWFtCmVuZG9iagozMSAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXSAvWE9iamVjdCA8PCAvSW0xIDM4IDAgUiA+PiA+PgplbmRvYmoKMTEgMCBvYmoKPDwgL0NvbG9yU3BhY2UgMzcgMCBSIC9TaGFkaW5nVHlwZSAyIC9Db29yZHMgWyAxMTYgNCAxMTYgMTYgXSAvRG9tYWluIFsgMAoxIF0gL0V4dGVuZCBbIHRydWUgdHJ1ZSBdIC9GdW5jdGlvbiAzOSAwIFIgPj4KZW5kb2JqCjM4IDAgb2JqCjw8IC9UeXBlIC9YT2JqZWN0IC9TdWJ0eXBlIC9JbWFnZSAvV2lkdGggMzIgL0hlaWdodCAzMiAvSW50ZXJwb2xhdGUgdHJ1ZSAvQ29sb3JTcGFjZQo0MCAwIFIgL0ludGVudCAvUGVyY2VwdHVhbCAvU01hc2sgNDEgMCBSIC9CaXRzUGVyQ29tcG9uZW50IDggL0xlbmd0aCA1NDkgL0ZpbHRlcgovRmxhdGVEZWNvZGUgPj4Kc3RyZWFtCngBpZZbr+lQEMd9CBGPHryKB0/b9/Ei50MKb+wgIkIIiftlU5dqXev8elaUOrX20v73bnTWjN+YmbXK7fZQNBrNZDLZbPbPb0qlUolE4vFOtbtQKCQPtCzLMIzVarVYLHK5XDgclse/eOX84/G4Xq8Hg0Gz2axWq91ut9/vx2KxF4jElPNPp9N2ux2NRu12+/ufQA2HQ/UUv/J1XZ/P571er1arkQH+4XBQTyHnn89n0zSXyyXAVqtFi+AzERbH43E8Hpd0Rrjk/MvlwqelRbPZjBIajYYDZH0ymdAoOUHuvV6vjIAWiRI6nY7DFzekjkQiL4vPpgqfbsBhCnSJQdfr9WKxWCgU8vk85nQ6lZwLOZ9W0yJK4AhsNhuRgl3Kdq1UKqVSqVwus4ElEImLMuHTIqbMQSDFbrejUbSdEyGykIhBSCASl2ijk4IqaNR+v6cQsjBxzgWJCJNAJC6HL1LQKAohC7WQiKGTSNO0gPyXLLTLSSRyqfB510e63aOtm6XCpwO+pcK/f5yPX+mVCp8wf2LiKnzC/IkRq/AJ8yf2qgqf/ewte6eb5pE/l57NQHzDhf3f4KGhwjd0nX8PuVZt436JWNtS4XuQ1ZZ44qnweZK4tHVZT4ZwuNx++NoT0nUrHA83D38VPj+fHGnc2ZenhMPl/pT/4wl+s8gXgQqf337v9YPLvt5IhU9MEEm+pHAlk8mvAEqn03I+3uB6Lv8v305tGAplbmRzdHJlYW0KZW5kb2JqCjQxIDAgb2JqCjw8IC9UeXBlIC9YT2JqZWN0IC9TdWJ0eXBlIC9JbWFnZSAvV2lkdGggMzIgL0hlaWdodCAzMiAvQ29sb3JTcGFjZSAvRGV2aWNlR3JheQovQml0c1BlckNvbXBvbmVudCA4IC9MZW5ndGggMTM3IC9GaWx0ZXIgL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AWNgYGAw9QwLRwAbY6AQClD7jwK+G6HIMjCYo0j////eHlWBBZo8ugIM+X+oJmDI/0dVgCkPVGDHCHcEFvn//3/q4pf//x8eDlj1//8PDwYc8uYwC3DIW4zKQ0JgNHzQMwiYD08f6PkLqhqevvQa+/swQH+7Hix9ccgoqWAAJRkOkDwA4YSAjwplbmRzdHJlYW0KZW5kb2JqCjMyIDAgb2JqCjw8IC9UeXBlIC9FeHRHU3RhdGUgL2NhIDAuMTI1ID4+CmVuZG9iagozMyAwIG9iago8PCAvVHlwZSAvRXh0R1N0YXRlIC9jYSAwLjQgPj4KZW5kb2JqCjM0IDAgb2JqCjw8IC9UeXBlIC9FeHRHU3RhdGUgL0NBIDAuMyA+PgplbmRvYmoKMzUgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvY2EgMSA+PgplbmRvYmoKMzYgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvQ0EgMSA+PgplbmRvYmoKNDIgMCBvYmoKPDwgL04gMyAvQWx0ZXJuYXRlIC9EZXZpY2VSR0IgL0xlbmd0aCAyNjEyIC9GaWx0ZXIgL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AZ2Wd1RT2RaHz703vdASIiAl9Bp6CSDSO0gVBFGJSYBQAoaEJnZEBUYUESlWZFTAAUeHImNFFAuDgmLXCfIQUMbBUURF5d2MawnvrTXz3pr9x1nf2ee319ln733XugBQ/IIEwnRYAYA0oVgU7uvBXBITy8T3AhgQAQ5YAcDhZmYER/hEAtT8vT2ZmahIxrP27i6AZLvbLL9QJnPW/3+RIjdDJAYACkXVNjx+JhflApRTs8UZMv8EyvSVKTKGMTIWoQmirCLjxK9s9qfmK7vJmJcm5KEaWc4ZvDSejLtQ3pol4aOMBKFcmCXgZ6N8B2W9VEmaAOX3KNPT+JxMADAUmV/M5yahbIkyRRQZ7onyAgAIlMQ5vHIOi/k5aJ4AeKZn5IoEiUliphHXmGnl6Mhm+vGzU/liMSuUw03hiHhMz/S0DI4wF4Cvb5ZFASVZbZloke2tHO3tWdbmaPm/2d8eflP9Pch6+1XxJuzPnkGMnlnfbOysL70WAPYkWpsds76VVQC0bQZA5eGsT+8gAPIFALTenPMehmxeksTiDCcLi+zsbHMBn2suK+g3+5+Cb8q/hjn3mcvu+1Y7phc/gSNJFTNlReWmp6ZLRMzMDA6Xz2T99xD/48A5ac3Jwyycn8AX8YXoVVHolAmEiWi7hTyBWJAuZAqEf9Xhfxg2JwcZfp1rFGh1XwB9hTlQuEkHyG89AEMjAyRuP3oCfetbEDEKyL68aK2Rr3OPMnr+5/ofC1yKbuFMQSJT5vYMj2RyJaIsGaPfhGzBAhKQB3SgCjSBLjACLGANHIAzcAPeIACE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feWO/50bA4sG+u4uvnv/Xtw96X3e/dEHqQ9eP8x6OP1o/WPs46InCk8qnqo/rf3V+Ndmqb307KDXYM+ziGePhrhDL/+V+a9PwwXPqc8rRrRG6ketR8+M+YzderH0xfDLjJfT44W/Kf6295XRq59+d/u9Z2LJxPBr0euZP0reqL45+tb2bedk6OTTd2nvpqeK3qu+P/aB/aH7Y/THkensT/hPlZ+NP3d8CfzyeCZtZubf94Tz+wplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmoKWyAvSUNDQmFzZWQgNDIgMCBSIF0KZW5kb2JqCjQzIDAgb2JqCjw8IC9OIDMgL0FsdGVybmF0ZSAvRGV2aWNlUkdCIC9MZW5ndGggMTA3MiAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAGFVVtoHFUY/jdzdlfIOg9im5pKOnhrKEnZpKIJtdG9JJtt43bZXLRBkM3s2Z1pJjvjzGx6ofhQBEEEo4JPgve3Qp+EeKm2L7aI0kKJEgyi4EPrjUKlLxLW78zszu6GYGfZM9/8/3++//zff84MUfRK0bKMLoVoqerahUxSef7YvBJdpy56gLqpl7qLqmMl8vkpwiVixb3zuvMDhYTl+uD2/s7oLU/dJe6oRKF7YDdLjroEfJIo/Jpq2S5RlME+csK1BH4K+H4bCwTOC1zxcUngBR9jLmJmCinEvA4sq1oR/ui7wAMLbfZKG/bXgAjMzfAqt3VVEVrkbbOsG9xz+MNd3G2R/weXjBpq9q49GGPO4vQR3PtR+yulYlrgR4DPqcXx6Qa+tqzP5Rr4H8tNFoAfI+raVVucTQDvAx4r2xOzwODp0rTaZBOvnNZmnoP9PthXF80jYu5O4G+rC7mjwILnF9VJQVd6iEiKaDwr+t0H3G+bBRGD9UgTJZ4eBx4APq672Rlg5JLecZanhd3jOa2lxDqRS/rqePGw6FMv8DVuZERewf+75eYbeVmsauRELvCwYe549YKHxVxtZhJ25GXzLhrqz2Uvl/WJbCP+fc2eFHYx94pleHsUa2O37FpB1I5c4Qd5dVZoCM7wWNEezzRwieZCReJk0gJGlaq0SQoVKENJ3C2y4SmTTgYsHF4OC8dTM2awIybv+f34ZoRCFW/mDczUkSHV9wnVMF+jP8GnBUwKpfBUg61C2/P4K7jZ4DFZD4uzA/gfZFPsEBtho6Sw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sJS12mJdZTNt57Km0p7qEO5Y5zSyTsHZymWHa8n6Dneih9mGZM8arykfrY3bfCv9Jv0tNn8X0B+oHZQUfJupH5oa1hlhEnlq61i0X0wzSzUuZ9t0QjC7K9EhqTZZc2dhitzuY6mSacf2iuzL3E/OyD4ol1mAqvvbP6r7W67JqaJ8xdOlBeaFd4qdz7z+5fBZhdIr5wIraOerK7dcIFw8Wx1VI32ppY59WamhvjG2Sbq5/q/gq9RrFa12Nx7dim3D7hy6S72XfZ/SebSL8yDqYdfj1U+KnhGfu7w41tPTZ9Qf+PL4q/YB8qDWkNNw2OvUkZNvykdrxi6NV09ceFs2WfAuYyr6/frp5TPCMyMfLs8envOeV5kf+lj1qQyvP++OyD0FpJ3t1jBCWNGs+Egmi2EXFB0ZHB/EZC2cEcggzmAHa4ABIcCCaPTEQyQwUc9A8SAUiYRgFAvixtCs/8i3mPf/9+zQHejeCmDHikuOjwyPYDNs0A08lGHHionbzg6N12E4xYbo6TAMDQyM8HG8uy2uKCIA+Tq4qjfrwbt/tP8BqFCfygplbmRzdHJlYW0KZW5kb2JqCjQwIDAgb2JqClsgL0lDQ0Jhc2VkIDQ0IDAgUiBdCmVuZG9iagozOSAwIG9iago8PCAvRnVuY3Rpb25UeXBlIDAgL0JpdHNQZXJTYW1wbGUgOCAvU2l6ZSBbIDEzNjUgXSAvRG9tYWluIFsgMCAxIF0gL1JhbmdlClsgMCAxIDAgMSAwIDEgXSAvTGVuZ3RoIDE0MSAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAGlwWdCgQEAAND7nynZZAuFaNhRyN58HcGP914Q3HEDV3ABZ3ACR3AAe7ADW7ABa7ACS7AAf2BuZmAKfsEPmIAx+AYjMAQD0Ac90AUd8AU+wYd5B23QAm+gCRqgDl7BC6iBKqiAZ1AGJVAEBZMHOZAFGfAE0iAFkiAB4iAGoiACwuARhMDDPf9nYs/nCmVuZHN0cmVhbQplbmRvYmoKMiAwIG9iago8PCAvVHlwZSAvUGFnZXMgL01lZGlhQm94IFswIDAgNzM5IDExODZdIC9Db3VudCAxIC9LaWRzIFsgMSAwIFIgXSA+PgplbmRvYmoKNDUgMCBvYmoKPDwgL1R5cGUgL0NhdGFsb2cgL1BhZ2VzIDIgMCBSIC9WZXJzaW9uIC8xLjQgPj4KZW5kb2JqCjYgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNlRm9udCAvQUFBQUFCK0lkZWFsU2Fuc1NTbS1Cb29rIC9Gb250RGVzY3JpcHRvcgo0NiAwIFIgL0VuY29kaW5nIC9NYWNSb21hbkVuY29kaW5nIC9GaXJzdENoYXIgMzIgL0xhc3RDaGFyIDEyMSAvV2lkdGhzIFsgMjQ2CjAgMCAwIDAgMCAwIDIxMyAwIDAgMCAwIDI2NyAwIDAgMCA2NzEgNDA5IDU2MCAwIDYwNSA1NTIgNjI3IDU2MiA2MDEgNjI5IDAKMCAwIDAgMCA0NzcgMCA3MzkgMCAwIDc3MCAwIDU1OSAwIDAgMzQyIDAgMCAwIDAgODI3IDAgMCAwIDAgNTYwIDY3NSAwIDAgMTAzOAowIDAgMCAwIDAgMCAwIDAgMCA1NTUgNjI3IDU0OSA2MjYgNTc0IDAgNTQzIDYyMiAyNzggMCA1MzcgMjc4IDkyNyA2MjIgNjE3CjAgMCAzOTIgNDc2IDQwMiA2MjMgNTQ5IDc5OSA1MjggNTM0IF0gPj4KZW5kb2JqCjQ2IDAgb2JqCjw8IC9UeXBlIC9Gb250RGVzY3JpcHRvciAvRm9udE5hbWUgL0FBQUFBQitJZGVhbFNhbnNTU20tQm9vayAvRmxhZ3MgMzIgL0ZvbnRCQm94ClstMTYyIC0yODUgMTMwMCAxMTk3XSAvSXRhbGljQW5nbGUgMCAvQXNjZW50IDk2MCAvRGVzY2VudCAtMjQwIC9DYXBIZWlnaHQKNzAzIC9TdGVtViA5NiAvWEhlaWdodCA1MDUgL1N0ZW1IIDgzIC9BdmdXaWR0aCAyNzggL01heFdpZHRoIDE1MjQgL0ZvbnRGaWxlMwo0NyAwIFIgPj4KZW5kb2JqCjQ3IDAgb2JqCjw8IC9TdWJ0eXBlIC9UeXBlMUMgL0xlbmd0aCA4Mjg2IC9GaWx0ZXIgL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AYWZd1gU1/r4d4HZmZ1DNgmTMbDjzBpFE2sUr72hoAKCKCIqIKLSpNddqmKD3WUXUFFBRTrSm1iDscaCYq8xgL1rTK7JGXLI9XtWk3vv9/d8n+fHP7vPzPKe857z1s8rlViYSaRSqc1009+Moc4BgcvDFyyPjFuwIGL4jKio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cnNpb24gMTIuMSBcKEJ1aWxkIDIxQzUwMzFkXCkgUXVhcnR6IFBERkNvbnRleHQpIC9DcmVhdGlvbkRhdGUKKEQ6MjAyMTEyMDgyMjM5NDVaMDAnMDAnKSAvTW9kRGF0ZSAoRDoyMDIxMTIwODIyMzk0NVowMCcwMCcpID4+CmVuZG9iagp4cmVmCjAgNDkKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAyMDIyIDAwMDAwIG4gCjAwMDAwMTUzNjkgMDAwMDAgbiAKMDAwMDAwMDAyMiAwMDAwMCBuIAowMDAwMDAyMTI3IDAwMDAwIG4gCjAwMDAwMTExNDMgMDAwMDAgbiAKMDAwMDAxNTUxNyAwMDAwMCBuIAowMDAwMDAyNDg4IDAwMDAwIG4gCjAwMDAwMDI3NzEgMDAwMDAgbiAKMDAwMDAwMjg2MSAwMDAwMCBuIAowMDAwMDAzMTQ1IDAwMDAwIG4gCjAwMDAwMDY5OTAgMDAwMDAgbiAKMDAwMDAwMzIzNiAwMDAwMCBuIAowMDAwMDAzNTIyIDAwMDAwIG4gCjAwMDAwMDM2MTMgMDAwMDAgbiAKMDAwMDAwMzg5OCAwMDAwMCBuIAowMDAwMDAzOTg5IDAwMDAwIG4gCjAwMDAwMDQyNzQgMDAwMDAgbiAKMDAwMDAwNDM2NSAwMDAwMCBuIAowMDAwMDA0NjUwIDAwMDAwIG4gCjAwMDAwMDQ3NDEgMDAwMDAgbiAKMDAwMDAwNTAyNCAwMDAwMCBuIAowMDAwMDA1MTE1IDAwMDAwIG4gCjAwMDAwMDU0MDAgMDAwMDAgbiAKMDAwMDAwNTQ5MSAwMDAwMCBuIAowMDAwMDA1Nzc2IDAwMDAwIG4gCjAwMDAwMDU4NjcgMDAwMDAgbiAKMDAwMDAwNjE1MiAwMDAwMCBuIAowMDAwMDA2MjQzIDAwMDAwIG4gCjAwMDAwMDY1MjcgMDAwMDAgbiAKMDAwMDAwNjYxOCAwMDAwMCBuIAowMDAwMDA2ODk5IDAwMDAwIG4gCjAwMDAwMDgxOTcgMDAwMDAgbiAKMDAwMDAwODI0NiAwMDAwMCBuIAowMDAwMDA4MjkzIDAwMDAwIG4gCjAwMDAwMDgzNDAgMDAwMDAgbiAKMDAwMDAwODM4NSAwMDAwMCBuIAowMDAwMDEyMzUyIDAwMDAwIG4gCjAwMDAwMDcxMjYgMDAwMDAgbiAKMDAwMDAxNTA2OCAwMDAwMCBuIAowMDAwMDE1MDMxIDAwMDAwIG4gCjAwMDAwMDc4OTEgMDAwMDAgbiAKMDAwMDAwODQzMCAwMDAwMCBuIAowMDAwMDExMTc5IDAwMDAwIG4gCjAwMDAwMTIzODkgMDAwMDAgbiAKMDAwMDAxNTQ1MyAwMDAwMCBuIAowMDAwMDE1OTU4IDAwMDAwIG4gCjAwMDAwMTYyMTYgMDAwMDAgbiAKMDAwMDAyNDU5MyAwMDAwMCBuIAp0cmFpbGVyCjw8IC9TaXplIDQ5IC9Sb290IDQ1IDAgUiAvSW5mbyA0OCAwIFIgL0lEIFsgPDQ1NjhjNGQ1ZmRkZjhjNzc0YWRlN2VhNDI0ZWQyNGZmPgo8NDU2OGM0ZDVmZGRmOGM3NzRhZGU3ZWE0MjRlZDI0ZmY+IF0gPj4Kc3RhcnR4cmVmCjI0NzU4CiUlRU9GCg==</preview>
+JVBERi0xLjMKJcTl8uXrp/Og0MTGCjMgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL0xlbmd0aCA5MzggPj4Kc3RyZWFtCngBpVZNb9NAEL3vr5ijI0Hj3bW99pUWkDiBYsQBcShJSoqSQhJ64N/z3u56nQ87jUSryq/O7MzsvHkz2con2cr0dq9lvheN3/zG1U1tXSn7uVgjWlfNTSkbsU2H1xEbvAf2NsBqLSt5CM5uZ3BU1M4aVwCVVW0qbYAqY4x2Wma3iIto+H3Nh9aukjmiGKngyocDoH/EtSlSQCuZIXF4k8dLbnzWKrjhgbGIrrsgwTr4hueuLLhJxR+nEuLtwjuWSdcsjUE4XfAmOZwYlsWjVBRUmPfNcUR1qWhxvq75jSkNC/CmpRNaxUe7kWk7JzXtg3yVzOQTKfHQE/km7Qf1tsXN+lRrV+basugd0j5FgxzzumKOtgxwHaEzyFebWuncQybc5RfIyeuGucFGbPRgeYaeXDgcQCJGnRIz4uKclgPDIsRSBUKMG9pcnDdEb6CcL9iqprdtoq3XwLuNlrtfoUsKXyF2vfYQHOG2BSjNI2Q1nUXL6xKUx7cIfwRrdtNKvshTPIwXcOlP+M/iYdRSRe8sazgx/bjczZe//zzfr2U3Us3pbAV2V0jaN3dMG+q5nDYvc1XayvdVEHNs977xe3Qm5o5DJOQ5LEr0ViqhByhglfLwgMWLgISHVjocT0k80/eYVz+oJrQ0+XSeGsB1hBXbgB97MKRAgROjDp1UwdtaCM4dhGmTCuIliovDjUUuSdBHgmHGzI7PCy2cc1oEO2PQU+z1pGgfCEMGgYpw6b4ZUDIManbi2PhQp+Pj80SMluxpsZw/LpaLMETkqiGiKk43w3mKZBE7YNScWHNNoHi0iTjVfXgdYJwerAPcr+T9tsdrwVpOHnhNYcM8Z8ywDBgRyK8fVm5wLYy5OR8r2loVIoa1gEAvrIWDZdBrAoyVXGu6gRwLtJQ27EnKLqBUnIO1kC7vC8rT7jpiM20m0v68jkdpmE5eeB51blX8B1Mht/hrwn1p1eHzlYDcSAyMAjE8CsSJSCeBGroIKC2G84097AgjcYCbZBu4YaienDjGDcd4kk+3p8d2d82h3nCBOG7xnD2MNRnREElJ6iCp8PUqx0iSU/W1q+fdBA2e7Rf3eFYq+zuRqpLsldwt54CSLTfflzsxdsIvRnh/su+PKUYK6L74jU2h57z8irqXqMdRooXuJRpxuuA1Et0eS7Msr5QmSrrybA5Kc8zNAP3elGMo0P8f0qQMsZWiNAtuDi/SQjPZ7mvsJWnaZoz145mbaXxT66T56R8WDGdBCmVuZHN0cmVhbQplbmRvYmoKMSAwIG9iago8PCAvVHlwZSAvUGFnZSAvUGFyZW50IDIgMCBSIC9SZXNvdXJjZXMgNCAwIFIgL0NvbnRlbnRzIDMgMCBSIC9NZWRpYUJveCBbMCAwIDczOSAxMTg2XQo+PgplbmRvYmoKNCAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL1RleHQgXSAvQ29sb3JTcGFjZSA8PCAvQ3MxIDUgMCBSID4+IC9FeHRHU3RhdGUgPDwgL0dzMQoxMiAwIFIgL0dzMiAxMyAwIFIgL0dzMyAxNCAwIFIgL0dzNCAxNSAwIFIgL0dzNSAxNiAwIFIgPj4gL0ZvbnQgPDwgL1RjMSA2IDAgUgo+PiAvWE9iamVjdCA8PCAvRm0xIDcgMCBSIC9GbTIgMTAgMCBSID4+IC9TaGFkaW5nIDw8IC9TaDEgOSAwIFIgPj4gPj4KZW5kb2JqCjcgMCBvYmoKPDwgL0ZpbHRlciAvRmxhdGVEZWNvZGUgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0Zvcm0gL0Zvcm1UeXBlIDEgL0JCb3ggWzE1NyAxMDcxIDE3MyAxMDg3XQovUmVzb3VyY2VzIDggMCBSIC9Hcm91cCA8PCAvUyAvVHJhbnNwYXJlbmN5IC9DUyAxNyAwIFIgL0kgdHJ1ZSAvSyBmYWxzZSA+PgovTGVuZ3RoIDcyID4+CnN0cmVhbQp4AStUCFQoVDA0NVcwNDA3VDA0A6GiVIVwhTwF/YDUouTUgpLSxByFokyQMjMFAyAEKYJpSM5V0PfMNVRwyecKVAgEAPwQEy0KZW5kc3RyZWFtCmVuZG9iago4IDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdIC9YT2JqZWN0IDw8IC9JbTEgMTggMCBSID4+ID4+CmVuZG9iagoxMCAwIG9iago8PCAvRmlsdGVyIC9GbGF0ZURlY29kZSAvVHlwZSAvWE9iamVjdCAvU3VidHlwZSAvRm9ybSAvRm9ybVR5cGUgMSAvQkJveCBbMTI1IDEwOTMgMTQxIDExMDldCi9SZXNvdXJjZXMgMTEgMCBSIC9Hcm91cCA8PCAvUyAvVHJhbnNwYXJlbmN5IC9DUyAxNyAwIFIgL0kgdHJ1ZSAvSyBmYWxzZSA+PgovTGVuZ3RoIDcyID4+CnN0cmVhbQp4AStUCFQoVDA0MlUwNLA0VjA0A6GiVIVwhTwF/YDUouTUgpLSxByFokyQMjMFAyAEKYJpSM5V0PfMNVRwyecKVAgEAPuLEysKZW5kc3RyZWFtCmVuZG9iagoxMSAwIG9iago8PCAvUHJvY1NldCBbIC9QREYgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXSAvWE9iamVjdCA8PCAvSW0xIDE4IDAgUiA+PiA+PgplbmRvYmoKOSAwIG9iago8PCAvQ29sb3JTcGFjZSAxNyAwIFIgL1NoYWRpbmdUeXBlIDIgL0Nvb3JkcyBbIDE0OCA0IDE0OCAxNiBdIC9Eb21haW4gWyAwCjEgXSAvRXh0ZW5kIFsgdHJ1ZSB0cnVlIF0gL0Z1bmN0aW9uIDE5IDAgUiA+PgplbmRvYmoKMTggMCBvYmoKPDwgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0ltYWdlIC9XaWR0aCAzMiAvSGVpZ2h0IDMyIC9JbnRlcnBvbGF0ZSB0cnVlIC9Db2xvclNwYWNlCjIwIDAgUiAvSW50ZW50IC9QZXJjZXB0dWFsIC9TTWFzayAyMSAwIFIgL0JpdHNQZXJDb21wb25lbnQgOCAvTGVuZ3RoIDU0OSAvRmlsdGVyCi9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAGllluv6VAQx30IEY8evIoHT9v38SLnQwpv7CAiQgiJ+2VTl2pd6/x6VpQ6tfbS/vdudNaM35iZtcrt9lA0Gs1kMtls9s9vSqVSiUTi8U61u1AoJA+0LMswjNVqtVgscrlcOByWx7945fzj8bherweDQbPZrFar3W633+/HYrEXiMSU80+n03a7HY1G7Xb7+59ADYdD9RS/8nVdn8/nvV6vVquRAf7hcFBPIeefz2fTNJfLJcBWq0WL4DMRFsfjcTwel3RGuOT8y+XCp6VFs9mMEhqNhgNkfTKZ0Cg5Qe69Xq+MgBaJEjqdjsMXN6SORCIvi8+mCp9uwGEKdIlB1+v1YrFYKBTy+TzmdDqVnAs5n1bTIkrgCGw2G5GCXcp2rVQqpVKpXC6zgSUQiYsy4dMipsxBIMVut6NRtJ0TIbKQiEFIIBKXaKOTgipo1H6/pxCyMHHOBYkIk0AkLocvUtAoCiELtZCIoZNI07SA/JcstMtJJHKp8HnXR7rdo62bpcKnA76lwr9/nI9f6ZUKnzB/YuIqfML8iRGr8AnzJ/aqCp/97C17p5vmkT+Xns1AfMOF/d/goaHCN3Sdfw+5Vm3jfolY21Lhe5DVlnjiqfB5kri0dVlPhnC43H742hPSdSscDzcPfxU+P58cadzZl6eEw+X+lP/jCX6zyBeBCp/ffu/1g8u+3kiFT0wQSb6kcCWTya8ASqfTcj7e4Hou/y/fTm0YCmVuZHN0cmVhbQplbmRvYmoKMjEgMCBvYmoKPDwgL1R5cGUgL1hPYmplY3QgL1N1YnR5cGUgL0ltYWdlIC9XaWR0aCAzMiAvSGVpZ2h0IDMyIC9Db2xvclNwYWNlIC9EZXZpY2VHcmF5Ci9CaXRzUGVyQ29tcG9uZW50IDggL0xlbmd0aCAxMzcgL0ZpbHRlciAvRmxhdGVEZWNvZGUgPj4Kc3RyZWFtCngBY2BgYDD1DAtHABtjoBAKUPuPAr4bocgyMJijSP///94eVYEFmjy6Agz5f6gmYMj/R1WAKQ9UYMcIdwQW+f//f+ril///Hx4OWPX//w8PBhzy5jALcMhbjMpDQmA0fNAzCJgPTx/o+QuqGp6+9Br7+zBAf7seLH1xyCipYAAlGQ6QPADhhICPCmVuZHN0cmVhbQplbmRvYmoKMTIgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvY2EgMC4xMjUgPj4KZW5kb2JqCjEzIDAgb2JqCjw8IC9UeXBlIC9FeHRHU3RhdGUgL2NhIDAuNCA+PgplbmRvYmoKMTQgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvQ0EgMC4zID4+CmVuZG9iagoxNSAwIG9iago8PCAvVHlwZSAvRXh0R1N0YXRlIC9jYSAxID4+CmVuZG9iagoxNiAwIG9iago8PCAvVHlwZSAvRXh0R1N0YXRlIC9DQSAxID4+CmVuZG9iagoyMiAwIG9iago8PCAvTiAzIC9BbHRlcm5hdGUgL0RldmljZVJHQiAvTGVuZ3RoIDI2MTIgL0ZpbHRlciAvRmxhdGVEZWNvZGUgPj4Kc3RyZWFtCngBnZZ3VFPZFofPvTe90BIiICX0GnoJINI7SBUEUYlJgFAChoQmdkQFRhQRKVZkVMABR4ciY0UUC4OCYtcJ8hBQxsFRREXl3YxrCe+tNfPemv3HWd/Z57fX2Wfvfde6AFD8ggTCdFgBgDShWBTu68FcEhPLxPcCGBABDlgBwOFmZgRH+EQC1Py9PZmZqEjGs/buLoBku9ssv1Amc9b/f5EiN0MkBgAKRdU2PH4mF+UClFOzxRky/wTK9JUpMoYxMhahCaKsIuPEr2z2p+Yru8mYlybkoRpZzhm8NJ6Mu1DemiXho4wEoVyYJeBno3wHZb1USZoA5fco09P4nEwAMBSZX8znJqFsiTJFFBnuifICAAiUxDm8cg6L+TlongB4pmfkigSJSWKmEdeYaeXoyGb68bNT+WIxK5TDTeGIeEzP9LQMjjAXgK9vlkUBJVltmWiR7a0c7e1Z1uZo+b/Z3x5+U/09yHr7VfEm7M+eQYyeWd9s7KwvvRYA9iRamx2zvpVVALRtBkDl4axP7yAA8gUAtN6c8x6GbF6SxOIMJwuL7OxscwGfay4r6Df7n4Jvyr+GOfeZy+77VjumFz+BI0kVM2VF5aanpktEzMwMDpfPZP33EP/jwDlpzcnDLJyfwBfxhehVUeiUCYSJaLuFPIFYkC5kCoR/1eF/GDYnBxl+nWsUaHVfAH2FOVC4SQfIbz0AQyMDJG4/egJ961sQMQrIvrxorZGvc48yev7n+h8LXIpu4UxBIlPm9gyPZHIloiwZo9+EbMECEpAHdKAKNIEuMAIsYA0cgDNwA94gAISASBADlgMuSAJpQASyQT7YAApBMdgBdoNqcADUgXrQBE6CNnAGXARXwA1wCwyAR0AKhsFLMAHegWkIgvAQFaJBqpAWpA+ZQtYQG1oIeUNBUDgUA8VDiZAQkkD50CaoGCqDqqFDUD30I3Qaughdg/qgB9AgNAb9AX2EEZgC02EN2AC2gNmwOxwIR8LL4ER4FZwHF8Db4Uq4Fj4Ot8IX4RvwACyFX8KTCEDICAPRRlgIG/FEQpBYJAERIWuRIqQCqUWakA6kG7mNSJFx5AMGh6FhmBgWxhnjh1mM4WJWYdZiSjDVmGOYVkwX5jZmEDOB+YKlYtWxplgnrD92CTYRm40txFZgj2BbsJexA9hh7DscDsfAGeIccH64GFwybjWuBLcP14y7gOvDDeEm8Xi8Kt4U74IPwXPwYnwhvgp/HH8e348fxr8nkAlaBGuCDyGWICRsJFQQGgjnCP2EEcI0UYGoT3QihhB5xFxiKbGO2EG8SRwmTpMUSYYkF1IkKZm0gVRJaiJdJj0mvSGTyTpkR3IYWUBeT64knyBfJQ+SP1CUKCYUT0ocRULZTjlKuUB5QHlDpVINqG7UWKqYup1aT71EfUp9L0eTM5fzl+PJrZOrkWuV65d7JU+U15d3l18unydfIX9K/qb8uAJRwUDBU4GjsFahRuG0wj2FSUWaopViiGKaYolig+I1xVElvJKBkrcST6lA6bDSJaUhGkLTpXnSuLRNtDraZdowHUc3pPvTk+nF9B/ovfQJZSVlW+Uo5RzlGuWzylIGwjBg+DNSGaWMk4y7jI/zNOa5z+PP2zavaV7/vCmV+SpuKnyVIpVmlQGVj6pMVW/VFNWdqm2qT9QwaiZqYWrZavvVLquNz6fPd57PnV80/+T8h+qwuol6uPpq9cPqPeqTGpoavhoZGlUalzTGNRmabprJmuWa5zTHtGhaC7UEWuVa57VeMJWZ7sxUZiWzizmhra7tpy3RPqTdqz2tY6izWGejTrPOE12SLls3Qbdct1N3Qk9LL1gvX69R76E+UZ+tn6S/R79bf8rA0CDaYItBm8GooYqhv2GeYaPhYyOqkavRKqNaozvGOGO2cYrxPuNbJrCJnUmSSY3JTVPY1N5UYLrPtM8Ma+ZoJjSrNbvHorDcWVmsRtagOcM8yHyjeZv5Kws9i1iLnRbdFl8s7SxTLessH1kpWQVYbbTqsPrD2sSaa11jfceGauNjs86m3ea1rakt33a/7X07ml2w3Ra7TrvP9g72Ivsm+zEHPYd4h70O99h0dii7hH3VEevo4bjO8YzjByd7J7HTSaffnVnOKc4NzqMLDBfwF9QtGHLRceG4HHKRLmQujF94cKHUVduV41rr+sxN143ndsRtxN3YPdn9uPsrD0sPkUeLx5Snk+cazwteiJevV5FXr7eS92Lvau+nPjo+iT6NPhO+dr6rfS/4Yf0C/Xb63fPX8Of61/tPBDgErAnoCqQERgRWBz4LMgkSBXUEw8EBwbuCHy/SXyRc1BYCQvxDdoU8CTUMXRX6cxguLDSsJux5uFV4fnh3BC1iRURDxLtIj8jSyEeLjRZLFndGyUfFRdVHTUV7RZdFS5dYLFmz5EaMWowgpj0WHxsVeyR2cqn30t1Lh+Ps4grj7i4zXJaz7NpyteWpy8+ukF/BWXEqHhsfHd8Q/4kTwqnlTK70X7l35QTXk7uH+5LnxivnjfFd+GX8kQSXhLKE0USXxF2JY0muSRVJ4wJPQbXgdbJf8oHkqZSQlKMpM6nRqc1phLT4tNNCJWGKsCtdMz0nvS/DNKMwQ7rKadXuVROiQNGRTChzWWa7mI7+TPVIjCSbJYNZC7Nqst5nR2WfylHMEeb05JrkbssdyfPJ+341ZjV3dWe+dv6G/ME17msOrYXWrlzbuU53XcG64fW+649tIG1I2fDLRsuNZRvfbore1FGgUbC+YGiz7+bGQrlCUeG9Lc5bDmzFbBVs7d1ms61q25ciXtH1YsviiuJPJdyS699ZfVf53cz2hO29pfal+3fgdgh33N3puvNYmWJZXtnQruBdreXM8qLyt7tX7L5WYVtxYA9pj2SPtDKosr1Kr2pH1afqpOqBGo+a5r3qe7ftndrH29e/321/0wGNA8UHPh4UHLx/yPdQa61BbcVh3OGsw8/rouq6v2d/X39E7Ujxkc9HhUelx8KPddU71Nc3qDeUNsKNksax43HHb/3g9UN7E6vpUDOjufgEOCE58eLH+B/vngw82XmKfarpJ/2f9rbQWopaodbc1om2pDZpe0x73+mA050dzh0tP5v/fPSM9pmas8pnS8+RzhWcmzmfd37yQsaF8YuJF4c6V3Q+urTk0p2usK7ey4GXr17xuXKp2737/FWXq2euOV07fZ19ve2G/Y3WHruell/sfmnpte9tvelws/2W462OvgV95/pd+y/e9rp95Y7/nRsDiwb67i6+e/9e3D3pfd790QepD14/zHo4/Wj9Y+zjoicKTyqeqj+t/dX412apvfTsoNdgz7OIZ4+GuEMv/5X5r0/DBc+pzytGtEbqR61Hz4z5jN16sfTF8MuMl9Pjhb8p/rb3ldGrn353+71nYsnE8GvR65k/St6ovjn61vZt52To5NN3ae+mp4req74/9oH9oftj9MeR6exP+E+Vn40/d3wJ/PJ4Jm1m5t/3hPP7CmVuZHN0cmVhbQplbmRvYmoKNSAwIG9iagpbIC9JQ0NCYXNlZCAyMiAwIFIgXQplbmRvYmoKMjMgMCBvYmoKPDwgL04gMyAvQWx0ZXJuYXRlIC9EZXZpY2VSR0IgL0xlbmd0aCAxMDcyIC9GaWx0ZXIgL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AYVVW2gcVRj+N3N2V8g6D2Kbmko6eGsoSdmkogm10b0km23jdtlctEGQzezZnWkmO+PMbHqh+FAEQQSjgk+C97dCn4R4qbYvtojSQokSDKLgQ+uNQqUvEtbvzOzO7oZgZ9kz3/z/f77//N9/zgxR9ErRsowuhWip6tqFTFJ5/ti8El2nLnqAuqmXuouqYyXy+SnCJWLFvfO68wOFhOX64Pb+zugtT90l7qhEoXtgN0uOugR8kij8mmrZLlGUwT5ywrUEfgr4fhsLBM4LXPFxSeAFH2MuYmYKKcS8DiyrWhH+6LvAAwtt9kob9teACMzN8Cq3dVURWuRts6wb3HP4w13cbZH/B5eMGmr2rj0YY87i9BHc+1H7K6ViWuBHgM+pxfHpBr62rM/lGvgfy00WgB8j6tpVW5xNAO8DHivbE7PA4OnStNpkE6+c1maeg/0+2FcXzSNi7k7gb6sLuaPAgucX1UlBV3qISIpoPCv63Qfcb5sFEYP1SBMlnh4HHgA+rrvZGWDkkt5xlqeF3eM5raXEOpFL+up48bDoUy/wNW5kRF7B/7vl5ht5Waxq5EQu8LBh7nj1gofFXG1mEnbkZfMuGurPZS+X9YlsI/59zZ4UdjH3imV4exRrY7fsWkHUjlzhB3l1VmgIzvBY0R7PNHCJ5kJF4mTSAkaVqrRJChUoQ0ncLbLhKZNOBiwcXg4Lx1MzZrAjJu/5/fhmhEIVb+YNzNSRIdX3CdUwX6M/wacFTAql8FSDrULb8/gruNngMVkPi7MD+B9kU+wQG2GjpLCn2TNsjKVhHWUHA+58Wx1iPTeRxed5CRm5FzeHii+hMpeKGH9FhElOwNChxUpvrd/X6Kz9oq5efePW5TNf7mrFrrHVF67HLp9p00wH12IQ0ana0btpH/4tfCO8hnE9vBFwKOGfwhv4rUOtVpe2qi76JVRPoCbD68QS6tVRHW+rbrCDo53PbOVr9LHJaJarK72+CkIB/mruTo7ODrTi4z/G/4qvxT+Ifxz/Q3pb+lS6IH0mfS59R4p0UbokfS19I52Xvgjit++5v3eCnnt1CJuoQuzHZr3timJ/ykl5t/ywnJb3yI/KU0GUIvfIQ/KkvBee3UF3WrtZ6dBBp2PQrKnW9rnEydADJmgduhd91lsZO87HLFas0wlw2lBf7LMqnUJs+zlrVMT62BDLbtnVI2KvB9z+eWj2o6lEZw08Mh5JRxKkRPZFRiNDkcMCN893ZC98oxjx1nL5SXxbiFKmdcrWK5qrDMfjTyoJfOq4kq2q+weUomEonstRbO5we5mX9pP4Top5RLcL3vcvtPNqy+Y+S3Tob/Hea9nma0TnHKKex1u2frwbd7xHtPqEWrOXfT4Khb4ncsoHhr3nUCyJd9fP9fptvMOibxFtvlmv//thvb75Efg3iC4a/wH/JXgLCmVuZHN0cmVhbQplbmRvYmoKMTcgMCBvYmoKWyAvSUNDQmFzZWQgMjMgMCBSIF0KZW5kb2JqCjI0IDAgb2JqCjw8IC9OIDMgL0FsdGVybmF0ZSAvRGV2aWNlUkdCIC9MZW5ndGggMjU0MSAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAGFlnk8ldkfx7/PXV3Xvu8uKfuSvcXeWAohSyRZri3LFTdSCjUp1YyYlhGNpRkRDTVGyBgalRYpob0sNZZkSSLU/Z3nXqr5Y35zXq/ndT73e8/5Ps95fz/nvA6AgExQXFw0AQBiYtnxHg62jI2+fgxqF1BABiSAH4yDQhLibNzcnNGQf2nvuwHD/7qvi+fyvmVkI/4jVXHCpVfCf2Cg6V8mLYYF49ELATAGCkiE87QxroN52hHXSew4Nhrjj+uQiCAm0nFI68R7etghnY+0UDhPV+A6mKcbcJ0YEo7PvQ1AFItlRsYCkHoAKJbM0IQQADoDjSkIiYtHY+hNSOvGxLBQfvo40ho4C9Sjtt4cQPMmAOHRl1gaytVUAiDz6UtM3QBAshzgkuuX2KQHlw8m1Z4QZmTITYcJ2AKQn3M4k8sAqDkAH7M5nLliDufjGfSdT1He6JDt8YncsejjsTaA//rNW+fCDCIqCAYkCh+/gJCIqLiklIysvIKSsoqq2tJlGppaOrp6+ssNjYxNzcxXrFy12tLK2sbWbs039g6OTmvXObu4rndz99jg6eXtgxaxyX/z5oAtgUHBIczQsPCIyK1RUdExsay4bfEJ7O2JSTt2JO/clbJ7T2pa+t59+77dn3HgYOahw0eOfPd91tHsnB+OHT9x8sfc3FN5+ad/KigsKj7z88+/lJwtLTtXXl5x/tfKqgsXL/5W/XvNpdrauvrLDX/80fhnU3Pzlb9arl67dr31xs2bt263td1pb797r6PjfmdnV3f3g4ePHj1+8uTps+fP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SCaLYRcUHRkcH8RkLZwRyCDOYAdrgAEhwIJo9MRDJDBRz0DxIBSJhGAUC+LG0Kz/yLeY9//37NAd6N4KYMeKS46PDI9gM2zQDTyUYceKidvODo3XYTjFhujpMAwNDIzwcby7La4oIgD5OriqN+vBu3+0/wGoUJ/KCmVuZHN0cmVhbQplbmRvYmoKMjAgMCBvYmoKWyAvSUNDQmFzZWQgMjQgMCBSIF0KZW5kb2JqCjE5IDAgb2JqCjw8IC9GdW5jdGlvblR5cGUgMCAvQml0c1BlclNhbXBsZSA4IC9TaXplIFsgMTM2NSBdIC9Eb21haW4gWyAwIDEgXSAvUmFuZ2UKWyAwIDEgMCAxIDAgMSBdIC9MZW5ndGggMTQxIC9GaWx0ZXIgL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AaXBZ0KBAQAA0PufKdlkC4Vo2FHI3nwdwY/3XhDccQNXcAFncAJHcAB7sANbsAFrsAJLsAB/YG5mYAp+wQ+YgDH4BiMwBAPQBz3QBR3wBT7Bh3kHbdACb6AJGqAOXsELqIEqqIBnUAYlUAQFkwc5kAUZ8ATSIAWSIAHiIAaiIALC4BGEwMM9/2diz+cKZW5kc3RyZWFtCmVuZG9iagoyIDAgb2JqCjw8IC9UeXBlIC9QYWdlcyAvTWVkaWFCb3ggWzAgMCA3MzkgMTE4Nl0gL0NvdW50IDEgL0tpZHMgWyAxIDAgUiBdID4+CmVuZG9iagoyNSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgL1ZlcnNpb24gLzEuNCA+PgplbmRvYmoKNiAwIG9iago8PCAvVHlwZSAvRm9udCAvU3VidHlwZSAvVHlwZTEgL0Jhc2VGb250IC9BQUFBQUIrSWRlYWxTYW5zU1NtLUJvb2sgL0ZvbnREZXNjcmlwdG9yCjI2IDAgUiAvRW5jb2RpbmcgL01hY1JvbWFuRW5jb2RpbmcgL0ZpcnN0Q2hhciAzMiAvTGFzdENoYXIgMTIxIC9XaWR0aHMgWyAyNDYKMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDI2NyAwIDAgMCA2NzEgNDA5IDU2MCA1NDUgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMAowIDAgMCA3NzAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgNjc1IDc5NCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgNTU1CjYyNyA1NDkgNjI2IDU3NCAwIDAgNjIyIDI3OCAwIDAgMCA5MjcgNjIyIDAgMCAwIDM5MiA0NzYgMCA2MjMgMCAwIDAgNTM0IF0KPj4KZW5kb2JqCjI2IDAgb2JqCjw8IC9UeXBlIC9Gb250RGVzY3JpcHRvciAvRm9udE5hbWUgL0FBQUFBQitJZGVhbFNhbnNTU20tQm9vayAvRmxhZ3MgMzIgL0ZvbnRCQm94ClstMTYyIC0yODUgMTMwMCAxMTk3XSAvSXRhbGljQW5nbGUgMCAvQXNjZW50IDk2MCAvRGVzY2VudCAtMjQwIC9DYXBIZWlnaHQKNzAzIC9TdGVtViA5NiAvWEhlaWdodCA1MDUgL1N0ZW1IIDgzIC9BdmdXaWR0aCAyNzggL01heFdpZHRoIDE1MjQgL0ZvbnRGaWxlMwoyNyAwIFIgPj4KZW5kb2JqCjI3IDAgb2JqCjw8IC9TdWJ0eXBlIC9UeXBlMUMgL0xlbmd0aCA3MTcxIC9GaWx0ZXIgL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AYWZd1QUV9/Hd4HZmZ1LNo9sxsCOM2tBo7E8EWOPHREQBAEbWFBpUqTJLggoKrJtFlBRQUV678UajDV21NhLAFtiiZqYmNwhlzy+dzXlec95z3n5Z/fMLr9776/d3/ezUomNlUQqlTpMs/xNH+oWFLw80nf56nhf36jh06OjIywfjhBZidjHSuSsRcYG2dpad9ramD5AY1BTH+KjPjZ1RB+F7MM+itG92vrYedlJrKVSm48Hjhzh9M5YX4u1vthcX4u5//1IshMvLhksiZckSxol30mtpf2lI6We0s3SI9IrVv+yGmO11eqQ1VdW0Hq7dYnNMJvDNj8RNJFNVBGHiZvEU+Il8YdMKXOUDZVNkc2RxcsyZXdl3eTHJEc6kkPJf5MzSD25ncwjC8lS8jB5nrxG3iJfkK8pBdWfGkR9Ro2l3KklVBilodIoA5VHnaBOUzeoTuo76pVcKf9EPlo+Ve4snytfKo+Qa+Xr5EZ5lnybPE9eJK+VH5AfkR+X35Z/L39DW9EkraaH0FNpZ9qVXkzH0hn0VjqXLqIr6Fr6GH2dvk3/QP8H9AJ9wADwKfgCOAMPMBcsB7FACzaAbJALykEDaANnwHXwAHwPnoPfbK1sFba9bXnbQbYjbUfbTrWdbTvXdn4q7W5wyVhFVxhbm1XwFuxDNpiLM4t51O+s7Entl+179ug35/HAM7spupUtK9y2LV+d005sTk7Rr2PjNuTWmdVbYAwBQdbsO+gj1t07KcJPXTSeKGs4XnSUvVsXNMGgTiKFtcnCWha5jHIZpAZ9uR7ycV8OMLDvUAjQUDTSEdmhUUj9AwLwU+j0M+wFR/HD1zED5owdNMyjHfb6+ULHq0dXXNEHvOLNtqhTQZ1RlxyQSayJTU/wjpmzwskBZfQUE29kRaeqblZc2LrHHp6Thd5h0EYZBLCYUDAecXUHTu0/DJk9u42GfLXen5iq9/ObxsL+uxmgiwg1BrFb/M0bObSaRMB5OrJFH0w6Bf/Nw6MkYLLWJWfFsYjyGIYGqIE+MtQQzGb7m6d6qNBAErEXPCFx7E7TpVYeIAb2zNqc5BM3JXaawwI0BJ/nP47rigLKnEvcHU6h4UWeJS65/g5nt0KlSF1A08qnlE7b7euggCvQN2bIqS5+dfD24VMJqxv46i6icoV3ySwWOYwYgUg18oHfbECDVJP8AsdNHtfcuJzfPIgAWXQomx1gnjxbhTjSzeAyHzvVTT/GgAACC8wjbR2jjFH6eP6W8Mj047Fm0yFbxx7fP8DeROJq1msBWj2FhPGMrWMDbZjZz9h/+RxhBQu6w5h5ei/jwunB5vm2jmsM6XRjg3CY7ZC1thiNB9Ul5rrMQh6HjoGP4dKe/SVb954uPl37vYPyLPQXi4n+sqS5cVM1HohCT+yVuWiJ2BaXvn7VUqRIWeGAPkY/EcpK5CU2E8pcx00lvtXjSmY5QL+eaqJEVvlt9bXCU5SCWWTwNQa4hgr+to4aQ5ghiRfqa4UD7C1ZU5PR2KouNtdk7uXBGg7ZA8bZMNs4ZlyU4GLrGGGI1cfw5kcPTT+y6GTPyLx4oj3znPnO7cuGi7aOQl1mcXYVpZ+A+pucWcDczfu6/RZ7tyXAabtaWZGGlOguc+N0SeMJddYLYsUiv1WT2EHzTkLJZjU8nXOukYC8G7RBgyfOCfYK4s/F+TWMZT29LLmuDEh7l+4nLenetGKiTm1MIgRNgknLoqljZw1xavf88dmZw9caLctMr76wCEpY5YK0Hrt7jFdMw4FT+/ZD24Iik7FIbYwlxuvmO09gFd16ZgAa3Z4Np8HxBIB+pg5ouAMzOqSpnNjnpTW81xtq4FD4OVwDvVAf6IRy1OXcTDI6ThBi1HHGEIOGF8pLhWr2C9LVgOx1/jwM6GCCo82ZkWpjkalorwrOLCb37TcaD6hLzfW42g0BXkZ/Fk4m803VQgFvrqgWGljo+wZZo/Hos7HIAYWoFQwc8xvk4MhzJ7QhB/geWc8sIuyI9uIdFcxFbYynX0F9oFokRBeizr/AfYoKje+HVGgkv2kcA2PwdmfCOLVyz7PwR3Pb+YqamqaSUkoZqc1JyNPmJsUmasJXUgd8ZpSNY1EM7gkzUdyw2lGn3dRxq1dHREZQytpzEeW1RSWFJQ6Bp67FdrIKZrh+mAFZIavPzJ9ZMj0CZ7pw+5bwlDX7mGYsVaE18Zw4mdxrqhRK+KdXjca76gYaMAuFuEBfdlF4Q7t6Siox6qLb49dnzr824Jz++WLHq4batIQyHq1H+URK5camQyo4CvkywRHbC2PVcB3cS+xenRMSqBrgOXYQn4HP9b5Z4WOdT/w67CBfVFJetWcPPta6nNjCDdvXpWgTYqKo6pUL873ZP9ucx9659UvVyUlJiWEh+FRHQgpLikr2FjhEthxJOs0qdJGhxnftBTms5M5m3RKuXb9lPGvrCC523L59uTRgJo8ctnJTcKV3b2P8YpZ4+YU2XeUnpBLDvnH+AVpduAyl+Cz6yFhDGJsVRgvcQdzVPUjAZn/GgYyv9N9cUMFgstl8NKuSB+IrBtJwHDFRNvyTIb9O3wyt0TgC6BM730oq0yRvJS5pEtjvHgiO20gXR4FuT6YmriokKHYjXRLV1FxW3cCDZZxybDqnDPiCVu525RQpTEVrQUVBLbwnrrcvrqs/VlKTtH1NztrtyZHRKz2Goy09DC5ag8sM4/jIIGE1aygyVearxClki9BhrrL0lT/zmR/qloHd4MbBcNlfua4eso75MxffpTL/PpXFSf9X0qoVkOnhmSfjmpCajxUIp7id5bt27SndpU4vKNKXsAD6oCMEOifaMrCCNFdWC/UstD7hP3Kan/swNfiMw0UD8K4y8a5q4qvCpuHWOpkDZVv1lab7QovDFtFFaMnsyKpywJvuD2cZ0SzivBNTRxbjXe0yUmXmnZlFvDFFY1rNwrlkganOvJv3yE5br41NTnJAU1DEjgWEed8N05EduaZc3JBq1lSFenONpRavTuMagT+XFx+rAi/wRdn89cQL7Ml9B6B1vtp5B+GelqpNZHGMI6K5FJ/wfqmBi9FgewCjEu93DwrAUQ7Ajtx1OP9m3uk1unDdGp1xln5JhjsFfpcMogH88EkHJFu1xwKb1LvqyvKOpmd32X+xY1FUwjQKnLzxrepcUHNgZETC4hR+zyZinwZoS7XAUGk4hPMokQRarjyrAjfpCM3q4FVryhtqC8qbGgvjQvCS8VW+d6Jb+kIn+xetxy5n/kiBQBShKdV0J8fRQCPO6NBpYT/ILE3hwB9bmEm08spQTuGmSqZRnxAOrELCDTjhznzc2K7DtdeBNVzQ3cYMmOk7daLKsyVoX3VN4eHdfFIOsbwgtaRcdbim6cp+3mwmQAYOVKwlLSODIkoim5rLawCM26YRC/GqzcLRTJznhRrRoysFuwZS2+aem/jA57wDGgEn4ivsJwJ9KPObM2uqzxzUBw20h/NIcC61OSlepU3eGBO7auv2aH6dFwE0FZpyDWy4B6tvT+54d5jpXdAHnwQXKxC7mWsbiAvbd+wqYC1rzeiASx5Jof1TMDNsxQof1fRb3rAfD9714hDujcyHBpZhI5kGZIv5VGYZH7k5SAcC+DcyIFSbQQBnl8oBafsLsfSlNbhXmEvbwYbnykbAXN5InM7ZnreXBY/sLOYhHutOlE57s/D6sm8cvnl6/M7Jh2t0kboII6VADeuZBejfFzNfwc8J8FaSj+v5bRCuZyc70J3FeKAJlzPxcDSDAMjBTQVOWQK/snm5JfDJlsDv17xLv0xoM+QVctFTgD8i7DedESj4oeyU8aDpmFEoMddnAbUWF4Y7DfIO7L6Se0JjiNQl6KjZ+sAML14BRV2XtwaG3mvrgGu67MTIF8o2IH7M1MZW43BFBIe/D1cTD0w7c7bt3JmzyYQbnW4VXWUEzJgNfmErZ1EAKm5ABTAQFQJoS+xYrhE9O2GV1u74M3jgB2wOjsnVVGrgqjvija/soPE8pM4B0t0AWhI7PTXisq4Erd2JJ/DmU2UtqNq6u1idfYFIiddsjGdXrS0oA0w1Lu3guMjQiOKohqbS6kYe3G49cGhfWOOkIjXwm7YEWfMKu++ewexngKltbMitYw+UJYSGayOXBapBuL8mwnMMBezKHy/9bmwniOay/UG7XfsLaHULjr2Z+/RjMQdsMmRsTmPXbbKcL2eHGpDKg+4cWOw9ZuCU0fpke2D3VpJg6bUL0yTiqMfgz/FGwdwNPDMRWX+KHFGvSeAMkZqg3ZSA24Qy5e8JGLzvkZZUAhsz9VuzM83ZAr9VBoqS6jfudVij16/e4Pwu0xSNdDlQhS9PcA8J2bojGPt7myErQ6fXW/ydEp+A3RGO3dEE7sPUDlj2EMAlSffF+w+x26ETudsEGH2loQU3gCY8Di/mQCoZawrUJ/LfyACakdIVphHHdNgBPBoWUAqZvtIIJJKBktGSMZLpkhkSZ8lMiYvETeIumSPxkvhK/CTzJf6SXhI7iVLykeQDyR6s2Owtss1dslQSI8mRVEhuSx5LXkhEaW/pKGmDtF36WPoaizfOKsSq3Oqtdaj1JutH1t9PRouP/G5/RGo6IjoesUaLbUT97yk9etnVRQz8XYZm9agIuBheYf5IJ9FU0ZZAiT22THc6Caf22BIVXgy0fAP9LlPAeaYO8dxfw1W3n/iRC/eyUNOt6pLC1ufW3R92rx7DKeZxO2nlwe5Z3VGM8vYgTnnw/eWgvO2IH79/r3Cl59PKNph0diCnTOnHKdtm0UcSO71x6xDnd8Fqrd2TZ/Dgc+Ve8RtYxsymlZNnG2Zv9uCVS/duJpR7V9PD1i+iq2npiafWYpq42onO5uB10dOZnspJTzyzFgtg+QD64LtmhktAio1lP7cW63r/3Z1H0+E07AMZu3uZeFNw5XRO2Zr8h6el117HvRb+HM5ZtrD2OUx5rrzU3dkbx+p9X4fU/Pa+X8wO8Avnz65dtG8C6+Gx0nuZWrk3/TGhrNdHxhmw0gij53O/ynRVRstMsYhUXmq/cv7m5fy/ZhId7mD7OYu9RWT7pfO3Lhf+9cl8TnHw/dLZz5UX8Y7daeWe9NeEsvYLTnlxAqdIoPG+lLmiVCw0c8rKDW8I5dmptKKAhlOfWsMssXA4rTik7Qr0pnM55WKxvvdkTlk7GBtZZXnFj7bQgZxdibhOKbxCaePoZ9ouccx96cUX8McX1uLPsJWBnw6BDBqHpvZFHL59P32FtdpYOPU37K6p/KfJDJJ4fIJkA9w6IPPb+R8h+cvF8egjXoG+wO4+qcUNB3o8UzbC+t6GEsPpGhW8TiqvNAhnM8t5ZWPqdu/k4PWeyV4pDrvHQlBFoD3kfOMnuiBesVb3UHS8LxVtcaD0jxjdeEQah7GH6tu/am2kLp/dd+a66meni0ji7hy7fB5fOYE4cOx4wZfsxf3h3tOdXVEm8lbvciWuZF4Q7t09b2y3dTTXm8uyqylFBJrZJV6/bwd7no9/obwihtcwbyZ87biLV95/3XLp2EvVswnXkZ2HS3zQXL5mElHbeq74K/Z2c+AiFzd/NGqROteFUF6Bg3Nu+zirRk9Y0W+5/7adi/i80cS6L9syDrDQCdo8hAq1Ap1HIfCeFH78wPprFML8fPXvESGFvpx5E1Zdk8LG29ZisziDmWdwNXoZqe3kfuGHSnqW4O4q+ObRe2XGWQYX3VLqkUxfa3xyULVzeyGNfrWZimXeKCc/Yfo+OlRDn/tSuMG2y64fNhrPY5VZm1WAnd+l0NaKqUV1hbB/4WlBhoTdJCXnaasc+5xltnKTLeikfwCdtrY/2H4Aqz8SbzBtSskOSytxkZglF6Sk9FOpu3SJdI00U1omPS79WQqtxlotsMqxumB137q3db71Mxu5TV/MgaJtNtrobIw2xTb1No9tINGHmEF4EZuJp7IRsgBZiCxOliYzyBpkbTJESkhA9sJEqB/pTwaREWQSmUluI+vJZkyETpI3yWeYB0moYdQCahkVTCVT6ykTtYPaRe2lmqlj1CXqAfWKQnJKrpCr5UPlY+UT5TPk7nIvub98mTxKvla+RV4gr5Y3yFvk5+Tt8hvyu/Kf5G/k3TRB96JV9ABMhUbQ02kX2p1eQkfRifQ6ejMt0HvpcrqePkpfprvo7+lf6W5Agn+B3oDHfGgwGA0mgulgDvAHIWA1WAOSQDrIAjtAESg3zHQ2josIEyJYY6GpercKT0BwSxZXYy7hUU4jVy0U8kJVUwZ93mg8k8GV6mlP/UzDjBkzN9CYgSD1Su6MF1ZVMPa9wIMLUH84EYX8peHQAtgfTYTB6m3fMuhTZAMp6I7rTgJ5OAqzHmvMCdzRWCRBPHJSK8j4wMXr52ClhItTCj3gZCjDLGjy1YfxK46qyx8Sjb4jKiaxKAFNQNNQFFoBP0fjYBj8143GplNqwATQ6LNB71FSJ0YvE2+eKWk8yb/T83NXTWYH+mA9n66GF3Pw3H+O6cg7cf4+e68pwGmHWqGLCNvDCRgAJZHYpGwgHPPqWuXx4/yxo2XnIVDBGhJ0Hq5tO6hqjimNjI1LDt/A56YTJetzUpNViesS4pJ4BVOVULEqLH71qqii6LqG4so6HnTPYGZzje9merSw92zOMmLg8T6LDvkLIPUm3Ud7eE+OOviQh/4kGEQj995VayrCQ9dgO4XR9fUlFju6SiO+fcVLCVyonsJud52l6hn/J/DRhYcYQzC9smz+CNmzRjwTm561SEC9jG4OemQ0umYg+83+Dr/u5+62qEQHEkzi8LTN9Jsya7QajYW7qwaoli6Nn+vtWlq3jM8YQsS03lp7kv31yflf1Bgs5Cc9VB0+kH/40MGUuDq+poMoCptbMBvPn1/VH/1StS+6PDw6Zm3YBj4vnShN3Z6yVqVNjY/RYmfMnuUc/CmLhbwcR9IbjocktIOjr16JW/kuks1+E8omW5T+KOSM4tB8OBhNgqGP7lUeu6xW6Ff5R3ORK9CHyCHAhxL7kK1/T8n/nH/CVg7zLnwdvQeXg/Fk0kFiZOKUqRokM2Qi2VoV6j2RZqqXee31ZJETIjDjcUIDoRUi4NBr+3bVn1RnvyQW+y1Lms0OG3MJ9np99dvXx44kh7di0oF80WISBsA7hBBg8lmtEsf19Gf0uFTGRoYJUayh0FT1vlSyDESlUGUu5dHWRq7KXMALlY0Z9Dmj8axaqDGX/Vku04eb52BGMTfUx9eJUqagWxhXQoms5vS+W43ntuXZw0yZss040+CoW06d9aLxf5ZnVVKKE9bdt+F/GBiCJsPJuKhC0ST07hXiVxgKQ3CF4FferzdyQwPQYFxL7mgAHAzdoCscAIfgWnOHAzCHdMUilob5CVyYnsr6r/wRuGZ8XfuQ+Aru3spg7Dme6JQ9/ekVkn6zBUnhRAIwQ9GQs9lwDByO3yv9MqtasFDe3VZzI68BCuJ9e2WQPiokmtN4xjjHzJqDhtorPZAj/L3/utKAmpkVbg7ZaWcRa9blB+4KygvFuhFnwwhiquzzESNfumx+jbDV7noscfvTCuPigbpgNsuN+wULJNjvR1LYYxIEDFz/Gj3n0QB/MBlfvLBYHEYga1mQx5z+K73dBtkrG1EQfNR3036PW4hq9nCAUjSZcLMIro9DOBxNK7zQHdmDp98Pat8yCP6bAFHpkRnhBmrb0sz5GJ4OJd2NUzADfz/ZeJN3vjt8ez1WtGcDjk2auMDP2bPN7/a9o19f5d3SmdA1kStC4ipb6ouq9rUURQfxeFPitL8BRqomfH00G6TZfUwND0GWbBSKzBim8/Bj2biEDUhKuMrixhPfo2OyES3zn9bt255fjBf6qjVxdYUaZZIBsQsifNgxM87BD3678AhK1IZOBg1DNjh3x6L+3yFr6Hj+fN3+WrUyZdtc4qEso81w8bxKNOD13wvJYF2IpUUIuEUIiCaUbUWrl+xezCrKOKQR1xEnc+sPn1SdWto2fZr/Qjf/2qUn1vOJAfELImZaELr9/0boI8TvlnKnenb+A9L1kcGWQfAdcjb20IRzXFzA+vWCOZXfOY7Q5xTq8tlbV9qgWi3OIYHTWa+X1842Ha/kFQkpt6Zdh7PPwj5dAMNNOBKNPosDgWHTMnrWlCVuK3hM/kf8hBg3n9Why3kYg0v+pEUYZwRl/FPyX5D/JfcWaC0Nn1f+/n/0/PcM9//r+WiFDwcwYbt+/abxHBZCGnELRgQM/AQNOZU93JLwBn8ahIUtCHTz2zbf/pBwSDh5otWIKbpQai4SCimjzxSDO1tT2lxfWkIdP9pw4LTqqs/+iQvm4UuAV5h1nTCvA2o6QL35DD4LsDvy/VtJh0XrLU6TgIbj006zR1taf9mtdt1OzNmYunYtC4z3mlWAGTBjxMCAoB1FkTysIpvqj1UcY18ec0FWakXlQgxweA8LiQZoPdYoYZYdey5eMMN1Scut01+euHrlwFJnHqxjfioMODLqpddlh0UnoBZuJsBiDlK+7X3Bf1yZ6Ri9WDhjyDBa0S1j8I8ekcY5+gT+tsyQa2rMV8ESstBUb97FJ21ZkhqzaXnKsjSHPE8Moo8mdn5x662k5k826HkW8l0T77071wPLswDMF2oeK0PTAKxK/Fb84VuQ2CnadlnoSY2mO0pbq/0vtQsQxknicrOme622HE/Y4P0PGR9jugk0nA4UetMgW2f/dWpDcoIqMXVTbHzklu2xPDAUFBsK2ALZk4MJWIOzSPHZKCSdWzn/y3A1uNRAJFQeXHuUhSOhLbSHn6vBSr977qzvylAkS1QDjMzphz+pURmSMWBZXEx0kCq8NL4hmQfaEm2RFnOSKnyOt1iLv5VUp0nsQPCiG17sgqBVfdeqAfLEWsCordNWaMFWWgDKNInlDyOxyqxyCoj5qTQYGVjXVFPZcKVKDUJoVwP4h6PtKqMVn3ALp5Ox44lXyCwDTMGFWsju6orWL9wUpRNGZSCr9HEY3JxIZXwtdOY3OI0ALUEWOQivP7MGZi+co5EhkYDJP10N7fLuxOr906N1wviMgZsnU4oQDQ2Ufd/vyFTNXgdwZGb6GxS4Pc6hKJvYUQyt4SqTCmRXYA5IYw5o2qHPysjQ6ywIwLQ+U5ednZlleT8/owv+2hlfAr7TdYoXupLyAVQi8hnGjUEGS1gxVume0JmotWt/JRb8iLHKzjGEwpDIA/6Q0Go6gQERJTtm3GdqMwpgm6bOQsMysXNhOIZl15pbDzSF108vxJFYklTPAbvfnouq50DTHY5TAAh+ZmoN/vUiCbOmoxbWBBZHBLsE8njdvokPLDxi5TuLuRZ7xy1qGjQ26+rZn64evt4W3Dh2Fzb7AeZm+F4koQ0W0SlgEPbfle8Becp43HTcKBRbfr6iQDF9A8DMzH/SEl9tkjSL7wAkL0ESYPK6i9YT4I95TRhWzmvmQGYdb4gJ0cezWUvNYI0xdCsNonFyg/uYKeKycp2y1NLEmPSGDRc312ihnT3wMkzMCOSFX3IEFjwQHzyQPnxuoad6Gtg6YmhWl3ZbV0klyDauBSbcD4dqDmmenADMuxsONLLHyzTxq5ZGOeIvJxjB/wD8+t7OCmVuZHN0cmVhbQplbmRvYmoKMjggMCBvYmoKPDwgL1Byb2R1Y2VyIChtYWNPUyBWZXJzaW9uIDEyLjEgXChCdWlsZCAyMUM1MlwpIFF1YXJ0eiBQREZDb250ZXh0KSAvQ3JlYXRpb25EYXRlCihEOjIwMjExMjIzMDkzMzUxWjAwJzAwJykgL01vZERhdGUgKEQ6MjAyMTEyMjMwOTMzNTFaMDAnMDAnKSA+PgplbmRvYmoKeHJlZgowIDI5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMTAzMiAwMDAwMCBuIAowMDAwMDEwNTA4IDAwMDAwIG4gCjAwMDAwMDAwMjIgMDAwMDAgbiAKMDAwMDAwMTEzNyAwMDAwMCBuIAowMDAwMDA2MjgyIDAwMDAwIG4gCjAwMDAwMTA2NTYgMDAwMDAgbiAKMDAwMDAwMTM3NSAwMDAwMCBuIAowMDAwMDAxNjYxIDAwMDAwIG4gCjAwMDAwMDIxMzAgMDAwMDAgbiAKMDAwMDAwMTc1MSAwMDAwMCBuIAowMDAwMDAyMDM5IDAwMDAwIG4gCjAwMDAwMDMzMzYgMDAwMDAgbiAKMDAwMDAwMzM4NSAwMDAwMCBuIAowMDAwMDAzNDMyIDAwMDAwIG4gCjAwMDAwMDM0NzkgMDAwMDAgbiAKMDAwMDAwMzUyNCAwMDAwMCBuIAowMDAwMDA3NDkxIDAwMDAwIG4gCjAwMDAwMDIyNjUgMDAwMDAgbiAKMDAwMDAxMDIwNyAwMDAwMCBuIAowMDAwMDEwMTcwIDAwMDAwIG4gCjAwMDAwMDMwMzAgMDAwMDAgbiAKMDAwMDAwMzU2OSAwMDAwMCBuIAowMDAwMDA2MzE4IDAwMDAwIG4gCjAwMDAwMDc1MjggMDAwMDAgbiAKMDAwMDAxMDU5MiAwMDAwMCBuIAowMDAwMDExMDU2IDAwMDAwIG4gCjAwMDAwMTEzMTQgMDAwMDAgbiAKMDAwMDAxODU3NiAwMDAwMCBuIAp0cmFpbGVyCjw8IC9TaXplIDI5IC9Sb290IDI1IDAgUiAvSW5mbyAyOCAwIFIgL0lEIFsgPDhkMmJlMDg1YjcwM2U1OGYwN2IwOTdlMWY5ODJmNjVmPgo8OGQyYmUwODViNzAzZTU4ZjA3YjA5N2UxZjk4MmY2NWY+IF0gPj4Kc3RhcnR4cmVmCjE4NzM4CiUlRU9GCg==</preview>
 </tinderbox>
